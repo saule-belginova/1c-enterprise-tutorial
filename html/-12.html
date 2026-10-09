@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru" id="exe-page-mue2ml2k-982rf0dk9">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лабораторная работа № 12 | Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Электронное учебное пособие предназначено для формирования практических навыков разработки прикладных решений на платформе «1С:Предприятие 8.3». Электронное учебное пособие включает 15 лабораторных работ, объединенных сквозным учебным проектом «ТорговаяКомпания», и содержит методические указания, пошаговые задания, профессиональные ситуации, индивидуальные задания, контрольные вопросы и средства интерактивной самопроверки.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/quick-questions/quick-questions.js"></script><link rel="stylesheet" href="../idevices/quick-questions/quick-questions.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mue2ml2k-982rf0dk9" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Об электронном учебном пособии</a>
+</li>
+<li> <a href="../html/-.html" class="no-ch">Как работать с электронным учебным пособием</a>
+</li>
+<li> <a href="../html/-1-.html" class="daddy">Раздел 1. Создание структуры прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-1.html" class="no-ch">Лабораторная работа № 1</a>
+</li>
+<li> <a href="../html/-2.html" class="no-ch">Лабораторная работа № 2</a>
+</li>
+<li> <a href="../html/-3.html" class="no-ch">Лабораторная работа № 3</a>
+</li>
+<li> <a href="../html/-4.html" class="no-ch">Лабораторная работа № 4</a>
+</li>
+<li> <a href="../html/-5.html" class="no-ch">Лабораторная работа № 5</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-2-.html" class="daddy">Раздел 2. Организация учета, отчетности и интерфейса</a>
+<ul class="other-section">
+<li> <a href="../html/-6.html" class="no-ch">Лабораторная работа № 6</a>
+</li>
+<li> <a href="../html/-7.html" class="no-ch">Лабораторная работа № 7</a>
+</li>
+<li> <a href="../html/-8.html" class="no-ch">Лабораторная работа № 8</a>
+</li>
+<li> <a href="../html/-9.html" class="no-ch">Лабораторная работа № 9</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/-3-1.html" class="daddy">Раздел 3. Программирование в «1С:Предприятие»</a>
+<ul class="other-section">
+<li> <a href="../html/-10.html" class="no-ch">Лабораторная работа № 10</a>
+</li>
+<li> <a href="../html/-11.html" class="no-ch">Лабораторная работа № 11</a>
+</li>
+<li class="active"> <a href="../html/-12.html" class="active no-ch">Лабораторная работа № 12</a>
+</li>
+<li> <a href="../html/-13.html" class="no-ch">Лабораторная работа № 13</a>
+</li>
+<li> <a href="../html/-14.html" class="no-ch">Лабораторная работа № 14</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-4-.html" class="daddy">Раздел 4. Завершение разработки прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-15.html" class="no-ch">Лабораторная работа № 15</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/--2.html" class="no-ch">Итоговая самопроверка</a>
+</li>
+<li> <a href="../html/page.html" class="no-ch">Глоссарий</a>
+</li>
+</ul>
+</nav><main id="page-mue2ml2k-982rf0dk9" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</p></div>
+<div class="page-header"><h1 class="page-title">Лабораторная работа № 12</h1></div>
+</header><div id="page-content-page-mue2ml2k-982rf0dk9" class="page-content">
+<article id="block-mun67g43-naxym48nq" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716227407-988jep3lx" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716227407-988jep3lx&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin-bottom: 12px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Программирование управляемых форм</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Цель работы</h3>
+<p style="margin: 8px 0;">получить практические навыки программирования управляемых форм в системе «1С:Предприятие», создания команд и их обработчиков, программного обращения к реквизитам и элементам формы, а также управления свойствами элементов пользовательского интерфейса.</p>
+<p style="margin: 8px 0;"><strong>В результате выполнения лабораторной работы студент должен уметь:</strong></p>
+<ul>
+<li>создавать дополнительные реквизиты управляемой формы;</li>
+<li>создавать собственные команды формы;</li>
+<li>создавать обработчики команд;</li>
+<li>размещать команды в пользовательском интерфейсе;</li>
+<li>программно обращаться к реквизитам формы;</li>
+<li>обращаться к элементам формы через коллекцию «Элементы»;</li>
+<li>программно изменять видимость и доступность элементов;</li>
+<li>создавать динамическое поведение пользовательского интерфейса;</li>
+<li>различать данные формы и элементы пользовательского интерфейса;</li>
+<li>определять задачи, которые целесообразно реализовывать в модуле формы.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Порядок выполнения работы</h3>
+<p style="margin: 8px 0;">Для выполнения лабораторной работы будем использовать существующую форму документа «Поступление товаров», созданную и настроенную в предыдущих лабораторных работах.</p>
+<p style="margin: 8px 0;">Новый объект конфигурации создавать не требуется.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun67xy4-bdbzkz7s8" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716250523-bvv2awnxx" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716250523-bvv2awnxx&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 1. Подготовка формы документа к программированию</div>
+<p style="margin: 8px 0;">Запустите информационную базу в режиме «Конфигуратор».</p>
+<p style="margin: 8px 0;">В дереве конфигурации последовательно откройте:</p>
+<p style="margin: 8px 0;">Документы → ПоступлениеТоваров → Формы → ФормаДокумента.</p>
+<p style="margin: 8px 0;">Перейдите на вкладку «Элементы» и рассмотрите существующую структуру формы.</p>
+<p style="margin: 8px 0;">Убедитесь, что форма содержит основные реквизиты документа, в том числе:</p>
+<ul>
+<li>склад;</li>
+<li>поставщика;</li>
+<li>табличную часть товаров;</li>
+<li>другие элементы, созданные ранее.</li>
+<li>Перейдите на вкладку «Модуль».</li>
+</ul>
+<p style="margin: 8px 0;">После выполнения лабораторной работы № 11 модуль формы может содержать созданные ранее учебные обработчики, например «ПриОткрытии» и «ПоказатьИнформацию».</p>
+<p style="margin: 8px 0;">Если в них остались диагностические команды Сообщить(), использовавшиеся только для исследования событий, их целесообразно удалить, чтобы они не мешали выполнению новой работы.</p>
+<p><strong>Контрольный результат</strong></p>
+<p style="margin: 8px 0;">Необходимо увидеть взаимосвязь трех компонентов:</p>
+<p style="margin: 8px 0;">Реквизиты формы → Элементы формы → Модуль формы.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun68ftz-0rgn83d0w" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716273701-y613xgshv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716273701-y613xgshv&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 2. Создание дополнительного реквизита формы</div>
+<p style="margin: 8px 0;">Создадим реквизит, который будет использоваться только пользовательским интерфейсом и не станет реквизитом самого документа.</p>
+<p style="margin: 8px 0;">В редакторе формы перейдите на вкладку «Реквизиты».</p>
+<p style="margin: 8px 0;">Добавьте новый реквизит. Укажите:</p>
+<p style="margin: 8px 0;">Имя: «РезультатПроверки»</p>
+<p style="margin: 8px 0;">Тип: Строка</p>
+<p style="margin: 8px 0;">Данный реквизит будет содержать результат программной проверки данных документа.</p>
+<p style="margin: 8px 0;">Обратите внимание: реквизит «РезультатПроверки» относится к форме, а не к объекту документа.</p>
+<p style="margin: 8px 0;">Следовательно, его значение используется в интерфейсе и не становится новым реквизитом документа «ПоступлениеТоваров».</p>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">В списке реквизитов формы должен появиться реквизит «РезультатПроверки — Строка».</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid116.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.1 - Создание реквизита формы «РезультатПроверки».</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6bp4a-kgxczs0af" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716425701-wqiiomwgm" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716425701-wqiiomwgm&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 3. Размещение реквизита на форме</div>
+<p style="margin: 8px 0;">Теперь необходимо предоставить пользователю возможность видеть значение созданного реквизита.</p>
+<p><strong>Шаг 1.</strong> На вкладке «Реквизиты» найдите «РезультатПроверки».</p>
+<p><strong>Шаг 2.</strong> Перетащите его в дерево элементов формы.</p>
+<p style="margin: 8px 0;">Разместите поле в удобной области формы, например после основных реквизитов документа и перед табличной частью «Товары».</p>
+<p><strong>Шаг 3.</strong> Для созданного элемента задайте заголовок «Результат проверки».</p>
+<p style="margin: 8px 0;">Таким образом:</p>
+<ul>
+<li>РезультатПроверки — реквизит формы, содержащий данные;</li>
+<li>поле «Результат проверки» — элемент формы, отображающий эти данные пользователю (Рисунок 12.2).</li>
+</ul>
+<p style="margin: 8px 0;">Это различие необходимо учитывать при дальнейшем программировании.</p>
+<p><strong>Шаг 4.</strong> Поскольку «РезультатПроверки» предназначен для вывода программно сформированного результата, а не для ручного ввода пользователем, логичнее запретить пользователю редактировать это поле. Поэтому в пункте «ТолькоПросмотр» установлен флажок.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid117.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.2 - Размещение реквизита «РезультатПроверки» на форме документа.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6cdg1-5rz4al0ju" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716457230-l0wtk73b0" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716457230-l0wtk73b0&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 4. Создание команды формы</div>
+<p style="margin: 8px 0;">Создадим собственную команду, с помощью которой пользователь сможет выполнить проверку данных документа.</p>
+<p><strong>Шаг 1.</strong> Перейдите на вкладку «Команды» редактора формы.</p>
+<p><strong>Шаг 2.</strong> На вкладке «Команды формы» нажать кнопку «Добавить».</p>
+<p><strong>Шаг 3.</strong> Задайте свойства:</p>
+<p style="margin: 8px 0;">Имя: «ПроверитьДанные».</p>
+<p style="margin: 8px 0;">Заголовок: «Проверить данные».</p>
+<p><strong>Шаг 4.</strong> Для команды необходимо создать обработчик действия:</p>
+<ul>
+<li>В свойствах команды найдите строку «Действие». Нажмите кнопку выбора.</li>
+<li>Откроется окно «Создание обработчика команды». Для нашего задания выбирайте «Создать на клиенте».</li>
+</ul>
+<p style="margin: 8px 0;">Почему именно этот вариант? Команда пока будет работать непосредственно с интерфейсом формы - изменять значение реквизита «РезультатПроверки». Для этого серверная процедура нам не требуется.</p>
+<ul>
+<li>После нажатия ОК платформа должна открыть вкладку «Модуль» и автоматически создать обработчик примерно следующего вида:</li>
+</ul>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Процедура ПроверитьДанные(Команда)</p>
+<p style="margin: 8px 0;">// Вставить содержимое обработчика.</p>
+<p style="margin: 8px 0;">КонецПроцедуры</p>
+<p style="margin: 8px 0;">На этом этапе пока не вводите программный код проверки. Сначала убедитесь, что обработчик действительно появился. Обратите внимание на структуру:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте — указывает клиентский контекст выполнения;</p>
+<p style="margin: 8px 0;">ПроверитьДанные — имя процедуры;</p>
+<p style="margin: 8px 0;">Команда — параметр обработчика;</p>
+<p style="margin: 8px 0;">КонецПроцедуры — завершение процедуры.</p>
+<p><strong>Шаг 5.</strong> Вернитесь к редактору формы.</p>
+<ul>
+<li>Перейдите с вкладки «Модуль» обратно на вкладку «Форма».</li>
+<li>Откройте вкладку «Команды».</li>
+</ul>
+<p style="margin: 8px 0;">У команды ПроверитьДанные свойство «Действие» теперь должно быть заполнено — это означает, что команда связана с созданным обработчиком.</p>
+<p><strong>Контрольный результат</strong></p>
+<p style="margin: 8px 0;">В форме должна быть создана команда «Проверить данные», а в модуле формы — соответствующий обработчик (Рисунок 12.3).</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid118.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.3 — Создание команды формы «Проверить данные».</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6czzk-kxq0j5lco" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716486446-6vzmevj56" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716486446-6vzmevj56&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 5. Размещение команды «Проверить данные» на форме</div>
+<p style="margin: 8px 0;">На предыдущем этапе была создана команда «ПроверитьДанные» и связанный с ней обработчик. Однако наличие команды в списке команд формы еще не означает, что пользователь сможет выполнить ее непосредственно из интерфейса. Для этого команду необходимо разместить на форме.</p>
+<p><strong>Шаг 1.</strong> Перейдите к структуре элементов формы:</p>
+<ul>
+<li>В редакторе формы документа «Поступление товаров» перейдите на вкладку «Элементы».</li>
+</ul>
+<p style="margin: 8px 0;">В левой части окна отображается дерево элементов формы. В верхней части дерева имеется элемент «Командная панель».</p>
+<p style="margin: 8px 0;">На этой панели уже располагаются стандартные команды документа, которые в режиме «1С:Предприятие» отображаются, например, как кнопки: «Провести и закрыть», «Записать», «Провести», «Еще».</p>
+<p style="margin: 8px 0;">Именно в эту область целесообразно добавить созданную команду «Проверить данные».</p>
+<p><strong>Шаг 2.</strong> Найдите созданную команду:</p>
+<p style="margin: 8px 0;">В правой части редактора перейдите на вкладку «Команды», а затем выберите вкладку «Команды формы».</p>
+<p style="margin: 8px 0;">В списке должна находиться созданная ранее команда «ПроверитьДанные».</p>
+<p style="margin: 8px 0;">Перед продолжением еще раз убедитесь, что для нее задан заголовок «Проверить данные», а свойство «Действие» связано с обработчиком ПроверитьДанные.</p>
+<p><strong>Шаг 3.</strong> Добавьте команду в командную панель:</p>
+<p style="margin: 8px 0;">В списке «Команды формы» выделите команду «ПроверитьДанные».</p>
+<p style="margin: 8px 0;">Перетащите ее мышью из правой области редактора в левое дерево «Элементы» на элемент «Командная панель».</p>
+<p style="margin: 8px 0;">При успешном выполнении операции в составе командной панели должен появиться новый элемент, связанный с командой «ПроверитьДанные».</p>
+<p style="margin: 8px 0;">То есть структура формы будет иметь примерно следующий вид:</p>
+<p style="margin: 8px 0;">Форма</p>
+<p style="margin: 8px 0;">├─ Командная панель</p>
+<p style="margin: 8px 0;">│ └─ ПроверитьДанные</p>
+<p style="margin: 8px 0;">├─ ОсновныеДанные</p>
+<p style="margin: 8px 0;">│ ├─ Номер</p>
+<p style="margin: 8px 0;">│ ├─ Дата</p>
+<p style="margin: 8px 0;">│ ├─ Поставщик</p>
+<p style="margin: 8px 0;">│ ├─ Склад</p>
+<p style="margin: 8px 0;">│ ├─ Комментарий</p>
+<p style="margin: 8px 0;">│ └─ РезультатПроверки</p>
+<p style="margin: 8px 0;">└─ СоставДокумента</p>
+<p style="margin: 8px 0;">└─ Товары</p>
+<p style="margin: 8px 0;">Если перетаскивание непосредственно на командную панель не выполняется, сначала выделите «Командная панель», а затем попробуйте перетащить команду повторно. Важно, чтобы создаваемый элемент относился именно к командной панели формы.</p>
+<p><strong>Шаг 4.</strong> Проверьте предварительное представление формы:</p>
+<p style="margin: 8px 0;">После добавления команды обратите внимание на нижнюю область редактора, где отображается предварительный вид формы.</p>
+<p style="margin: 8px 0;">На командной панели должна появиться новая кнопка с заголовком «Проверить данные».</p>
+<p style="margin: 8px 0;">При этом следует различать три связанных компонента:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Компонент</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Назначение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ПроверитьДанные в списке команд</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Команда формы</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Кнопка «Проверить данные»</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элемент пользовательского интерфейса</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ПроверитьДанные(Команда)</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Программный обработчик команды</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 8px 0;">Таким образом, кнопка не содержит алгоритм проверки сама по себе. Она предоставляет пользователю возможность выполнить связанную с ней команду, а программный алгоритм располагается в обработчике команды в модуле формы.</p>
+<p><strong>Шаг 5.</strong> Проверьте связь кнопки с командой:</p>
+<p style="margin: 8px 0;">Выделите созданный элемент «Проверить данные» в дереве элементов формы.</p>
+<p style="margin: 8px 0;">В панели «Свойства» проверьте, что элемент связан с командой ПроверитьДанные. Названия конкретных свойств могут несколько различаться в зависимости от версии платформы, поэтому главное здесь — убедиться, что кнопка создана именно путем размещения ранее созданной команды, а не как отдельная несвязанная кнопка.</p>
+<p style="margin: 8px 0;">На этом этапе не нужно создавать новый обработчик. Он уже был создан в задании 4.</p>
+<p><strong>Шаг 6.</strong> Сохраните изменения:</p>
+<p style="margin: 8px 0;">После размещения команды сохраните внесенные изменения Файл → Сохранить или используйте соответствующую кнопку панели инструментов.</p>
+<p style="margin: 8px 0;">На данном этапе запускать режим «1С:Предприятие» еще не обязательно, поскольку тело обработчика пока не содержит нашего основного алгоритма проверки. Его мы добавим в следующем задании.</p>
+<p><strong>Контрольный результат</strong></p>
+<p style="margin: 8px 0;">В результате выполнения задания созданная команда ПроверитьДанные размещена на командной панели управляемой формы документа (Рисунок 12.4). В пользовательском интерфейсе команда представлена кнопкой «Проверить данные», выполнение которой связано с ранее созданным обработчиком команды.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid119.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.4 - Размещение команды «Проверить данные» на форме документа.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6dods-nngm2fx9o" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716518062-047x3wy9s" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716518062-047x3wy9s&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 6. Программное изменение значения реквизита формы</div>
+<p><strong>Шаг 1.</strong> Откройте модуль формы. Найдите созданный обработчик команды «ПроверитьДанные».</p>
+<p><strong>Шаг 2.</strong> Добавьте в него программный код:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Процедура ПроверитьДанные(Команда)</p>
+<p style="margin: 8px 0;">РезультатПроверки = "Проверка выполнена";</p>
+<p style="margin: 8px 0;">КонецПроцедуры</p>
+<p><strong>Шаг 3.</strong> Сохраните конфигурацию и обновите конфигурацию базы данных.</p>
+<p><strong>Шаг 4.</strong> Запустите систему в режиме «1С:Предприятие». Откройте документ «Поступление товаров» и нажмите кнопку «Проверить данные».</p>
+<p style="margin: 8px 0;">В поле «Результат проверки» должна появиться строка «Проверка выполнена».</p>
+<p style="margin: 10px 0;"><strong>Что произошло?</strong></p>
+<p style="margin: 8px 0;">Пользователь выполнил команду, платформа вызвала обработчик команды, а программный код изменил значение реквизита формы:</p>
+<p style="margin: 8px 0;">РезультатПроверки = "Проверка выполнена";</p>
+<p style="margin: 8px 0;">Связанный с реквизитом элемент формы автоматически отобразил новое значение.</p>
+<p style="margin: 8px 0;">Схема выполнения:</p>
+<p style="margin: 8px 0;">Кнопка → Команда → Обработчик → Изменение реквизита →Оотображение результата на форме.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid120.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.5 - Результат выполнения команды «Проверить данные».</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6ec4p-cy8m5ng8o" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716548839-zwoca9imv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716548839-zwoca9imv&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 7. Добавление проверки данных документа</div>
+<p style="margin: 8px 0;">В предыдущем задании обработчик команды «ПроверитьДанные» всегда присваивал реквизиту формы одно и то же значение:</p>
+<p style="margin: 8px 0;">РезультатПроверки = "Проверка выполнена";</p>
+<p style="margin: 8px 0;">Теперь необходимо изменить алгоритм так, чтобы результат зависел от того, заполнен ли реквизит документа «Склад».</p>
+<p><strong>Шаг 1.</strong> Откройте модуль формы:</p>
+<ul>
+<li>В Конфигураторе откройте Документы → ПоступлениеТоваров → Формы → ФормаДокумента.</li>
+<li>Перейдите на вкладку «Модуль». Найдите созданный ранее обработчик команды:</li>
+</ul>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">&amp;НаКлиенте</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Процедура ПроверитьДанные(Команда)</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Проверка выполнена";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецПроцедуры</span></p>
+<p style="margin: 8px 0;">Новый обработчик создавать не нужно.</p>
+<p><strong>Шаг 2.</strong> Замените содержимое обработчика:</p>
+<p style="margin: 8px 0;">Удалите только строку «РезультатПроверки = "Проверка выполнена"» и вместо нее введите:</p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Если Не ЗначениеЗаполнено(Объект.Склад) Тогда</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Необходимо указать склад";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Иначе</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Данные заполнены корректно";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецЕсли;</span></p>
+<p><strong>Шаг 3.</strong> Разберите обращение «Объект.Склад»:</p>
+<p style="margin: 8px 0;">В форме документа основной реквизит «Объект» содержит данные редактируемого документа.</p>
+<p style="margin: 8px 0;">Поэтому запись «Объект.Склад» означает обращение к реквизиту «Склад» документа, который в данный момент открыт в форме.</p>
+<p style="margin: 8px 0;">Здесь важно различать:</p>
+<p style="margin: 8px 0;">«Объект.Склад» - данные самого документа</p>
+<p style="margin: 8px 0;">«РезультатПроверки - дополнительный реквизит формы, созданный нами специально для отображения результата проверки.</p>
+<p style="margin: 8px 0;">То есть программа берет данные документа и на их основании изменяет данные формы.</p>
+<p><strong>Шаг 4.</strong> Разберите условие проверки:</p>
+<p style="margin: 8px 0;">Строка «Если Не ЗначениеЗаполнено(Объект.Склад) Тогда» проверяет, заполнен ли реквизит Склад.</p>
+<p style="margin: 8px 0;">Функция «ЗначениеЗаполнено(...)» возвращает логический результат проверки заполненности значения.</p>
+<p style="margin: 8px 0;">Ключевое слово «Не» меняет результат на противоположный.</p>
+<p style="margin: 8px 0;">Поэтому условие читается следующим образом:</p>
+<p style="margin: 8px 0;">Если склад не заполнен, тогда...</p>
+<p style="margin: 8px 0;">В этом случае выполняется: «РезультатПроверки = "Необходимо указать склад";».</p>
+<p style="margin: 8px 0;">Если склад заполнен, выполняется ветвь «Иначе»:</p>
+<p style="margin: 8px 0;">«РезультатПроверки = "Данные заполнены корректно";»</p>
+<p><strong>Шаг 5.</strong> Сохраните изменения:</p>
+<ul>
+<li>Сохраните модуль формы и конфигурацию.</li>
+<li>Затем обновите конфигурацию базы данных.</li>
+<li>Запустите систему в режиме «1С:Предприятие».</li>
+</ul>
+<p><strong>Шаг 6.</strong> Проверьте первый вариант, т.е. склад не указан:</p>
+<ul>
+<li>Создайте новый документ «Поступление товаров» либо используйте тестовый документ.</li>
+<li>Очистите поле «Склад», чтобы оно осталось незаполненным.</li>
+<li>Нажмите кнопку «Проверить данные».</li>
+<li>В поле «Результат проверки» должно появиться «Необходимо указать склад» (Рисунок 12.6).</li>
+</ul>
+<p style="margin: 8px 0;">При этом документ мы пока не проводим. Задача данного этапа - исследовать именно работу интерфейсной команды проверки.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid121.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.6 - Результат проверки документа при незаполненном реквизите «Склад».</div>
+<p><strong>Шаг 7.</strong> Проверьте второй вариант, т.е. когда склад заполнен:</p>
+<ul>
+<li>Теперь выберите склад, например существующий «РозничныйСклад».</li>
+</ul>
+<p style="margin: 8px 0;">Повторно нажмите «Проверить данные».</p>
+<p style="margin: 8px 0;">Поле должно изменить значение на «Данные заполнены корректно» (Рисунок 12.7).</p>
+<p style="margin: 8px 0;">Это показывает, что одна и та же команда выполняет разные действия в зависимости от текущих данных документа.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid122.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.7 - Результат проверки документа при заполненном реквизите «Склад».</div>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">В результате выполнения задания реализован обработчик команды, анализирующий значение реквизита «Склад» редактируемого документа. В зависимости от результата проверки программно изменяется реквизит формы «РезультатПроверки», значение которого отображается пользователю в соответствующем поле.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6elcn-pat87hmuj" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716560789-yxzmrzm3b" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716560789-yxzmrzm3b&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 8. Программное управление видимостью элемента формы</div>
+<p style="margin: 8px 0;">Теперь необходимо дополнительно управлять тем, отображается ли связанное с этим реквизитом поле на форме.</p>
+<p><strong>Шаг 1.</strong> Проверьте имя элемента формы:</p>
+<ul>
+<li>Откройте Документы → ПоступлениеТоваров → Формы → ФормаДокумента.</li>
+<li>Перейдите на вкладку «Элементы».</li>
+<li>В дереве формы найдите элемент, связанный с реквизитом «РезультатПроверки».</li>
+</ul>
+<p style="margin: 8px 0;">Еще раз проверь свойство Имя, которое в дальнейшем будет использоваться в коде программы:</p>
+<ul>
+<li>имя элемента — РезультатПроверки;</li>
+<li>заголовок — Результат проверки;</li>
+</ul>
+<p><strong>Шаг 2.</strong> Откройте обработчик команды:</p>
+<ul>
+<li>Перейдите на вкладку «Модуль».</li>
+<li>Найдите обработчик команды «ПроверитьДанные», созданный ранее. После Задания 7 он должен выглядеть примерно так:</li>
+</ul>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">&amp;НаКлиенте</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Процедура ПроверитьДанные(Команда)</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Если Не ЗначениеЗаполнено(Объект.Склад) Тогда</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Необходимо указать склад";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Иначе</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Данные заполнены корректно";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецЕсли;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецПроцедуры</span></p>
+<p style="margin: 8px 0;">Новый обработчик создавать не требуется.</p>
+<p><strong>Шаг 3.</strong> Добавьте управление видимостью:</p>
+<p style="margin: 8px 0;">После конструкции КонецЕсли добавьте строку «Элементы.РезультатПроверки.Видимость = Истина;»</p>
+<p style="margin: 8px 0;">Полный код примет вид:</p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">&amp;НаКлиенте</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Процедура ПроверитьДанные(Команда)</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Если Не ЗначениеЗаполнено(Объект.Склад) Тогда</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Необходимо указать склад";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Иначе</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Данные заполнены корректно";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецЕсли;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Элементы.РезультатПроверки.Видимость = Истина;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецПроцедуры</span></p>
+<p style="margin: 10px 0;"><strong>Что означает эта строка? </strong>Обращение «Элементы.РезультатПроверки» получает сам элемент пользовательского интерфейса. А свойство .Видимость определяет, отображается ли этот элемент пользователю. Значение «Истина» означает, что элемент должен быть видимым.</p>
+<p><strong>Шаг 4.</strong> Сравните два обращения:</p>
+<ul>
+<li>В одном обработчике теперь используются два принципиально разных обращения: «РезультатПроверки = "Необходимо указать склад";» и «Элементы.РезультатПроверки.Видимость = Истина;»</li>
+<li>Первое изменяет данные. Второе изменяет состояние элемента интерфейса.</li>
+</ul>
+<p><strong>Шаг 5.</strong> Сделайте начальное состояние поля невидимым:</p>
+<p style="margin: 8px 0;">Чтобы действие строки «Видимость = Истина» стало наглядным, необходимо сначала скрыть поле при открытии формы.</p>
+<p style="margin: 8px 0;">Самый простой вариант для учебного задания — установить это свойство в Конфигураторе.</p>
+<ul>
+<li>Вернитесь на вкладку «Форма» → «Элементы».</li>
+<li>Выделите элемент «РезультатПроверки».</li>
+<li>В его свойствах найдите «Видимость» и снимите флажок.</li>
+</ul>
+<p style="margin: 8px 0;">Теперь при первоначальном открытии документа поле «Результат проверки» не должно отображаться.</p>
+<p style="margin: 8px 0;">Реквизит «РезультатПроверки» при этом не удаляется. Мы скрываем только визуальный элемент, связанный с ним.</p>
+<p><strong>Шаг 6.</strong> Сохраните и обновите конфигурацию:</p>
+<ul>
+<li>Сохраните изменения.</li>
+<li>Обновите конфигурацию базы данных.</li>
+<li>Запустите режим «1С:Предприятие».</li>
+<li>Откройте документ «Поступление товаров».</li>
+</ul>
+<p style="margin: 8px 0;">До выполнения команды Поле «Результат проверки» не должно отображаться на форме. Это подтверждает, что его исходное свойство Видимость имеет значение Ложь.</p>
+<p><strong>Шаг 7.</strong> Нажмите команду «Проверить данные»:</p>
+<p style="margin: 8px 0;">Обработчик:</p>
+<ol>
+<li>проверит значение «Объект.Склад»;</li>
+<li>сформирует текст в «РезультатПроверки»;</li>
+<li>выполнит «Элементы.РезультатПроверки.Видимость = Истина».</li>
+</ol>
+<p style="margin: 8px 0;">После этого поле «Результат проверки» должно появиться на форме.</p>
+<p style="margin: 8px 0;">В нем будет отображаться один из вариантов: «Необходимо указать склад» или «Данные заполнены корректно» в зависимости от текущего значения реквизита Склад.</p>
+<p><strong>Шаг 8.</strong> Проверьте обратное значение свойства:</p>
+<p style="margin: 8px 0;">Для понимания механизма можно временно заменить:</p>
+<p style="margin: 8px 0;">«Элементы.РезультатПроверки.Видимость = Истина» на «Элементы.РезультатПроверки.Видимость = Ложь».</p>
+<p style="margin: 8px 0;">В таком случае при выполнении команды элемент будет скрываться.</p>
+<p style="margin: 8px 0;">После эксперимента восстановите «Элементы.РезультатПроверки.Видимость = Истина».</p>
+<p><strong>Контрольный результат.</strong> Свойство «Видимость» позволяет программно изменять отображение элемента управляемой формы без удаления самого элемента и связанного с ним реквизита.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6ey6o-78lk26a06" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716577422-8pz632cgn" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716577422-8pz632cgn&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 9. Исследование свойства «Доступность»</div>
+<p style="margin: 8px 0;">Теперь установим различие между свойствами элемента формы «Видимость» и «Доступность».</p>
+<p><strong>Шаг 1.</strong> Измените обработчик команды:</p>
+<ul>
+<li>Откройте модуль формы и найдите процедуру «ПроверитьДанные(Команда)».</li>
+<li>После программного кода проверки добавьте строку:</li>
+</ul>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">«Элементы.РезультатПроверки.Доступность = Ложь;»</span></p>
+<p style="margin: 8px 0;">Например:</p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">&amp;НаКлиенте</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Процедура ПроверитьДанные(Команда)</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Если Не ЗначениеЗаполнено(Объект.Склад) Тогда</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Необходимо указать склад";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Иначе</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">РезультатПроверки = "Данные заполнены корректно";</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецЕсли;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Элементы.РезультатПроверки.Видимость = Истина;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">Элементы.РезультатПроверки.Доступность = Ложь;</span></p>
+<p style="margin: 8px 0px; padding-left: 80px;"><span style="font-family: 'courier new', courier, monospace;">КонецПроцедуры</span></p>
+<p><strong>Шаг 2.</strong> Проверьте работу формы:</p>
+<ul>
+<li>Сохраните изменения, обновите конфигурацию базы данных и запустите режим «1С:Предприятие».</li>
+<li>Откройте документ «Поступление товаров» и нажмите «Проверить данные».</li>
+<li>Поле «Результат проверки» должно отображаться, но пользователь не должен иметь возможности обычным образом изменять его значение (Рисунок 12.8).</li>
+</ul>
+<p><strong>Шаг 3.</strong> Сравните свойства:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Результат</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Видимость = Ложь</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элемент не отображается</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Видимость = Истина</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элемент отображается</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Доступность = Ложь</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элемент отображается, но взаимодействие с ним ограничено</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Доступность = Истина</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элемент доступен пользователю</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 8px 0;">После эксперимента строку с изменением Доступность можно оставить либо удалить, поскольку ранее для поля «Результат проверки» мы уже установили свойство «ТолькоПросмотр».</p>
+<p style="margin: 10px 0;"><strong>Контрольный вывод.</strong></p>
+<p style="margin: 8px 0;">Свойство «Видимость» определяет наличие элемента в пользовательском интерфейсе, а свойство «Доступность» — возможность взаимодействия пользователя с отображаемым элементом.</p>
+<p style="margin: 8px 0;"><br /></p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid123.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 12.8 - Результат программного изменения доступности элемента формы</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6fi5v-y3fw3dc78" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716603310-fiuvvpt0j" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716603310-fiuvvpt0j&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 10. Итоговый анализ программной логики формы</div>
+<p style="margin: 8px 0;">Проанализируйте созданный программный механизм.</p>
+<p style="margin: 8px 0;">Определите назначение каждого компонента:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Компонент</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Назначение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">РезультатПроверки</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Хранение результата проверки в форме</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Поле «Результат проверки»</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Отображение результата пользователю</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ПроверитьДанные</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Команда формы</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ПроверитьДанные(Команда)</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Обработчик команды</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Объект.Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Данные редактируемого документа</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Элементы.РезультатПроверки</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Обращение к элементу интерфейса</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Видимость</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Управление отображением элемента</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Доступность</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Управление возможностью взаимодействия с элементом</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 8px 0;">Сделайте вывод о различии между данными формы, элементами пользовательского интерфейса и программным поведением формы.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6fqwg-s8obx8kjv" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716614638-quisbryfh" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716614638-quisbryfh&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Дополнительные и индивидуальные задания</h3>
+<ol>
+<li>Измените обработчик команды так, чтобы он дополнительно проверял заполненность реквизита «Поставщик».</li>
+<li>Создайте команду «Очистить результат», которая присваивает реквизиту «РезультатПроверки» пустую строку.</li>
+<li>Реализуйте изменение заголовка одного из элементов формы программным способом.</li>
+<li>Создайте вспомогательную процедуру, отвечающую за изменение состояния поля «Результат проверки», и вызывайте ее из нескольких обработчиков.</li>
+<li>Самостоятельно предложите пример интерфейсной проверки и объясните, почему она не должна заменять соответствующую прикладную проверку данных.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6g2d5-pvshxzcq4" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716629495-xncje1k5x" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716629495-xncje1k5x&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Контрольные вопросы</h3>
+<ol>
+<li>Для чего предназначен модуль управляемой формы?</li>
+<li>Что представляет собой реквизит формы?</li>
+<li>Чем реквизит формы отличается от реквизита объекта?</li>
+<li>Что представляет собой элемент формы?</li>
+<li>Чем элемент формы отличается от реквизита формы?</li>
+<li>Что представляет собой команда формы?</li>
+<li>Чем команда отличается от кнопки формы?</li>
+<li>Что представляет собой обработчик команды?</li>
+<li>Когда выполняется обработчик команды?</li>
+<li>Для чего используется параметр «Команда»?</li>
+<li>Как программно изменить значение реквизита формы?</li>
+<li>Для чего используется коллекция «Элементы»?</li>
+<li>Что означает обращение «Элементы.ИмяЭлемента»?</li>
+<li>Для чего используется свойство «Видимость»?</li>
+<li>Для чего используется свойство «Доступность»?</li>
+<li>В чем заключается различие между «Видимость» и «Доступность»?</li>
+<li>Что понимается под динамическим поведением формы?</li>
+<li>Для чего используется директива «&amp;НаКлиенте»?</li>
+<li>Почему интерфейсная проверка не должна заменять критически важную прикладную проверку?</li>
+<li>Какие задачи целесообразно реализовывать в модуле формы?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6gdp5-ww2enpppa" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716644183-ei6bmhsfo" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790716644183-ei6bmhsfo&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Содержание отчета</h3>
+<p style="margin: 8px 0;">Отчет по лабораторной работе должен содержать:</p>
+<ul>
+<li>тему и цель работы;</li>
+<li>изображение исходной формы документа;</li>
+<li>результат создания реквизита «РезультатПроверки»;</li>
+<li>результат размещения реквизита на форме;</li>
+<li>сведения о создании команды «ПроверитьДанные»;</li>
+<li>программный код обработчика команды;</li>
+<li>результаты проверки документа с незаполненным и заполненным складом;</li>
+<li>пример программного обращения к элементу формы;</li>
+<li>результат изменения свойства «Видимость»;</li>
+<li>результат исследования свойства «Доступность»;</li>
+<li>итоговую таблицу компонентов программной логики формы;</li>
+<li>ответы на контрольные вопросы;</li>
+<li>вывод по работе.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun6l2ze-txtlk0eid" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790716863576-l4l6rtnd5" class="idevice_node quick-questions" data-idevice-path="../idevices/quick-questions/" data-idevice-type="quick-questions">
+<div class="quext-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790716863576-l4l6rtnd5" data-evaluationb="false" data-evaluationid="2a15b267-23f2-407f-ac15-11f2fa6406b5"></div><div class="quext-instructions QXTP-instructions"><p><strong>Проверьте себя</strong><br />Ответьте на вопросы по выполненной лабораторной работе. В каждом вопросе выберите один правильный вариант ответа.</p></div><div class="quext-version js-hidden">2</div><div class="quext-feedback-game"></div><div class="quext-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3%E7%D7%EA%E6%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%B7%A1%D1%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%E7%A2%A6%A3%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A6%D4%B7%A1%D1%BD%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%A1%D1%F0%E0%B7%A0%A2%BD%B7%A1%D7%B7%E7%A2%A6%A3%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A2%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A6%D0%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%BC%B7%A0%A2%B7%E7%A2%A6%A3%A0%B7%A0%A2%B7%E7%A2%A6%A1%D3%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A4%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D1%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D6%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%A0%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A2%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%D1%FA%FD%FD%E1%F7%B2%E6%FA%F7%B2%E0%FB%F5%FA%E6%B2%F3%FC%E1%E5%F7%E0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AF%u04D1%u04A4%u04AF%u04AC%B2%u04D3%u04A6%u04A7%u04A9%u04A2%u04D0%u04DE%BE%B2%u04D5%u04D0%u04AC%u04A3%u04D9%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AF%u04D9%u04AB%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04AC%u04D0%u04AC%u04A3%u04D2%u04A2%u04A4%u04A2%u04A9%u04D3%u04DD%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04AC%u04A3%u04A2%u04A0%u04AA%u04D0%u04DE%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%B2%u04A0%B2%u04D3%u04AC%u04D3%u04D0%u04A2%u04A0%B2%u04D3%u04D0%u04A2%u04AF%u04A6%u04A2%u04D2%u04D0%u04AF%u04D9%u04D7%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u048F%u04A2%u04A5%u04AF%u04A2%u04D5%u04AA%u04D0%u04DE%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04D1%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04D5%u04AA%u04A8%B2%u04D3%u04AC%u04A3%u04D9%u04D0%u04AA%u04DD%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u04B2%u04A2%u04A5%u04AE%u04A7%u04D3%u04D0%u04AA%u04D0%u04DE%B2%u04AF%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%BE%B2%u04D3%u04A0%u04DD%u04A5%u04A2%u04AF%u04AF%u04D9%u04AB%B2%u04D3%B2%u04DF%u04D0%u04AA%u04AE%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04AC%u04AE%B0%BE%B0%u0480%u04A8%u04A9%u04DC%u04D5%u04AA%u04D0%u04DE%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%B2%u04A0%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%u04D9%B2%u04AC%u04D0%u04A8%u04D2%u04D9%u04D0%u04AA%u04DD%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0481%u04A6%u04A7%B2%u04D2%u04A2%u04D3%u04AD%u04AC%u04A9%u04A2%u04A1%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04D5%u04AA%u04A8%B2%u04D3%u04AC%u04A3%u04D3%u04D0%u04A0%u04A7%u04AF%u04AF%u04AC%u04AB%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04D9%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04AE%u04AC%u04AB%B2%u04D6%u04AC%u04D2%u04AE%u04D9%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B0%BE%B0%u0480%B2%u04AC%u04A3%u04DB%u04A7%u04AE%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B0%BE%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04D3%u04A7%u04A2%u04AF%u04D3%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AC%u04A5%u04AF%u04A2%u04D5%u04A2%u04A7%u04D0%B2%u04A6%u04AA%u04D2%u04A7%u04A8%u04D0%u04AA%u04A0%u04A2%B2%B4%u048F%u04A2%u0488%u04A9%u04AA%u04A7%u04AF%u04D0%u04A7%B2%u04AD%u04A7%u04D2%u04A7%u04A6%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04AC%u04AB%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04DD%u04A7%u04D0%u04D3%u04DD%B2%u04A0%B2%u04D3%u04A7%u04D2%u04A0%u04A7%u04D2%u04AF%u04AC%u04AE%B2%u04A8%u04AC%u04AF%u04D0%u04A7%u04A8%u04D3%u04D0%u04A7%B0%BE%B0%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04DD%u04A7%u04D0%u04D3%u04DD%B2%u04A0%B2%u04A8%u04A9%u04AA%u04A7%u04AF%u04D0%u04D3%u04A8%u04AC%u04AE%B2%u04A8%u04AC%u04AF%u04D0%u04A7%u04A8%u04D3%u04D0%u04A7%B0%BE%B0%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u04A0%u04D9%u04A5%u04D9%u04A0%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04AD%u04D2%u04AA%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04AA%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B0%BE%B0%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u04A0%u04AC%u04A5%u04A0%u04D2%u04A2%u04DB%u04A2%u04A7%u04D0%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04A0%u04D9%u04A5%u04D9%u04A0%u04A2%u04DC%u04DB%u04A7%u04AE%u04D1%B2%u04A8%u04AC%u04A6%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DC%B2%u0485%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%u0485%u04A2%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AC%BA%BB%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AC%u04D5%u04AA%u04D3%u04D0%u04A8%u04AA%B2%u04AD%u04A7%u04D2%u04A7%u04A6%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AD%u04D2%u04A7%u04AC%u04A3%u04D2%u04A2%u04A5%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04A0%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04D1%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B2%u04A5%u04A2%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AF%u04AC%u04D3%u04D0%u04AA%B2%u04AD%u04A7%u04D2%u04A7%u04A6%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04AA%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04A0%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AD%u04D2%u04AC%u04AA%u04A5%u04AC%u04AB%u04A6%u04A7%u04D0%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D0%u04AC%u04D2%u04A2%AD%B2%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B2%AF%B2%CE%B0%u0486%u04A2%u04AF%u04AF%u04D9%u04A7%B2%u04A5%u04A2%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04D9%B2%u04A8%u04AC%u04D2%u04D2%u04A7%u04A8%u04D0%u04AF%u04AC%CE%B0%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048A%u04A5%u04AE%u04A7%u04AF%u04AA%u04D0%u04D3%u04DD%B2%u04A5%u04A2%u04A1%u04AC%u04A9%u04AC%u04A0%u04AC%u04A8%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%BE%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B2%u04D3%u04D0%u04A2%u04AF%u04A7%u04D0%B2%u04AF%u04A7%u04A6%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04D9%u04AE%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B2%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04A2%B0%BE%B0%u048A%u04A5%u04AE%u04A7%u04AF%u04AA%u04D0%u04D3%u04DD%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AC%u04A3%u04AC%u04A5%u04AF%u04A2%u04D5%u04A2%u04A7%u04D0%B2%u04A0%u04D9%u04D2%u04A2%u04A4%u04A7%u04AF%u04AA%u04A7%B2%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%BC%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u04B2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04AE%u04AC%u04AB%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04D1%BE%B2%u04D2%u04A2%u04A5%u04AE%u04A7%u04DB%u04A7%u04AF%u04AF%u04D1%u04DC%B2%u04A0%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04AF%u04AC%u04AB%B2%u04AD%u04A2%u04AF%u04A7%u04A9%u04AA%B0%BE%B0%u048D%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%B2%u04AC%u04D0%u04A8%u04D2%u04D9%u04D0%u04AA%u04DD%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04AE%u04AC%u04AB%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D0%u04AC%u04D2%B2%u04A6%u04A7%u04A9%u04A2%u04A7%u04D0%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B29%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%29%B2%u04A0%u04AA%u04A6%u04AA%u04AE%u04D9%u04AE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%BC%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%BC%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B2%AF%B2%u048A%u04D3%u04D0%u04AA%u04AF%u04A2%A9%B0%BE%B0%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%BC%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%AF%B2%u048A%u04D3%u04D0%u04AA%u04AF%u04A2%A9%B0%BE%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%BC%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%BC%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%AF%B2%u048A%u04D3%u04D0%u04AA%u04AF%u04A2%A9%B0%BE%B0%u048C%u04A3%u04D8%u04A7%u04A8%u04D0%BC%u04B2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%BC%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%AF%B2%u048A%u04D3%u04D0%u04AA%u04AF%u04A2%A9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AD%u04D2%u04AC%u04AA%u04A5%u04AC%u04AB%u04A6%u04A7%u04D0%BE%B2%u04A7%u04D3%u04A9%u04AA%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%u04D1%B2%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04AD%u04D2%u04AA%u04D3%u04A0%u04AC%u04AA%u04D0%u04DE%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u0489%u04AC%u04A4%u04DE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04AC%u04D3%u04D0%u04A2%u04AF%u04A7%u04D0%u04D3%u04DD%B2%u04A0%u04AA%u04A6%u04AA%u04AE%u04D9%u04AE%BE%B2%u04AF%u04AC%B2%u04D3%u04D0%u04A2%u04AF%u04A7%u04D0%B2%u04AF%u04A7%u04A6%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04D9%u04AE%B0%BE%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04AD%u04AC%u04D0%u04A7%u04D2%u04DD%u04A7%u04D0%B2%u04D3%u04A0%u04DD%u04A5%u04DE%B2%u04D3%u04AC%B2%u04D3%u04A0%u04AC%u04AA%u04AE%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04AC%u04AE%B0%BE%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04D1%u04A6%u04A2%u04A9%u04A7%u04AF%B2%u04AA%u04A5%B2%u04D3%u04AC%u04D3%u04D0%u04A2%u04A0%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u04BF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04AD%u04A7%u04D2%u04A7%u04D3%u04D0%u04A2%u04AF%u04A7%u04D0%B2%u04AC%u04D0%u04AC%u04A3%u04D2%u04A2%u04A4%u04A2%u04D0%u04DE%u04D3%u04DD%B2%u04AF%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04A7%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%u04AC%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04D0%B2%u04A0%u04AC%u04A5%u04AE%u04AC%u04A4%u04AF%u04AC%u04D3%u04D0%u04DE%u04DC%B2%u04A0%u04A5%u04A2%u04AA%u04AE%u04AC%u04A6%u04A7%u04AB%u04D3%u04D0%u04A0%u04AA%u04DD%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DD%B2%u04D3%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04AC%u04AE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B0%BE%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B0%BE%B0%u048D%u04D1%u04D0%u04DE%u0488%u0486%u04A2%u04AF%u04AF%u04D9%u04AE%B0%BE%B0%u0485%u04A2%u04A1%u04AC%u04A9%u04AC%u04A0%u04AC%u04A8%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04D5%u04A7%u04AE%B2%u04D2%u04A2%u04A5%u04A9%u04AA%u04D5%u04AA%u04A7%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%B2%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04AA%B2%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04D0%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04AE%u04AA%BE%B2%u04A2%B2%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B2%u2086%B2%u04AC%u04D6%u04AC%u04D2%u04AE%u04A9%u04A7%u04AF%u04AA%u04A7%u04AE%B0%BE%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04D0%B2%u04AC%u04D0%u04AC%u04A3%u04D2%u04A2%u04A4%u04A7%u04AF%u04AA%u04A7%u04AE%BE%B2%u04A2%B2%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B2%u2086%B2%u04A0%u04A5%u04A2%u04AA%u04AE%u04AC%u04A6%u04A7%u04AB%u04D3%u04D0%u04A0%u04AA%u04A7%u04AE%B0%BE%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04A6%u04A7%u04AB%u04D3%u04D0%u04A0%u04D1%u04A7%u04D0%B2%u04AF%u04A2%B2%u04A8%u04A9%u04AA%u04A7%u04AF%u04D0%u04A7%BE%B2%u04A2%B2%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B2%u2086%B2%u04AF%u04A2%B2%u04D3%u04A7%u04D2%u04A0%u04A7%u04D2%u04A7%B0%BE%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B2%u04AC%u04D0%u04AF%u04AC%u04D3%u04AA%u04D0%u04D3%u04DD%B2%u04A8%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04D1%BE%B2%u04A2%B2%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04AC%u04D3%u04D0%u04DE%B2%u2086%B2%u04A8%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04A7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%C1%F3%E4%F7%B2%E1%F1%FD%E0%F7%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A0%F3%A3%A7%F0%A0%A4%A5%BF%A0%A1%F4%A0%BF%A6%A2%A5%F4%BF%F3%F1%A3%A7%BF%A3%A3%F4%A0%F4%F3%A4%A6%A2%A4%F0%A7%B0%BE%B0%F5%FE%FD%F0%F3%FE%C6%FB%FF%F7%B0%A8%A0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%AB%A2%A5%A3%A4%AA%A4%A1%A7%A5%A4%BF%FE%A6%FE%A4%E0%E6%FC%F6%A7%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%u048F%u04A2%u04D5%u04A2%u04D0%u04DE%B2%u04D0%u04A7%u04D3%u04D0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%u048C%u04D0%u04A0%u04A7%u04D0%u04AA%u04D0%u04DE%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%F1%FE%E7%F7%B2%FB%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%u048D%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04D0%u04A7%u04D3%u04D0%B2%u04A7%u04DB%u04C3%B2%u04D2%u04A2%u04A5%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D3%F1%F1%F7%E1%E1%B2%F1%FD%F6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%EB%FD%E7%B2%E5%F7%E0%F7%B2%FE%FD%FD%F9%FB%FC%F5%B2%F4%FD%E0%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%D1%FE%FB%F1%F9%B2%FA%F7%E0%F7%B2%E6%FD%B2%E2%FE%F3%EB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%u048C%u04DA%u04AA%u04A3%u04AC%u04A8%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04D7%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04AC%u04A0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%u0483%u04A2%u04A9%u04A9%u04D9%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C5%F7%FB%F5%FA%E6%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%u0480%u04D2%u04A7%u04AE%u04DD%B2%u04AF%u04A2%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%DE%FB%F4%F7%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u048F%u04A2%B2%u04A0%u04A7%u04D3%u04DE%B2%u04DF%u04A8%u04D2%u04A2%u04AF%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u0480%u04D9%u04AB%u04D0%u04AA%B2%u04AA%u04A5%B2%u04AD%u04AC%u04A9%u04AF%u04AC%u04DF%u04A8%u04D2%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A2%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%u04AC%u04A0%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%DC%FD%B2%E2%FB%F1%E6%E7%E0%F7%B2%E3%E7%F7%E1%E6%FB%FD%FC%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%B8%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%A1%A1%A2%B2%E2%FD%FB%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%FD%FC%F7%B2%FE%FB%F4%F7%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%F3%FE%FE%B2%EB%FD%E7%E0%B2%FE%FB%E4%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u04B0%u04A7%u04D3%u04D0%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04C3%u04AF%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%u0480%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D0%u04A9%u04AA%u04D5%u04AF%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D5%u04A7%u04AF%u04DE%B2%u04D7%u04AC%u04D2%u04AC%u04DA%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A7%u04A8%u04D2%u04A2%u04D3%u04AF%u04AC%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%u048F%u04A7%u04A0%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048F%u04A7%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D0%u04A0%u04A7%u04D0%B3%B2%EE%B2%u048C%u04D0%u04A0%u04A7%u04D0%B2%u04AF%u04A7%u04A0%u04A7%u04D2%u04AF%u04D9%u04AB%B3%B2%EE%B2%u048C%u04DA%u04AA%u04A3%u04A8%u04A2%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%C6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F1%F3%FC%B5%E6%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F0%F7%F1%F3%E7%E1%F7%B2%E6%FA%FB%E1%B2%E2%F3%F5%F7%B2%FB%E1%B2%FC%FD%E6%B2%E2%F3%E0%E6%B2%FD%F4%B2%F3%B2%C1%D1%DD%C0%DF%B2%E2%F3%F1%F9%F3%F5%F7%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%FD%FC%F1%F7%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%FD%FC%F1%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%u048A%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04DD%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FA%FD%E0%E1%FA%FB%E2%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B2%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E2%FE%F3%EB%B2%FD%FC%F1%F7%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%F3%E7%E6%FD%FF%F3%E6%FB%F1%F3%FE%FE%EB%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%u0480%u04A2%u04DA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F3%E1%B2%FF%F3%FC%EB%B2%E6%FB%FF%F7%E1%B2%F3%E1%B2%EB%FD%E7%B2%E5%F3%FC%E6%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%C6%FA%F7%B2%FE%F3%E1%E6%B2%E1%F1%FD%E0%F7%B2%E1%F3%E4%F7%F6%B2%FB%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%FD%E7%B2%FA%F3%E4%F7%B2%F3%FE%E0%F7%F3%F6%EB%B2%F6%FD%FC%F7%B2%E6%FA%FB%E1%B2%F3%F1%E6%FB%E4%FB%E6%EB%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%u0480%u04D9%B2%u04AE%u04AC%u04A4%u04A7%u04D0%u04A7%B2%u04AD%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04DF%u04D0%u04AC%u04D0%B2%u04D0%u04A7%u04D3%u04D0%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%FB%F6%F7%FD%B2%DB%FC%E6%E0%FD%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04D0%u04DE%B2%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04A2%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F3%FC%F6%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%E6%FA%F3%E6%B2%E5%FB%FE%FE%B2%F0%F7%B2%E4%F7%E0%EB%B2%E7%E1%F7%F4%E7%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%u0485%u04A2%u04A1%u04D2%u04D1%u04A5%u04A8%u04A2%BC%B2%u048D%u04AC%u04A4%u04A2%u04A9%u04D1%u04AB%u04D3%u04D0%u04A2%BE%B2%u04AD%u04AC%u04A6%u04AC%u04A4%u04A6%u04AA%u04D0%u04A7%BC%BC%BC%B2%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%u04A3%BC%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%C2%FE%F7%F3%E1%F7%B2%E1%E6%F3%E0%E6%B2%E2%FE%F3%EB%FB%FC%F5%B2%F4%FB%E0%E1%E6%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DB%FC%F1%FD%FF%E2%FE%F7%E6%F7%B2%F3%F1%E6%FB%E4%FB%E6%EB%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%C2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%DC%FD%E6%B2%E2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%u04D9%B2%u04A6%u04A9%u04DD%B2%u04D3%u04A2%u04AE%u04AC%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%EF%EF</div><div class="quext-bns js-hidden">Your browser is not compatible with this tool.</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/-11.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/-13.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Made with eXeLearning <span>(New window)</span></span></a></p>
+</body>
+</html>

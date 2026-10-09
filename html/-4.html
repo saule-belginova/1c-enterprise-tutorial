@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ru" id="exe-page-mue2kdzh-48o8ho59y">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лабораторная работа № 4 | Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Электронное учебное пособие предназначено для формирования практических навыков разработки прикладных решений на платформе «1С:Предприятие 8.3». Электронное учебное пособие включает 15 лабораторных работ, объединенных сквозным учебным проектом «ТорговаяКомпания», и содержит методические указания, пошаговые задания, профессиональные ситуации, индивидуальные задания, контрольные вопросы и средства интерактивной самопроверки.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/quick-questions/quick-questions.js"></script><link rel="stylesheet" href="../idevices/quick-questions/quick-questions.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mue2kdzh-48o8ho59y" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Об электронном учебном пособии</a>
+</li>
+<li> <a href="../html/-.html" class="no-ch">Как работать с электронным учебным пособием</a>
+</li>
+<li class="current-page-parent"> <a href="../html/-1-.html" class="daddy">Раздел 1. Создание структуры прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-1.html" class="no-ch">Лабораторная работа № 1</a>
+</li>
+<li> <a href="../html/-2.html" class="no-ch">Лабораторная работа № 2</a>
+</li>
+<li> <a href="../html/-3.html" class="no-ch">Лабораторная работа № 3</a>
+</li>
+<li class="active"> <a href="../html/-4.html" class="active no-ch">Лабораторная работа № 4</a>
+</li>
+<li> <a href="../html/-5.html" class="no-ch">Лабораторная работа № 5</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-2-.html" class="daddy">Раздел 2. Организация учета, отчетности и интерфейса</a>
+<ul class="other-section">
+<li> <a href="../html/-6.html" class="no-ch">Лабораторная работа № 6</a>
+</li>
+<li> <a href="../html/-7.html" class="no-ch">Лабораторная работа № 7</a>
+</li>
+<li> <a href="../html/-8.html" class="no-ch">Лабораторная работа № 8</a>
+</li>
+<li> <a href="../html/-9.html" class="no-ch">Лабораторная работа № 9</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-3-1.html" class="daddy">Раздел 3. Программирование в «1С:Предприятие»</a>
+<ul class="other-section">
+<li> <a href="../html/-10.html" class="no-ch">Лабораторная работа № 10</a>
+</li>
+<li> <a href="../html/-11.html" class="no-ch">Лабораторная работа № 11</a>
+</li>
+<li> <a href="../html/-12.html" class="no-ch">Лабораторная работа № 12</a>
+</li>
+<li> <a href="../html/-13.html" class="no-ch">Лабораторная работа № 13</a>
+</li>
+<li> <a href="../html/-14.html" class="no-ch">Лабораторная работа № 14</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-4-.html" class="daddy">Раздел 4. Завершение разработки прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-15.html" class="no-ch">Лабораторная работа № 15</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/--2.html" class="no-ch">Итоговая самопроверка</a>
+</li>
+<li> <a href="../html/page.html" class="no-ch">Глоссарий</a>
+</li>
+</ul>
+</nav><main id="page-mue2kdzh-48o8ho59y" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</p></div>
+<div class="page-header"><h1 class="page-title">Лабораторная работа № 4</h1></div>
+</header><div id="page-content-page-mue2kdzh-48o8ho59y" class="page-content">
+<article id="block-mun06bi6-2i0ovgg04" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706097084-hsq4qk6mn" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706097084-hsq4qk6mn&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Создание и настройка справочников конфигурации «ТорговаяКомпания»</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Цель работы</h3>
+<p>освоить практические приемы создания и настройки справочников на платформе «1С:Предприятие», научиться определять их структуру, добавлять пользовательские реквизиты, настраивать иерархию и использовать созданные справочники в режиме «Предприятие».</p>
+<p><strong>После выполнения лабораторной работы студент должен уметь:</strong></p>
+<ul>
+<li>создавать справочники в дереве конфигурации;</li>
+<li>задавать имя, синоним и комментарий справочника;</li>
+<li>настраивать стандартные реквизиты «Код» и «Наименование»;</li>
+<li>создавать пользовательские реквизиты;</li>
+<li>определять типы данных реквизитов;</li>
+<li>создавать иерархические справочники;</li>
+<li>включать справочники в подсистемы;</li>
+<li>обновлять конфигурацию базы данных;</li>
+<li>создавать группы и элементы справочников в режиме «Предприятие»;</li>
+<li>объяснять роль справочников в структуре прикладного решения.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Краткие теоретические сведения</h3>
+<p>Справочник — объект конфигурации, предназначенный для хранения и систематизации условно-постоянной информации об объектах предметной области.</p>
+<p>К такой информации относятся сведения о товарах, клиентах, поставщиках, складах, сотрудниках и других объектах, многократно используемых при оформлении документов и выполнении учетных операций.</p>
+<p>Каждый справочник содержит стандартные реквизиты:</p>
+<ul>
+<li>Код — средство идентификации элемента;</li>
+<li>Наименование — представление элемента, отображаемое пользователю.</li>
+</ul>
+<p>Для хранения дополнительных характеристик создаются пользовательские реквизиты. Например, для товара могут быть предусмотрены артикул, производитель и гарантийный срок.</p>
+<p>Справочник может иметь иерархическую структуру. В этом случае его элементы объединяются в группы и подгруппы. Например, товары можно разделить на группы «Компьютеры», «Оргтехника» и «Аксессуары».</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Профессиональная ситуация.</h3>
+<p>Команда разработчиков приступила к формированию нормативно-справочной информации системы «ТорговаяКомпания».</p>
+<p>Для регистрации операций поступления и продажи необходимо обеспечить централизованное хранение сведений о товарах, клиентах, поставщиках и складах. Руководитель проекта поручил вам создать соответствующие справочники, настроить их структуру и проверить работу в пользовательском режиме.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun070hf-d2fux5omj" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706129458-sh8qo2eba" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706129458-sh8qo2eba&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Порядок выполнения работы</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Задание 1. Запуск конфигурации</h3>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. Запуск информационной базы.</p>
+<ul>
+<li>Запустите программу «1С:Предприятие 8 (учебная версия)».</li>
+<li>В окне «Запуск 1С:Предприятия» выберите информационную базу «ТорговаяКомпания» и нажмите кнопку «Конфигуратор».</li>
+</ul>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Открытие конфигурации.</p>
+<p>Если дерево конфигурации не отображается, выполните команду Конфигурация → Открыть конфигурацию.</p>
+<p>Убедитесь, что в дереве присутствуют подсистемы, созданные в предыдущей лабораторной работе.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun07jdr-6orig5iks" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706153950-fuecv9sq9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706153950-fuecv9sq9&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 2. Создание справочника «Товары»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. Добавление справочника:</p>
+<ul>
+<li>В дереве конфигурации найдите ветвь «Справочники».</li>
+<li>Щелкните по ней правой кнопкой мыши и выберите команду «Добавить». Откроется окно редактирования нового объекта (Рисунок 4.1).</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid13.png" alt="Рисунок 4.1 — Создание нового справочника" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.1 — Создание нового справочника</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Настройка основных свойств:</p>
+<p>Укажите следующие значения (Рисунок 4.2):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товары</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товары</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочник для хранения сведений о товарах торговой компании</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Имя является внутренним идентификатором объекта и задается без пробелов. Синоним отображается в пользовательском интерфейсе.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid14.png" alt="Рисунок 4.2 – Настройка основных свойств справочника" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.2 – Настройка основных свойств справочника</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3. Включение справочника в подсистемы «Рисунок 4.3):</p>
+<p>Откройте вкладку «Подсистемы» и установите принадлежность справочника к подсистемам:</p>
+<ul>
+<li>Справочники;</li>
+<li>Складской учет;</li>
+<li>при необходимости — Продажи.</li>
+</ul>
+<p>Один объект конфигурации может входить одновременно в несколько подсистем, если он используется в разных функциональных областях.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid15.png" alt="Рисунок 4.3 — Включение справочника «Товары» в подсистемы" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.3 — Включение справочника «Товары» в подсистемы</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 4. Настройка стандартных реквизитов (Рисунок 4.4):</p>
+<p>Настройте параметры представления элементов:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Параметр</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Рекомендуемое значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина кода</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">9</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Тип кода</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Автонумерация</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Включена</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина наименования</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">100</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid16.png" alt="Рисунок 4.4 – Настройка стандартных реквизитов" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.4 – Настройка стандартных реквизитов</div>
+</div>
+<p>При включенной автонумерации код нового элемента формируется платформой автоматически (Рисунок 4.5).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid17.png" alt="Рисунок 4.5 – Включение автонумерации" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.5 – Включение автонумерации</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 5. Настройка иерархии:</p>
+<p>Для справочника «Товары» включите иерархическую структуру.</p>
+<p>Выберите вид иерархии «Иерархия групп и элементов» (Рисунок 4.6).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid18.png" alt="Рисунок 4.6 - Настройка иерархии справочника «Товары»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.6 - Настройка иерархии справочника «Товары»</div>
+</div>
+<p>Такая настройка позволит создавать группы товаров и размещать внутри них отдельные элементы.</p>
+<p>Пример будущей структуры:</p>
+<p>Товары<br />├── Компьютеры<br />│   ├── Ноутбук Lenovo<br />│   └── Ноутбук ASUS<br />├── Оргтехника<br />│   ├── Принтер HP<br />│   └── Сканер Epson<br />└── Аксессуары<br />    ├── Компьютерная мышь<br />    └── Клавиатура</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun08d7r-vf2ewch98" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706192613-3q3jzexs8" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706192613-3q3jzexs8&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 3. Создание реквизитов справочника «Товары»</div>
+<p>Создайте новый справочник (Рисунок 4.7):</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>В окне редактирования справочника перейдите на вкладку «Данные».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>В разделе «Реквизиты» последовательно добавьте следующие реквизиты:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя реквизита</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Синоним</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип данных</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Назначение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Артикул</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Артикул</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 20</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Уникальное обозначение товара</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Производитель</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Производитель</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 100</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Наименование изготовителя</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ГарантияМесяцев</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Гарантия, месяцев</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Число, 3 знака, 0 знаков после запятой</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Продолжительность гарантии</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Порядок создания реквизита:</strong></p>
+<ol>
+<li>Нажмите кнопку «Добавить» в разделе реквизитов.</li>
+<li>Введите имя реквизита.</li>
+<li>Укажите синоним.</li>
+<li>Выберите тип данных.</li>
+<li>Настройте длину строки или разрядность числа.</li>
+<li>Повторите действия для остальных реквизитов.</li>
+</ol>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid19.png" alt="Рисунок 4.7 – Создание реквизитов справочника «Товары»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.7 – Создание реквизитов справочника «Товары»</div>
+</div>
+<p>Имя реквизита должно отражать содержание хранимого значения. Следует избегать неинформативных имен, например Поле1, Данные или Значение.</p>
+<p>Тип данных необходимо выбирать исходя из содержания реквизита. Артикул рекомендуется хранить как строку, поскольку он может содержать буквы, дефисы и начальные нули.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun08x13-51z50uug5" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706218294-llflz6lbl" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706218294-llflz6lbl&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 4. Создание справочника «Клиенты»</div>
+<p>Создайте новый справочник «Клиенты» со следующими основными свойствами (Рисунок 4.8):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Клиенты</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Клиенты</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочник для хранения сведений о клиентах торговой компании</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Подсистемы</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочники, Продажи</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина кода</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">9</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина наименования</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">150</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Иерархия</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Не используется</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Добавьте пользовательские реквизиты:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Синоним</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 30</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ЭлектроннаяПочта</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Электронная почта</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 100</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 200</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid20.png" alt="Рисунок 4.8 - Структура справочника «Клиенты»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.8 - Структура справочника «Клиенты»</div>
+</div>
+<p>На данном этапе сведения о физических и юридических лицах хранятся в одном справочнике. В дальнейшем его структуру можно расширить дополнительными реквизитами или перечислением, определяющим вид клиента.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun09x0k-djh2lmrhk" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706264931-aoo16yed3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706264931-aoo16yed3&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 5. Создание справочника «Поставщики»</div>
+<p>Создайте справочник «Поставщики» (Рисунок 4.9):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Поставщики</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Поставщики</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочник для хранения сведений о поставщиках товаров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Подсистемы</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочники, Складской учет</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина кода</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">9</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина наименования</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">150</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Иерархия</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Не используется</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Добавьте реквизиты:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Синоним</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 30</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ЭлектроннаяПочта</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Электронная почта</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 100</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 200</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid21.png" alt="Рисунок 4.9 - Структура справочника «Поставщики»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.9 - Структура справочника «Поставщики»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0aa04-5ec6py74o" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706281763-53xf24996" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706281763-53xf24996&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 6. Создание справочника «Склады»</div>
+<p>Создайте справочник «Склады» (Рисунок 4.10):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склады</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склады</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочник мест хранения товаров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Подсистемы</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Справочники, Складской учет</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина кода</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">5</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Длина наименования</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">100</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Иерархия</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Не используется</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Добавьте реквизиты:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Синоним</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Адрес склада</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 200</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Телефон</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка, длина 30</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid22.png" alt="Рисунок 4.10 - Структура справочника «Склады»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.10 - Структура справочника «Склады»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0aq4l-cso9v2sag" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706302653-ogb2afa47" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706302653-ogb2afa47&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 7. <span style="color: #169179;">Проверка</span> структуры конфигурации</div>
+<p>Убедитесь, что ветвь «Справочники» содержит четыре объекта (Рисунок 4.11):</p>
+<p>Справочники<br />├── Товары<br />├── Клиенты<br />├── Поставщики<br />└── Склады</p>
+<p>Проверьте:</p>
+<ul>
+<li>правильность имен и синонимов;</li>
+<li>принадлежность к подсистемам;</li>
+<li>наличие всех пользовательских реквизитов;</li>
+<li>типы данных реквизитов;</li>
+<li>наличие иерархии у справочника «Товары».</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid23.png" alt="Рисунок 4.11 - Созданные справочники в дереве конфигурации" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.11 - Созданные справочники в дереве конфигурации</div>
+<div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0px 0px 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b; text-align: left;">Задание 8. <span style="color: #169179;">Сохранение</span> и обновление конфигурации</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0px 8px; text-align: left;">Шаг 1. Сохранение конфигурации:</p>
+<ul>
+<li style="text-align: left;">Выполните команду Конфигурация → Сохранить конфигурацию.</li>
+<li style="text-align: left;">Можно также использовать сочетание клавиш Ctrl + S.</li>
+</ul>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0px 8px; text-align: left;">Шаг 2. Обновление конфигурации базы данных:</p>
+<ul>
+<li style="text-align: left;">Выполните команду Конфигурация → Обновить конфигурацию базы данных.</li>
+<li style="text-align: left;">Подтвердите принятие изменений (Рисунок 4.12).</li>
+<li style="text-align: left;">Если платформа покажет перечень создаваемых объектов, проверьте, что в нем присутствуют новые справочники, и продолжите обновление.</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid24.png" alt="Рисунок 4.11 - Обновление конфигурации базы данных после создания справочников" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.11 - Обновление конфигурации базы данных после создания справочников</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0b8k7-s3oj9ic4p" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706326550-sgkxl4oq7" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706326550-sgkxl4oq7&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 9. Проверка справочников в режиме «Предприятие»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>Запустите прикладное решение (режим «Предприятие») командой Отладка → Начать отладку (или кнопкой запуска на панели инструментов, или клавишей F5). В интерфейсе должны отображаться созданные подсистемы и команды открытия справочников.</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>Откройте подсистему «Справочники» и убедитесь, что доступны:</p>
+<ul>
+<li>Товары;</li>
+<li>Клиенты;</li>
+<li>Поставщики;</li>
+<li>Склады.</li>
+</ul>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3.</p>
+<p>Отобразите структуру справочника «Товары» (Рисунок 4.12).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid25.png" alt="Рисунок 4.12 - Справочник «Товары» после создания структуры и обновления конфигурации" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.12 - Справочник «Товары» после создания структуры и обновления конфигурации</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0bpgv-2ez9x18lo" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706348462-uc2r3bl6l" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706348462-uc2r3bl6l&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 10. Заполнение справочника «Товары»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>Откройте справочник «Товары».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Создание групп.</p>
+<p>Нажав на кнопку «Создать групуп» создайте группы (Рисунок 4.13):</p>
+<ol>
+<li>Компьютеры;</li>
+<li>Оргтехника;</li>
+<li>Аксессуары.</li>
+</ol>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid26.png" alt="Рисунок 4.13 – Создание групп" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.13 – Создание групп</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3. Создание элементов (Рисунок 4.14).</p>
+<p>Нажмите кнопку «Создать», создайте не менее пяти элементов:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Группа</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Наименование</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Артикул</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Производитель</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Гарантия, мес.</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютеры</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ноутбук Lenovo IdeaPad</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">LEN-001</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Lenovo</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">24</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютеры</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ноутбук ASUS VivoBook</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ASUS-001</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ASUS</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">24</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Оргтехника</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Принтер HP LaserJet</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">HP-PR-001</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">HP</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">12</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Оргтехника</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Сканер Epson</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">EPS-SC-001</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Epson</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">12</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Аксессуары</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютерная мышь</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">MS-001</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Logitech</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">6</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid27.png" alt="Рисунок 4.14 – Форма создания элементовсправочника «Товары»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 4.14 – Форма создания элементовсправочника «Товары»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0d1j4-m8pxtpwtf" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706410750-9l8z1pm5v" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706410750-9l8z1pm5v&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 11. Заполнение остальных справочников</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. Заполнение справочника «Клиенты»:</p>
+<p>Создайте не менее трех элементов:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Наименование</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Телефон</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Электронная почта</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Адрес</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ТОО «Астана Трейд»</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">+7 700 000 00 01</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">info@astanatrade.kz</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">г. Астана</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ИП «Сапа»</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">+7 700 000 00 02</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">sapa@example.kz</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">г. Алматы</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ТОО «Орда»</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">+7 700 000 00 03</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">office@orda.kz</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">г. Караганда</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Заполнение справочника «Поставщики»</p>
+<p>Создайте не менее двух элементов:</p>
+<ul>
+<li>ТОО «ТехноПоставка»;</li>
+<li>ТОО «Компьютер Сервис».</li>
+</ul>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3. Заполнение справочника «Склады»</p>
+<p>Создайте элементы:</p>
+<ul>
+<li>Основной склад;</li>
+<li>Розничный склад.</li>
+</ul>
+<p>Приведенные наименования и контактные данные являются учебными примерами.</p>
+<p>После выполнения лабораторной работы конфигурация должна содержать:</p>
+<ul>
+<li>четыре настроенных справочника;</li>
+<li>пользовательские реквизиты;</li>
+<li>иерархическую структуру товаров;</li>
+<li>распределение справочников по подсистемам;</li>
+<li>учебные элементы справочников;</li>
+<li>автоматически сформированные формы списка и формы элементов.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0djyw-f5kbmben6" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706434647-8fog0pt48" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706434647-8fog0pt48&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 12. Анализ результатов</div>
+<p>Ответьте на вопросы:</p>
+<ol>
+<li>Какие справочники были созданы?</li>
+<li>Почему справочник «Товары» сделан иерархическим?</li>
+<li>Почему артикул хранится в строковом реквизите?</li>
+<li>Какие справочники включены в подсистему «Продажи»?</li>
+<li>Какие справочники включены в подсистему «Складской учет»?</li>
+<li>Чем стандартные реквизиты отличаются от пользовательских?</li>
+<li>Как создание справочников повлияло на интерфейс режима «Предприятие»?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0e054-ivrfa07zn" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706455606-lvn3bsa5q" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706455606-lvn3bsa5q&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Контрольные вопросы</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 1. Проверка знаний</h3>
+<ol>
+<li>Для чего предназначен объект конфигурации «Справочник»?</li>
+<li>Что представляет собой элемент справочника?</li>
+<li>Какие стандартные реквизиты имеет справочник?</li>
+<li>Для чего используется реквизит «Код»?</li>
+<li>Для чего используется реквизит «Наименование»?</li>
+<li>Что представляет собой пользовательский реквизит?</li>
+<li>Что такое иерархический справочник?</li>
+<li>Чем группа отличается от элемента справочника?</li>
+<li>В каком режиме создается структура справочника?</li>
+<li>В каком режиме вводятся элементы справочника?</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 2. Аналитические вопросы</h3>
+<ol start="11">
+<li>Почему справочник «Товары» целесообразно сделать иерархическим?</li>
+<li>Почему справочники «Клиенты» и «Поставщики» на данном этапе не имеют иерархии?</li>
+<li>Почему справочник должен быть включен в соответствующую подсистему?</li>
+<li>Какие проблемы возникнут при неправильном выборе типа реквизита?</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 3. Практические ситуации</h3>
+<ol start="15">
+<li>В справочнике товаров необходимо хранить дату окончания сертификата. Какой реквизит и тип данных следует создать?</li>
+<li>Организация хочет распределить клиентов по регионам. Каким образом можно расширить структуру справочника?</li>
+<li>Для товара требуется хранить несколько штрихкодов. Достаточно ли одного реквизита или потребуется более сложная структура?</li>
+<li>В справочнике обнаружены два одинаковых поставщика. Какие проблемы это может вызвать?</li>
+<li>Необходимо открыть справочник «Склады» из двух функциональных разделов. Какую настройку следует выполнить?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0edv4-tngtaz3ob" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790706473390-586cnnujm" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790706473390-586cnnujm&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Индивидуальные задания</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 1. Расширение справочника.</h3>
+<p>Добавьте в справочник «Товары» один дополнительный реквизит по индивидуальному варианту:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Вариант</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Реквизит</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">1</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Цвет</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">2</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СтранаПроизводитель</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">3</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Вес</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">4</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СрокХранения</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">5</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Штрихкод</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Самостоятельно выберите подходящий тип данных и обоснуйте выбор.</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 2. Профессиональная ситуация.</h3>
+<p>Разрабатывается информационная система для магазина бытовой техники.</p>
+<p>Определите:</p>
+<ol>
+<li>Какие справочники необходимо создать;</li>
+<li>Какие справочники должны быть иерархическими;</li>
+<li>Какие реквизиты должен содержать справочник товаров;</li>
+<li>Как справочники будут связаны с будущими документами;</li>
+<li>В какие подсистемы следует включить каждый справочник.</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Содержание отчета</h3>
+<p>Отчет должен содержать:</p>
+<ol>
+<li>Тему и цель работы;</li>
+<li>Краткие теоретические сведения;</li>
+<li>Последовательность выполнения заданий;</li>
+<li>Скриншоты созданных справочников;</li>
+<li>Таблицу реквизитов каждого справочника;</li>
+<li>Скриншот дерева конфигурации;</li>
+<li>Скриншоты работы в режиме «Предприятие»;</li>
+<li>Ответы на контрольные вопросы;</li>
+<li>Выполненные индивидуальные задания;</li>
+<li>Вывод.</li>
+</ol>
+<p>·</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun0wjg9-5blelg7ti" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790707320439-hjv3zctzo" class="idevice_node quick-questions" data-idevice-path="../idevices/quick-questions/" data-idevice-type="quick-questions">
+<div class="quext-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790707320439-hjv3zctzo" data-evaluationb="false" data-evaluationid="2a15b267-23f2-407f-ac15-11f2fa6406b5"></div><div class="quext-instructions QXTP-instructions"><p><strong>Проверьте себя</strong><br />Ответьте на вопросы по выполненной лабораторной работе. В каждом вопросе выберите один правильный вариант ответа.</p></div><div class="quext-version js-hidden">2</div><div class="quext-feedback-game"></div><div class="quext-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3%E7%D7%EA%E6%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%B7%A1%D1%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%E7%A2%A6%A3%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A6%D4%B7%A1%D1%BD%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%A1%D1%F0%E0%B7%A0%A2%BD%B7%A1%D7%B7%E7%A2%A6%A3%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A2%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A6%D0%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%BC%B7%A0%A2%B7%E7%A2%A6%A3%A0%B7%A0%A2%B7%E7%A2%A6%A1%D3%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A4%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D1%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D6%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%A0%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A2%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%D1%FA%FD%FD%E1%F7%B2%E6%FA%F7%B2%E0%FB%F5%FA%E6%B2%F3%FC%E1%E5%F7%E0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AE%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A7%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04D9%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B29%u04B3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%29%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048D%u04D2%u04A7%u04A6%u04AD%u04D2%u04AA%u04DD%u04D0%u04AA%u04A7%B0%BE%B0%u0488%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D0%u04AC%u04D2%B0%BE%B0%u048C%u04D0%u04A9%u04A2%u04A6%u04D5%u04AA%u04A8%B0%BE%B0%u04B4%u04A7%u04AF%u04D0%u04D2%B2%u04A2%u04A6%u04AE%u04AA%u04AF%u04AA%u04D3%u04D0%u04D2%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AB%B2%u04A0%u04A7%u04D0%u04A0%u04AA%B2%u04A6%u04A7%u04D2%u04A7%u04A0%u04A2%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04D9%B0%BE%B0%u048D%u04AC%u04A6%u04D3%u04AA%u04D3%u04D0%u04A7%u04AE%u04D9%B0%BE%B0%u04B3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AA%B0%BE%B0%u048C%u04D0%u04D5%u04A7%u04D0%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04A7%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%u04AC%B2%u04D3%u04A9%u04D1%u04A4%u04AA%u04D0%B2%u04A0%u04AF%u04D1%u04D0%u04D2%u04A7%u04AF%u04AF%u04AA%u04AE%B2%u04AA%u04A6%u04A7%u04AF%u04D0%u04AA%u04D6%u04AA%u04A8%u04A2%u04D0%u04AC%u04D2%u04AC%u04AE%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048A%u04AE%u04DD%B0%BE%B0%u04B3%u04AA%u04AF%u04AC%u04AF%u04AA%u04AE%B0%BE%B0%u0488%u04AC%u04AE%u04AE%u04A7%u04AF%u04D0%u04A2%u04D2%u04AA%u04AB%B0%BE%B0%u048D%u04D2%u04A7%u04A6%u04D3%u04D0%u04A2%u04A0%u04A9%u04A7%u04AF%u04AA%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AE%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%u04A7%B2%u04D2%u04A2%u04A5%u04D2%u04A2%u04A3%u04AC%u04D0%u04D5%u04AA%u04A8%B2%u04AE%u04AC%u04A4%u04A7%u04D0%B2%u04AC%u04AD%u04AA%u04D3%u04A2%u04D0%u04DE%B2%u04AF%u04A2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048A%u04AE%u04DD%B0%BE%B0%u04B3%u04AA%u04AF%u04AC%u04AF%u04AA%u04AE%B0%BE%B0%u048D%u04D2%u04A7%u04A6%u04D3%u04D0%u04A2%u04A0%u04A9%u04A7%u04AF%u04AA%u04A7%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B0%BE%B0%u0488%u04AC%u04AE%u04AE%u04A7%u04AF%u04D0%u04A2%u04D2%u04AA%u04AB%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AA%u04A7%B2%u04D3%u04D0%u04A2%u04AF%u04A6%u04A2%u04D2%u04D0%u04AF%u04D9%u04A7%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04D9%B2%u04A6%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04D9%B2%u04D1%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04A7%u04A1%u04AC%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AA%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048F%u04AC%u04AE%u04A7%u04D2%B2%u04AA%B2%u0486%u04A2%u04D0%u04A2%B0%BE%B0%u048D%u04A7%u04D2%u04AA%u04AC%u04A6%B2%u04AA%B2%u04B2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04D0%u04AC%u04D2%B0%BE%B0%u0488%u04AC%u04A6%B2%u04AA%B2%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%B0%BE%B0%u0480%u04AA%u04A6%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04AA%B2%u0482%u04A8%u04D0%u04AA%u04A0%u04AF%u04AC%u04D3%u04D0%u04DE%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D0%u04AA%u04AD%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04D3%u04A9%u04A7%u04A6%u04D1%u04A7%u04D0%B2%u04A0%u04D9%u04A3%u04D2%u04A2%u04D0%u04DE%B2%u04A6%u04A9%u04DD%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04A2%B29%u0482%u04D2%u04D0%u04AA%u04A8%u04D1%u04A9%29%BE%B2%u04A7%u04D3%u04A9%u04AA%B2%u04AC%u04AF%B2%u04AE%u04AC%u04A4%u04A7%u04D0%B2%u04D3%u04AC%u04A6%u04A7%u04D2%u04A4%u04A2%u04D0%u04DE%B2%u04A3%u04D1%u04A8%u04A0%u04D9%B2%u04AA%B2%u04AF%u04A2%u04D5%u04A2%u04A9%u04DE%u04AF%u04D9%u04A7%B2%u04AF%u04D1%u04A9%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04AA%u04D3%u04A9%u04AC%B0%BE%B0%u04B3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%BE%B0%u0486%u04A2%u04D0%u04A2%B0%BE%B0%u0483%u04D1%u04A9%u04A7%u04A0%u04AC%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D0%u04AA%u04AD%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04D3%u04A9%u04A7%u04A6%u04D1%u04A7%u04D0%B2%u04A0%u04D9%u04A3%u04D2%u04A2%u04D0%u04DE%B2%u04A6%u04A9%u04DD%B2%u04D0%u04A7%u04A8%u04D3%u04D0%u04AC%u04A0%u04AC%u04A1%u04AC%B2%u04AF%u04A2%u04A5%u04A0%u04A2%u04AF%u04AA%u04DD%B2%u04AD%u04D2%u04AC%u04AA%u04A5%u04A0%u04AC%u04A6%u04AA%u04D0%u04A7%u04A9%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04AA%u04D3%u04A9%u04AC%B0%BE%B0%u0486%u04A2%u04D0%u04A2%B0%BE%B0%u0483%u04D1%u04A9%u04A7%u04A0%u04AC%B0%BE%B0%u04B3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D0%u04AA%u04AD%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04D3%u04A9%u04A7%u04A6%u04D1%u04A7%u04D0%B2%u04A0%u04D9%u04A3%u04D2%u04A2%u04D0%u04DE%B2%u04A6%u04A9%u04DD%B2%u04D4%u04A7%u04A9%u04AC%u04A1%u04AC%B2%u04A8%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04A2%B2%u04AE%u04A7%u04D3%u04DD%u04D4%u04A7%u04A0%B2%u04A1%u04A2%u04D2%u04A2%u04AF%u04D0%u04AA%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04AA%u04D3%u04A9%u04AC%B0%BE%B0%u04B3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%BE%B0%u0486%u04A2%u04D0%u04A2%B0%BE%B0%u0483%u04D1%u04A9%u04A7%u04A0%u04AC%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04D1%u04DC%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04D1%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04A6%u04A9%u04DD%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AA%u04DD%B2%u04A8%u04A2%u04D0%u04A7%u04A1%u04AC%u04D2%u04AA%u04AA%B2%u04A0%B2%u04AA%u04A7%u04D2%u04A2%u04D2%u04D7%u04AA%u04D5%u04A7%u04D3%u04A8%u04AC%u04AE%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A7%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B0%BE%B0%u04B3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04A1%u04D2%u04D1%u04AD%u04AD%u04D1%B0%BE%B0%u04B3%u04A8%u04AC%u04AD%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%B0%BE%B0%u048A%u04A5%u04AE%u04A7%u04AF%u04AA%u04D0%u04DE%B2%u04D6%u04AC%u04D2%u04AE%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04D1%u04DC%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04D1%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04A6%u04A9%u04DD%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AA%u04DD%B2%u04AF%u04AC%u04A0%u04AC%u04A1%u04AC%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04A1%u04D2%u04D1%u04AD%u04AD%u04D1%B0%BE%B0%u04B3%u04A8%u04AC%u04AD%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04D3%u04D3%u04D9%u04A9%u04A8%u04D1%B0%BE%B0%u048A%u04A5%u04AE%u04A7%u04AF%u04AA%u04D0%u04DE%B2%u04D6%u04AC%u04D2%u04AE%u04D1%B0%BE%B0%u04B3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AF%u04A7%u04AC%u04A3%u04D7%u04AC%u04A6%u04AA%u04AE%u04AC%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04D1%u04D2%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%BE%B2%u04D5%u04D0%u04AC%u04A3%u04D9%B2%u04AC%u04AF%u04A2%B2%u04D3%u04D0%u04A2%u04A9%u04A2%B2%u04A6%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04A2%B2%u04A0%B2%u04D2%u04A2%u04A3%u04AC%u04D5%u04A7%u04AB%B2%u04A3%u04A2%u04A5%u04A7%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04A3%u04AF%u04AC%u04A0%u04AA%u04D0%u04DE%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A3%u04A2%u04A5%u04D9%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%BE%B0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04AA%u04D0%u04DE%B2%u04D3%u04AA%u04AF%u04D0%u04A2%u04A8%u04D3%u04AA%u04D3%B2%u04AD%u04D2%u04AC%u04A1%u04D2%u04A2%u04AE%u04AE%u04AF%u04D9%u04D7%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%u04AB%B0%BE%B0%u0480%u04D9%u04A1%u04D2%u04D1%u04A5%u04AA%u04D0%u04DE%B2%u04AC%u04D3%u04AF%u04AC%u04A0%u04AF%u04D1%u04DC%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A0%B2%u04D6%u04A2%u04AB%u04A9%B0%BE%B0%u04B3%u04D2%u04A2%u04A0%u04AF%u04AA%u04D0%u04DE%B2%u04AC%u04D3%u04AF%u04AC%u04A0%u04AF%u04D1%u04DC%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04D3%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04A7%u04AB%B2%u04A3%u04A2%u04A5%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04AA%u04D0%u04DE%B2%u04D2%u04A2%u04A3%u04AC%u04D0%u04D1%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04D3%B2%u04D0%u04AC%u04D5%u04A8%u04AA%B2%u04A5%u04D2%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04D0%u04A8%u04D2%u04D9%u04D0%u04DE%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04DE%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B2%u04A0%B2%u0488%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D0%u04AC%u04D2%u04A7%B0%BE%B0%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04D1%B2%u04D3%u04AA%u04AF%u04D0%u04A2%u04A8%u04D3%u04AA%u04D3%u04A2%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%u04AB%B0%BE%B0%u0485%u04A2%u04AD%u04D1%u04D3%u04D0%u04AA%u04D0%u04DE%B2%u04AD%u04D2%u04AA%u04A8%u04A9%u04A2%u04A6%u04AF%u04AC%u04A7%B2%u04D2%u04A7%u04DA%u04A7%u04AF%u04AA%u04A7%B2%u04A0%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A7%B2%u048D%u04D2%u04A7%u04A6%u04AD%u04D2%u04AA%u04DD%u04D0%u04AA%u04A7%B0%BE%B0%u04B3%u04D2%u04A2%u04A0%u04AF%u04AA%u04D0%u04DE%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04D3%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04A7%u04AB%B2%u04A3%u04A2%u04A5%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%u04A2%B2%u04AD%u04AC%u04A6%u04D0%u04A0%u04A7%u04D2%u04A4%u04A6%u04A2%u04A7%u04D0%BE%B2%u04D5%u04D0%u04AC%B2%u04A6%u04A9%u04DD%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04D2%u04A2%u04A5%u04D2%u04A7%u04DA%u04A7%u04AF%u04A2%B2%u04AA%u04A7%u04D2%u04A2%u04D2%u04D7%u04AA%u04DD%B2%u04A1%u04D2%u04D1%u04AD%u04AD%B2%u04AA%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04AC%u04A0%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B29%u048D%u04D2%u04AC%u04A0%u04A7%u04D3%u04D0%u04AA%29%B2%u04A0%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04A2%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B29%u04B3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04A1%u04D2%u04D1%u04AD%u04AD%u04D1%29%B2%u04A0%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B29%u0486%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%29%B2%u04A0%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B29%u04B3%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%29%B2%u04A0%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AE%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A7%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%B2%u04A0%u04A0%u04AC%u04A6%u04AA%u04D0%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%B2%u04AA%B2%u04A1%u04D2%u04D1%u04AD%u04AD%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048D%u04D2%u04A7%u04A6%u04AD%u04D2%u04AA%u04DD%u04D0%u04AA%u04A7%B0%BE%B0%u0488%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D0%u04AC%u04D2%B0%BE%B0%u048C%u04D0%u04A9%u04A2%u04A6%u04D5%u04AA%u04A8%B0%BE%B0%u04B4%u04A7%u04AF%u04D0%u04D2%B2%u04A2%u04A6%u04AE%u04AA%u04AF%u04AA%u04D3%u04D0%u04D2%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%B29%u04B0%u04AC%u04A0%u04A2%u04D2%u04D9%29%B2%u04A6%u04A7%u04A9%u04A2%u04DC%u04D0%B2%u04AA%u04A7%u04D2%u04A2%u04D2%u04D7%u04AA%u04D5%u04A7%u04D3%u04A8%u04AA%u04AE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04D4%u04AA%u04AA%B2%u04D6%u04A2%u04A8%u04D0%u04AC%u04A0%B2%u04AD%u04AC%u04D3%u04D0%u04D1%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AA%B2%u04D2%u04A7%u04A2%u04A9%u04AA%u04A5%u04A2%u04D4%u04AA%u04AA%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%BE%B0%u0486%u04A9%u04DD%B2%u04D2%u04A2%u04D3%u04D5%u04A7%u04D0%u04A2%B2%u04D0%u04A7%u04A8%u04D1%u04DB%u04AA%u04D7%B2%u04A8%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04A7%u04AF%u04AF%u04D9%u04D7%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04A8%u04AC%u04A0%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04A3%u04D8%u04A7%u04A6%u04AA%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B2%u04A0%B2%u04A8%u04A2%u04D0%u04A7%u04A1%u04AC%u04D2%u04AA%u04AA%B2%u04AA%B2%u04AD%u04AC%u04A6%u04A8%u04A2%u04D0%u04A7%u04A1%u04AC%u04D2%u04AA%u04AA%B0%BE%B0%u0486%u04A9%u04DD%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%B2%u04A2%u04AF%u04A2%u04A9%u04AA%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B2%u04AD%u04AC%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04A2%u04AE%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%C1%F3%E4%F7%B2%E1%F1%FD%E0%F7%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A0%F3%A3%A7%F0%A0%A4%A5%BF%A0%A1%F4%A0%BF%A6%A2%A5%F4%BF%F3%F1%A3%A7%BF%A3%A3%F4%A0%F4%F3%A4%A6%A2%A4%F0%A7%B0%BE%B0%F5%FE%FD%F0%F3%FE%C6%FB%FF%F7%B0%A8%A0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%AB%A2%A5%A2%A5%A1%A0%A2%A6%A1%AB%BF%FA%F8%E4%A1%E8%F1%E6%E8%FD%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%u048F%u04A2%u04D5%u04A2%u04D0%u04DE%B2%u04D0%u04A7%u04D3%u04D0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%u048C%u04D0%u04A0%u04A7%u04D0%u04AA%u04D0%u04DE%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%F1%FE%E7%F7%B2%FB%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%u048D%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04D0%u04A7%u04D3%u04D0%B2%u04A7%u04DB%u04C3%B2%u04D2%u04A2%u04A5%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D3%F1%F1%F7%E1%E1%B2%F1%FD%F6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%EB%FD%E7%B2%E5%F7%E0%F7%B2%FE%FD%FD%F9%FB%FC%F5%B2%F4%FD%E0%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%D1%FE%FB%F1%F9%B2%FA%F7%E0%F7%B2%E6%FD%B2%E2%FE%F3%EB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%u048C%u04DA%u04AA%u04A3%u04AC%u04A8%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04D7%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04AC%u04A0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%u0483%u04A2%u04A9%u04A9%u04D9%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C5%F7%FB%F5%FA%E6%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%u0480%u04D2%u04A7%u04AE%u04DD%B2%u04AF%u04A2%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%DE%FB%F4%F7%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u048F%u04A2%B2%u04A0%u04A7%u04D3%u04DE%B2%u04DF%u04A8%u04D2%u04A2%u04AF%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u0480%u04D9%u04AB%u04D0%u04AA%B2%u04AA%u04A5%B2%u04AD%u04AC%u04A9%u04AF%u04AC%u04DF%u04A8%u04D2%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A2%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%u04AC%u04A0%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%DC%FD%B2%E2%FB%F1%E6%E7%E0%F7%B2%E3%E7%F7%E1%E6%FB%FD%FC%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%B8%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%A1%A1%A2%B2%E2%FD%FB%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%FD%FC%F7%B2%FE%FB%F4%F7%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%F3%FE%FE%B2%EB%FD%E7%E0%B2%FE%FB%E4%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u04B0%u04A7%u04D3%u04D0%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04C3%u04AF%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%u0480%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D0%u04A9%u04AA%u04D5%u04AF%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D5%u04A7%u04AF%u04DE%B2%u04D7%u04AC%u04D2%u04AC%u04DA%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A7%u04A8%u04D2%u04A2%u04D3%u04AF%u04AC%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%u048F%u04A7%u04A0%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048F%u04A7%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D0%u04A0%u04A7%u04D0%B3%B2%EE%B2%u048C%u04D0%u04A0%u04A7%u04D0%B2%u04AF%u04A7%u04A0%u04A7%u04D2%u04AF%u04D9%u04AB%B3%B2%EE%B2%u048C%u04DA%u04AA%u04A3%u04A8%u04A2%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%C6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F1%F3%FC%B5%E6%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F0%F7%F1%F3%E7%E1%F7%B2%E6%FA%FB%E1%B2%E2%F3%F5%F7%B2%FB%E1%B2%FC%FD%E6%B2%E2%F3%E0%E6%B2%FD%F4%B2%F3%B2%C1%D1%DD%C0%DF%B2%E2%F3%F1%F9%F3%F5%F7%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%FD%FC%F1%F7%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%FD%FC%F1%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%u048A%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04DD%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FA%FD%E0%E1%FA%FB%E2%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B2%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E2%FE%F3%EB%B2%FD%FC%F1%F7%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%F3%E7%E6%FD%FF%F3%E6%FB%F1%F3%FE%FE%EB%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%u0480%u04A2%u04DA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F3%E1%B2%FF%F3%FC%EB%B2%E6%FB%FF%F7%E1%B2%F3%E1%B2%EB%FD%E7%B2%E5%F3%FC%E6%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%C6%FA%F7%B2%FE%F3%E1%E6%B2%E1%F1%FD%E0%F7%B2%E1%F3%E4%F7%F6%B2%FB%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%FD%E7%B2%FA%F3%E4%F7%B2%F3%FE%E0%F7%F3%F6%EB%B2%F6%FD%FC%F7%B2%E6%FA%FB%E1%B2%F3%F1%E6%FB%E4%FB%E6%EB%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%u0480%u04D9%B2%u04AE%u04AC%u04A4%u04A7%u04D0%u04A7%B2%u04AD%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04DF%u04D0%u04AC%u04D0%B2%u04D0%u04A7%u04D3%u04D0%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B2%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%FB%F6%F7%FD%B2%DB%FC%E6%E0%FD%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04D0%u04DE%B2%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04A2%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F3%FC%F6%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%E6%FA%F3%E6%B2%E5%FB%FE%FE%B2%F0%F7%B2%E4%F7%E0%EB%B2%E7%E1%F7%F4%E7%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%u0485%u04A2%u04A1%u04D2%u04D1%u04A5%u04A8%u04A2%BC%B2%u048D%u04AC%u04A4%u04A2%u04A9%u04D1%u04AB%u04D3%u04D0%u04A2%BE%B2%u04AD%u04AC%u04A6%u04AC%u04A4%u04A6%u04AA%u04D0%u04A7%BC%BC%BC%B2%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%u04A3%u04A2%u04A9%u04A9%BC%B2%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%C2%FE%F7%F3%E1%F7%B2%E1%E6%F3%E0%E6%B2%E2%FE%F3%EB%FB%FC%F5%B2%F4%FB%E0%E1%E6%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DB%FC%F1%FD%FF%E2%FE%F7%E6%F7%B2%F3%F1%E6%FB%E4%FB%E6%EB%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%C2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%DC%FD%E6%B2%E2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%u04D9%B2%u04A6%u04A9%u04DD%B2%u04D3%u04A2%u04AE%u04AC%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%EF%EF</div><div class="quext-bns js-hidden">Your browser is not compatible with this tool.</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/-3.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/-5.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Made with eXeLearning <span>(New window)</span></span></a></p>
+</body>
+</html>

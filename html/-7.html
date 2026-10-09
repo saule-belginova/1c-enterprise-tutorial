@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ru" id="exe-page-mue2lgay-wzdiav37u">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лабораторная работа № 7 | Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Электронное учебное пособие предназначено для формирования практических навыков разработки прикладных решений на платформе «1С:Предприятие 8.3». Электронное учебное пособие включает 15 лабораторных работ, объединенных сквозным учебным проектом «ТорговаяКомпания», и содержит методические указания, пошаговые задания, профессиональные ситуации, индивидуальные задания, контрольные вопросы и средства интерактивной самопроверки.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/quick-questions/quick-questions.js"></script><link rel="stylesheet" href="../idevices/quick-questions/quick-questions.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mue2lgay-wzdiav37u" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Об электронном учебном пособии</a>
+</li>
+<li> <a href="../html/-.html" class="no-ch">Как работать с электронным учебным пособием</a>
+</li>
+<li> <a href="../html/-1-.html" class="daddy">Раздел 1. Создание структуры прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-1.html" class="no-ch">Лабораторная работа № 1</a>
+</li>
+<li> <a href="../html/-2.html" class="no-ch">Лабораторная работа № 2</a>
+</li>
+<li> <a href="../html/-3.html" class="no-ch">Лабораторная работа № 3</a>
+</li>
+<li> <a href="../html/-4.html" class="no-ch">Лабораторная работа № 4</a>
+</li>
+<li> <a href="../html/-5.html" class="no-ch">Лабораторная работа № 5</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/-2-.html" class="daddy">Раздел 2. Организация учета, отчетности и интерфейса</a>
+<ul class="other-section">
+<li> <a href="../html/-6.html" class="no-ch">Лабораторная работа № 6</a>
+</li>
+<li class="active"> <a href="../html/-7.html" class="active no-ch">Лабораторная работа № 7</a>
+</li>
+<li> <a href="../html/-8.html" class="no-ch">Лабораторная работа № 8</a>
+</li>
+<li> <a href="../html/-9.html" class="no-ch">Лабораторная работа № 9</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-3-1.html" class="daddy">Раздел 3. Программирование в «1С:Предприятие»</a>
+<ul class="other-section">
+<li> <a href="../html/-10.html" class="no-ch">Лабораторная работа № 10</a>
+</li>
+<li> <a href="../html/-11.html" class="no-ch">Лабораторная работа № 11</a>
+</li>
+<li> <a href="../html/-12.html" class="no-ch">Лабораторная работа № 12</a>
+</li>
+<li> <a href="../html/-13.html" class="no-ch">Лабораторная работа № 13</a>
+</li>
+<li> <a href="../html/-14.html" class="no-ch">Лабораторная работа № 14</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-4-.html" class="daddy">Раздел 4. Завершение разработки прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-15.html" class="no-ch">Лабораторная работа № 15</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/--2.html" class="no-ch">Итоговая самопроверка</a>
+</li>
+<li> <a href="../html/page.html" class="no-ch">Глоссарий</a>
+</li>
+</ul>
+</nav><main id="page-mue2lgay-wzdiav37u" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</p></div>
+<div class="page-header"><h1 class="page-title">Лабораторная работа № 7</h1></div>
+</header><div id="page-content-page-mue2lgay-wzdiav37u" class="page-content">
+<article id="block-mun36kg3-f7zgxcyju" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711147521-ynssi82p3" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711147521-ynssi82p3&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Настройка проведения документов и проверка движений регистра накопления «ОстаткиТоваров»</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Цель работы</h3>
+<p>освоить практические приемы настройки проведения документов в системе «1С:Предприятие», сформировать приходные и расходные движения по регистру накопления «ОстаткиТоваров», а также выполнить обязательную проверку корректности процедуры проведения до перехода к созданию отчета.</p>
+<p><strong>После выполнения лабораторной работы студент должен уметь:</strong></p>
+<ul>
+<li>подключать регистр накопления к документу;</li>
+<li>использовать конструктор движений;</li>
+<li>задавать вид движения «Приход» и «Расход»;</li>
+<li>сопоставлять реквизиты документа с полями регистра;</li>
+<li>анализировать процедуру ОбработкаПроведения();</li>
+<li>различать запись и проведение документа;</li>
+<li>перепроводить ранее созданные документы;</li>
+<li>проверять формирование движений доступными средствами платформы;</li>
+<li>рассчитывать предполагаемые остатки товаров;</li>
+<li>определять причины отсутствия данных в регистре.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Краткие теоретические сведения</h3>
+<p>Запись документа обеспечивает сохранение введенной пользователем информации в базе данных, но сама по себе не изменяет показатели учета.</p>
+<p>Проведение документа - процесс отражения хозяйственной операции в регистрах информационной системы.</p>
+<p>При проведении документа формируются движения регистра. Каждое движение содержит значения измерений, ресурсов и, при необходимости, реквизитов регистра.</p>
+<p>Для регистра накопления вида «Остатки» используются два вида движения:</p>
+<ul>
+<li>Приход — увеличивает значение ресурса;</li>
+<li>Расход — уменьшает значение ресурса.</li>
+</ul>
+<p>В конфигурации «ТорговаяКомпания» документы должны влиять на регистр следующим образом:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Документ</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Вид движения</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Влияние на остаток</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ПоступлениеТоваров</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Приход</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Увеличение</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">РеализацияТоваров</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Расход</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Уменьшение</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Для каждой строки табличной части «Товары» должно формироваться отдельное движение регистра.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun371mn-h8zhzah5r" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711169790-bbnw0c33c" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711169790-bbnw0c33c&quot;}">
+<div class="exe-text-template">
+    <h3>Порядок выполнения работы</h3>
+<p></p>
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 1. Проверка исходной конфигурации</div>
+<p>Запустите информационную базу «ТорговаяКомпания» в режиме «Конфигуратор».</p>
+<p>Убедитесь, что в конфигурации присутствуют документы:</p>
+<p>Документы<br />├── ПоступлениеТоваров<br />└── РеализацияТоваров</p>
+<p>Проверьте структуру обоих документов.</p>
+<p><strong>Реквизиты документа «ПоступлениеТоваров»</strong></p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Поставщик</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Поставщики</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Склады</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Реквизиты документа «РеализацияТоваров»</strong></p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Клиент</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Клиенты</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Склады</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Оба документа должны содержать табличную часть:</p>
+<p>Товары<br />├── Товар<br />├── Количество<br />└── Цена</p>
+<p>Проверьте типы полей:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Товары</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Число</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Цена</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Число</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Имена реквизитов должны точно совпадать с именами, которые будут использоваться в конструкторе движений:</p>
+<p>Товары<br />Товар<br />Склад<br />Количество<br />Комментарий</p>
+</div>
+</div>
+</div>
+</article><article id="block-mun37esi-groe4zldx" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711186849-uiby4fbzx" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711186849-uiby4fbzx&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 2. Проверка регистра накопления</div>
+<p>Откройте регистр накопления:</p>
+<p>Регистры накопления → ОстаткиТоваров</p>
+<p>Проверьте основные свойства:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ОстаткиТоваров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Остатки товаров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Вид регистра</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Остатки</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Проверьте структуру регистра:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Вид элемента</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Имя</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Тип</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Измерение</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Товары</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Измерение</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">СправочникСсылка.Склады</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ресурс</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Число</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Реквизит</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Строка</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>В разделе «Регистраторы» должны присутствовать (Рисунок 7.1):</p>
+<ul>
+<li>ПоступлениеТоваров;</li>
+<li>РеализацияТоваров.</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid51.png" alt="Рисунок 7.1 — Проверка структуры и регистраторов регистра «ОстаткиТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.1 — Проверка структуры и регистраторов регистра «ОстаткиТоваров»</div>
+</div>
+<p><strong>Проверка результата:</strong></p>
+<p>В свойствах регистра накопления «ОстаткиТоваров» убедитесь, что свойство «Вид регистра накопления» имеет значение «Остатки». Сделайте скриншот окна свойств регистра. Этот результат будет использоваться при создании отчета в лабораторной работе № 8.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun37uc2-z2z0tgafg" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711206993-uotsca3p8" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711206993-uotsca3p8&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 3. Подключение регистра к документу «ПоступлениеТоваров»</div>
+<ol>
+<li>Откройте документ «ПоступлениеТоваров» в дереве конфигурации.</li>
+<li>Перейдите на вкладку или в раздел «Движения». В перечне регистров установите флажок напротив регистра «ОстаткиТоваров»</li>
+<li>Проверьте свойство документа: Проведение = Разрешить. <br />(Рисунок 7.2).</li>
+</ol>
+<p>Эта настройка означает, что документ получает возможность формировать набор записей данного регистра.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid52.png" alt="Рисунок 7.2 - Подключение регистра к документу «ПоступлениеТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.2 - Подключение регистра к документу «ПоступлениеТоваров»</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>В разделе движений документа должен быть выбран регистр «ОстаткиТоваров».</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun38dac-e84jo7b4b" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711231524-apqxqkzi1" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711231524-apqxqkzi1&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 4. Формирование приходных движений документа «ПоступлениеТоваров»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. Нажмите кнопку «Конструктор движений».</p>
+<p>В открывшемся окне задайте (Рисунок 7.3):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Параметр</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Регистр</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ОстаткиТоваров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Вид движения</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Приход</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Табличная часть</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товары</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Настройте соответствие между полями регистра и данными документа (Рисунок 7.3):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле регистра</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Источник в документе</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Текущая строка табличной части → Товар</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Реквизит документа → Склад</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Текущая строка табличной части → Количество</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Реквизит документа → Комментарий</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Логика заполнения заключается в следующем:</p>
+<ul>
+<li>товар и количество берутся из каждой строки табличной части;</li>
+<li>склад относится ко всему документу;</li>
+<li>комментарий документа при необходимости переносится в запись регистра.</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid53.png" alt="Рисунок 7.3 - Настройка приходных движений документа «ПоступлениеТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.3 - Настройка приходных движений документа «ПоступлениеТоваров»</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3. Создание обработчика проведения.</p>
+<ul>
+<li>После настройки нажмите кнопку «ОК» или «Сформировать».</li>
+</ul>
+<p>Конструктор автоматически сформировал код процедуры ОбработкаПроведения() документа «ПоступлениеТоваров». В данной процедуре реализован алгоритм создания приходных движений по регистру накопления «ОстаткиТоваров» (Рисунок 7.4).</p>
+<p>Самостоятельно изменять сформированный код на данном этапе не требуется.</p>
+<p>Допустимы незначительные отличия в оформлении кода.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid54.png" alt="Рисунок 7.4 — Процедура проведения документа «ПоступлениеТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.4 — Процедура проведения документа «ПоступлениеТоваров»</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>Обязательно должны присутствовать:</p>
+<ul>
+<li>Записывать = Истина;</li>
+<li>цикл по табличной части Товары;</li>
+<li>команда Добавить();</li>
+<li>вид движения Приход;</li>
+<li>заполнение товара, склада и количества.</li>
+</ul>
+<p>Конструктор создал не просто движения, а именно код внутри процедуры проведения.</p>
+<p>Получается следующая логическая схема:</p>
+<p>Документ ПоступлениеТоваров<br />            ↓<br />Процедура ОбработкаПроведения()<br />            ↓<br />Создание движений<br />            ↓<br />Регистр ОстаткиТоваров</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun38tyz-bw5i9nhgj" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711253177-11f5wl618" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711253177-11f5wl618&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 5. Подключение регистра к документу «РеализацияТоваров»</div>
+<ol>
+<li>Откройте Документы → РеализацияТоваров</li>
+<li>Перейдите в раздел «Движения» и установите флажок напротив регистра «ОстаткиТоваров» (Рисунок 7.5).</li>
+</ol>
+<p>Убедитесь, что документ указан среди регистраторов регистра накопления.</p>
+<p>Проверьте: Проведение = Разрешить</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid55.png" alt="Рисунок 7.5 - Подключение регистра к документу «РеализацияТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.5 - Подключение регистра к документу «РеализацияТоваров»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun39ern-kcksgqdhl" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711280129-ce1p0u0m4" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711280129-ce1p0u0m4&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 6. Формирование расходных движений документа «РеализацияТоваров»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. Запустите конструктор движений для документа «РеализацияТоваров».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Выполните следующие настройки (Рисунок 7.6):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Параметр</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Регистр</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ОстаткиТоваров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Вид движения</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Расход</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Табличная часть</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товары</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3. Настройте сопоставление:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле регистра</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Источник в документе</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Текущая строка табличной части → Товар</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Реквизит документа → Склад</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Текущая строка табличной части → Количество</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Реквизит документа → Комментарий</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Нажмите «ОК» или «Сформировать».</p>
+<p>Для каждой строки документа должно создаваться расходное движение, уменьшающее количество соответствующего товара на выбранном складе.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid56.png" alt="Рисунок 7.6 - Настройка расходных движений документа «РеализацияТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.6 - Настройка расходных движений документа «РеализацияТоваров»</div>
+</div>
+<p>После завершения работы конструктора проверьте процедуру (Рисунок 7.7):</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid57.png" alt="Рисунок 7.7 - Процедура проведения документа «РеализацияТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.7 - Процедура проведения документа «РеализацияТоваров»</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>Главное отличие двух процедур:</p>
+<ul>
+<li>ПоступлениеТоваров → Приход</li>
+<li>РеализацияТоваров → Расход</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun39oxw-uas9mzevo" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711293314-y5px52rns" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711293314-y5px52rns&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 7. Сохранение и обновление конфигурации</div>
+<ol>
+<li>Сохраните конфигурацию: Конфигурация → Сохранить конфигурацию.</li>
+<li>Конфигурация → Обновить конфигурацию базы данных или нажмите F7. Подтвердите применение изменений.</li>
+</ol>
+<p><strong>Важно</strong></p>
+<p>До обновления конфигурации базы данных не следует переходить к проверке документов в режиме «Предприятие».</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3a4i3-l4q7csqif" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711313481-dcx0rllqj" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711313481-dcx0rllqj&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 8. Создание контрольного документа поступления товаров в режиме «Предприятие»</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. <span style="color: #34495e; font-size: 12pt; font-family: arial, helvetica, sans-serif;">Запустите режим «Предприятие».</span></p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. <span style="font-size: 12pt; color: #34495e;">Для проверки рекомендуется создать новый документ, а не использовать старый документ из ЛР 5. Это позволит исключить влияние документов, созданных до настройки проведения. Для создания:</span></p>
+<ul>
+<li>Откройте раздел «Складской учет»;</li>
+<li>Выберите «Поступление товаров», нажмите «Создать»;</li>
+<li>Введите параметры в открывшейся форме (Рисунок 7.8):</li>
+</ul>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Поставщик</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ТОО «ТехноПоставка»</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Основной склад</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Контрольная проверка приходных движений</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Заполните табличную часть:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Товар</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Количество</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Цена</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ноутбук Lenovo IdeaPad</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">10</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">350 000</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Принтер HP LaserJet</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">8</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">120 000</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютерная мышь</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">20</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">8 000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Нажмите «Провести и закрыть».</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid58.png" alt="Рисунок 7.8 - Проведение контрольного документа поступления" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.8 - Проведение контрольного документа поступления</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>Проведение считается выполненным, если:</p>
+<ul>
+<li>сообщение об ошибке не появилось;</li>
+<li>документ отображается как проведенный;</li>
+<li>в меню «Еще» доступна команда «Отменить проведение».</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3ahqc-wtab2ash3" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711330626-th92c48zo" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711330626-th92c48zo&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 9. Создание контрольного документа реализации</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. В режиме «1С:Предприятие» откройте раздел «Продажи». Выберите команду «Реализация товаров».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2. Откроется список документов реализации. Нажмите «Создать».</p>
+<p>Заполните реквизиты документа (Рисунок 7.9):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Клиент</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ТОО «Астана Трейд»</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Основной склад</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Контрольная проверка расходных движений</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Табличная часть:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Товар</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Количество</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Цена</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ноутбук Lenovo IdeaPad</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">2</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">390 000</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Принтер HP LaserJet</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">1</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">145 000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Нажмите «Провести и закрыть».</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid59.png" alt="Рисунок 7.9 - Проведение контрольного документа реализации" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 7.9 - Проведение контрольного документа реализации</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>Проведение считается выполненным, если:</p>
+<ul>
+<li>сообщение об ошибке не появилось;</li>
+<li>документ отображается как проведенный;</li>
+<li>в меню «Еще» доступна команда «Отменить проведение».</li>
+</ul>
+<p><strong>Важно</strong></p>
+<p>Если в информационной базе присутствуют другие проведенные документы, фактические остатки могут отличаться от приведенных значений. Для точного совпадения следует использовать только контрольные документы данной лабораторной работы либо отменить проведение лишних учебных документов.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3av5o-wui2x3at4" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711348026-wxw9ylafy" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711348026-wxw9ylafy&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 10. Проверка различия между записью и проведением</div>
+<p>Создайте небольшой документ поступления с одной товарной строкой. Нажмите только «Записать», не выполняя проведение.</p>
+<p>Проверьте:</p>
+<ul>
+<li>документ появился в списке;</li>
+<li>его данные сохранились;</li>
+<li>движения по регистру не сформировались;</li>
+<li>документ имеет статус непроведенного.</li>
+</ul>
+<p>Сделайте вывод о различии между записью и проведением.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3bah6-0mtyc3u5u" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711367881-crzrczw60" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711367881-crzrczw60&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 11. Анализ результатов</div>
+<p>На основании выполненных действий проанализируйте результаты настройки проведения документов и ответьте на следующие вопросы:</p>
+<ol>
+<li>Какие документы были настроены для формирования движений регистра накопления?</li>
+<li>Какой регистр накопления используется для учета товаров?</li>
+<li>Какой вид движения формирует документ «ПоступлениеТоваров»?</li>
+<li>Какой вид движения формирует документ «РеализацияТоваров»?</li>
+<li>Откуда заполняется измерение «Товар» при формировании движений?</li>
+<li>Откуда заполняется измерение «Склад»?</li>
+<li>Откуда заполняется ресурс «Количество»?</li>
+<li>Почему количество движений зависит от числа строк табличной части документа?</li>
+<li>Чем отличается запись документа от его проведения?</li>
+<li>По каким признакам можно определить, что документ успешно проведен?</li>
+<li>Для чего используется процедура ОбработкаПроведения()?</li>
+<li>Какую роль играет конструктор движений при настройке проведения документов?</li>
+<li>Как изменятся предполагаемые остатки товаров после проведения документа поступления?</li>
+<li>Как изменятся предполагаемые остатки товаров после проведения документа реализации?</li>
+<li>Почему проведение документов является необходимым элементом автоматизированного учета?</li>
+</ol>
+<p>Сформулируйте вывод о результатах лабораторной работы, указав:</p>
+<ul>
+<li>какие документы были настроены;</li>
+<li>какие виды движений используются;</li>
+<li>каким образом документы влияют на учет товаров;</li>
+<li>чем проведение отличается от простой записи документа;</li>
+<li>какую роль играет регистр накопления «ОстаткиТоваров» в системе учета.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3bu3g-94ctpme0i" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711393306-mw3tqe9jg" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711393306-mw3tqe9jg&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Контрольные вопросы</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 1. Проверка знаний</h3>
+<ol>
+<li>Что представляет собой проведение документа?</li>
+<li>Чем проведение отличается от записи?</li>
+<li>Что представляет собой движение регистра?</li>
+<li>Какой регистр изменяют документы?</li>
+<li>Какой вид движения формирует поступление?</li>
+<li>Какой вид движения формирует реализация?</li>
+<li>Для чего используется конструктор движений?</li>
+<li>Откуда заполняется товар в движении?</li>
+<li>Откуда заполняется склад?</li>
+<li>Откуда заполняется количество?</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 2. Аналитические вопросы</h3>
+<ol start="11">
+<li>Почему для каждой строки табличной части создается отдельное движение?</li>
+<li>Почему два документа используют один регистр, но разные виды движений?</li>
+<li>Почему записанный документ не должен изменять остатки?</li>
+<li>Как проведение обеспечивает актуальность учетных данных?</li>
+<li>Что произойдет при отмене проведения документа?</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Уровень 3. Практические ситуации</h3>
+<ol start="16">
+<li>Документ содержит пять товарных строк. Сколько движений должно сформироваться?</li>
+<li>Поступление ошибочно настроено как «Расход». Как это повлияет на остатки?</li>
+<li>В движении не заполняется склад. Какую настройку конструктора необходимо проверить?</li>
+<li>Документ сохраняется, но движения отсутствуют. Какие настройки следует проверить?</li>
+<li>После реализации остаток увеличился. Где, вероятнее всего, допущена ошибка?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3c46c-i9f8nvb7p" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711406371-t4weo8byb" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711406371-t4weo8byb&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Индивидуальные задания</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 1. Проверка движения</h3>
+<p>Создайте дополнительный документ поступления или реализации с тремя товарными позициями. Самостоятельно определите ожидаемые остатки до проведения и после проведения документа.</p>
+<p>В отчете приведите:</p>
+<ul>
+<li>исходные данные;</li>
+<li>движения;</li>
+<li>расчеты;</li>
+<li>полученный результат.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 2. Профессиональная ситуация</h3>
+<p>Организация планирует использовать документ «ПеремещениеТоваров» для перемещения товаров между складами.</p>
+<p>Определите:</p>
+<ol>
+<li>сколько движений должен формировать документ для каждой товарной строки;</li>
+<li>какое движение формируется по складу-отправителю;</li>
+<li>какое движение формируется по складу-получателю;</li>
+<li>какие измерения и ресурсы регистра необходимо заполнить;</li>
+<li>почему одного движения для перемещения недостаточно.</li>
+</ol>
+<p>Предполагаемый принцип:</p>
+<ul>
+<li>расход со склада-отправителя;</li>
+<li>приход на склад-получатель.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Содержание отчета</h3>
+<p>Отчет должен содержать:</p>
+<ol>
+<li>Тему и цель лабораторной работы;</li>
+<li>Краткие теоретические сведения;</li>
+<li>Структуру регистра «ОстаткиТоваров»;</li>
+<li>Настройку движений документа «ПоступлениеТоваров»;</li>
+<li>Настройку движений документа «РеализацияТоваров»;</li>
+<li>Скриншоты конструктора движений;</li>
+<li>Скриншоты проведенных документов;</li>
+<li>Таблицы сформированных движений;</li>
+<li>Расчет ожидаемых остатков;</li>
+<li>Ответы на контрольные вопросы;</li>
+<li>Индивидуальные задания;</li>
+<li>Вывод.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3dg3u-q83wch3ch" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711468488-fmco1us41" class="idevice_node quick-questions" data-idevice-path="../idevices/quick-questions/" data-idevice-type="quick-questions">
+<div class="quext-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790711468488-fmco1us41" data-evaluationb="false" data-evaluationid="2a15b267-23f2-407f-ac15-11f2fa6406b5"></div><div class="quext-instructions QXTP-instructions"><p><strong>Проверьте себя</strong><br />Ответьте на вопросы по выполненной лабораторной работе. В каждом вопросе выберите один правильный вариант ответа.</p></div><div class="quext-version js-hidden">2</div><div class="quext-feedback-game"></div><div class="quext-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3%E7%D7%EA%E6%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%B7%A1%D1%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%E7%A2%A6%A3%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A6%D4%B7%A1%D1%BD%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%A1%D1%F0%E0%B7%A0%A2%BD%B7%A1%D7%B7%E7%A2%A6%A3%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A2%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A6%D0%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%BC%B7%A0%A2%B7%E7%A2%A6%A3%A0%B7%A0%A2%B7%E7%A2%A6%A1%D3%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A4%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D1%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D6%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%A0%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A2%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%D1%FA%FD%FD%E1%F7%B2%E6%FA%F7%B2%E0%FB%F5%FA%E6%B2%F3%FC%E1%E5%F7%E0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AE%B2%u04D2%u04A2%u04A5%u04A6%u04A7%u04A9%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04D1%u04A8%u04A2%u04A5%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04D9%BE%B2%u04AD%u04AC%B2%u04A8%u04AC%u04D0%u04AC%u04D2%u04D9%u04AE%B2%u04AC%u04AF%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04D1%u04A7%u04D0%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04D9%B0%BE%B0%u0486%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u04B6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u0488%u04AC%u04AE%u04A2%u04AF%u04A6%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04AA%u04AF%u04D3%u04D0%u04D2%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04AD%u04AC%u04AE%u04AC%u04A1%u04A2%u04A7%u04D0%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04A2%u04A9%u04A1%u04AC%u04D2%u04AA%u04D0%u04AE%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0488%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04AC%u04D2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u0488%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04AC%u04D2%B2%u04A5%u04A2%u04AD%u04D2%u04AC%u04D3%u04A2%B0%BE%B0%u0488%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04AC%u04D2%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04AB%B0%BE%B0%u0488%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04AC%u04D2%B2%u04AD%u04A7%u04D5%u04A2%u04D0%u04AA%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04D1%u04DC%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D1%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04DD%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B2%u04A5%u04A2%u04AD%u04AC%u04A9%u04AF%u04DD%u04A7%u04D0%B2%u04A8%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04AC%u04D2%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04AB%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04A2%u048D%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04DD%BA%BB%B0%BE%B0%u048C%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04A2%u0485%u04A2%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04DD%BA%BB%B0%BE%B0%u048D%u04A7%u04D2%u04A7%u04A6%u0485%u04A2%u04AD%u04AA%u04D3%u04DE%u04DC%BA%BB%B0%BE%B0%u048D%u04D2%u04AA%u0488%u04AC%u04AD%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04AA%BA%BB%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AE%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04D2%u04A2%u04A5%u04AE%u04A7%u04DB%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u048C%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04A2%u048D%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04DD%BA%BB%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04D3%u04AD%u04AA%u04D3%u04A8%u04A2%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B0%BE%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04AF%u04A2%u04A3%u04AC%u04D2%u04A2%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A7%u04AB%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B0%BE%B0%u0480%B2%u04AC%u04A3%u04DB%u04A7%u04AE%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04AD%u04D2%u04AA%u04A9%u04AC%u04A4%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u0480%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AF%u04A7%u04AC%u04A3%u04D7%u04AC%u04A6%u04AA%u04AE%u04AC%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04D1%u04D2%u04D9%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04AC%u04A0%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04AA%u04D0%u04DE%B2%u04D3%u04AA%u04AF%u04D0%u04A2%u04A8%u04D3%u04AA%u04D3%B2%u04AD%u04D2%u04AC%u04A1%u04D2%u04A2%u04AE%u04AE%u04AF%u04D9%u04D7%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%u04AB%B0%BE%B0%u0480%u04D9%u04A1%u04D2%u04D1%u04A5%u04AA%u04D0%u04DE%B2%u04AC%u04D3%u04AF%u04AC%u04A0%u04AF%u04D1%u04DC%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A0%B2%u04D6%u04A2%u04AB%u04A9%B0%BE%B0%u048C%u04A3%u04AF%u04AC%u04A0%u04AA%u04D0%u04DE%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A3%u04A2%u04A5%u04D9%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%BE%B0%u04B3%u04D2%u04A2%u04A0%u04AF%u04AA%u04D0%u04DE%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04D3%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04A7%u04AB%B2%u04A3%u04A2%u04A5%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04A2%u04DD%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04DD%u04A7%u04D0%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04A7%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0485%u04A2%u04AD%u04AA%u04D3%u04A2%u04D0%u04DE%B0%BE%B0%u048D%u04D2%u04AC%u04A0%u04A7%u04D3%u04D0%u04AA%B0%BE%B0%u04B3%u04A8%u04AC%u04AD%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%B0%BE%B0%u048D%u04AC%u04AE%u04A7%u04D0%u04AA%u04D0%u04DE%B2%u04AF%u04A2%B2%u04D1%u04A6%u04A2%u04A9%u04A7%u04AF%u04AA%u04A7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AD%u04D2%u04AC%u04AA%u04D3%u04D7%u04AC%u04A6%u04AA%u04D0%B2%u04AD%u04D2%u04AA%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04AA%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04D9%B29%u0485%u04A2%u04AD%u04AA%u04D3%u04A2%u04D0%u04DE%29%B2%u04A3%u04A7%u04A5%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A2%u04AF%u04AF%u04D9%u04A7%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04D3%u04AC%u04D7%u04D2%u04A2%u04AF%u04DD%u04DC%u04D0%u04D3%u04DD%B2%u04AA%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04D1%u04DC%u04D0%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B0%BE%B0%u0486%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04A5%u04A2%u04A8%u04D2%u04D9%u04A0%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04A3%u04A7%u04A5%B2%u04D3%u04AC%u04D7%u04D2%u04A2%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04A0%u04A0%u04A7%u04A6%u04A7%u04AF%u04AF%u04D9%u04D7%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%BE%B0%u0486%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04D1%u04A6%u04A2%u04A9%u04DD%u04A7%u04D0%B2%u04D2%u04A2%u04AF%u04A7%u04A7%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04AF%u04D9%u04A7%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AC%u04A0%B0%BE%B0%u0486%u04A2%u04AF%u04AF%u04D9%u04A7%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04D3%u04AC%u04D7%u04D2%u04A2%u04AF%u04DD%u04DC%u04D0%u04D3%u04DD%B2%u04A3%u04A7%u04A5%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%B2%u04AF%u04AC%u04A0%u04D9%u04D7%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04AB%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AD%u04D2%u04AC%u04AA%u04D3%u04D7%u04AC%u04A6%u04AA%u04D0%B2%u04AD%u04D2%u04AA%B2%u04D1%u04D3%u04AD%u04A7%u04DA%u04AF%u04AC%u04AE%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04AA%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B6%u04AC%u04D2%u04AE%u04AA%u04D2%u04D1%u04DC%u04D0%u04D3%u04DD%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04AC%B2%u04AF%u04A2%u04D3%u04D0%u04D2%u04AC%u04A7%u04AF%u04AF%u04D9%u04AE%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04AE%B0%BE%B0%u048A%u04A5%u04AE%u04A7%u04AF%u04DD%u04A7%u04D0%u04D3%u04DD%B2%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04D1%u04D2%u04A2%B2%u04AC%u04D3%u04AF%u04AC%u04A0%u04AF%u04AC%u04AB%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B0%BE%B0%u04B3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%u04D3%u04DD%B2%u04AF%u04AC%u04A0%u04D9%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04D9%B2%u04AE%u04A7%u04D0%u04A2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AC%u04A0%B0%BE%B0%u048D%u04A7%u04D2%u04A7%u04D3%u04D0%u04D2%u04A2%u04AA%u04A0%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04AF%u04D9%u04AB%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%B2%u04AD%u04AC%u04A6%u04D3%u04AA%u04D3%u04D0%u04A7%u04AE%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04AD%u04D2%u04AA%u04A5%u04AF%u04A2%u04A8%B2%u04A0%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04D1%u04A8%u04A2%u04A5%u04D9%u04A0%u04A2%u04A7%u04D0%BE%B2%u04D5%u04D0%u04AC%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04D1%u04A4%u04A7%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04D1%B2%u04AD%u04D2%u04AA%u04D3%u04A0%u04AC%u04A7%u04AF%B2%u04AF%u04AC%u04AE%u04A7%u04D2%B0%BE%B0%u0486%u04AC%u04D3%u04D0%u04D1%u04AD%u04AF%u04A2%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B29%u048C%u04D0%u04AE%u04A7%u04AF%u04AA%u04D0%u04DE%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04A7%29%B0%BE%B0%u0480%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A7%B2%u04A5%u04A2%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%B2%u04A8%u04AC%u04AE%u04AE%u04A7%u04AF%u04D0%u04A2%u04D2%u04AA%u04AB%B0%BE%B0%u04B6%u04AC%u04D2%u04AE%u04A2%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04AC%u04D0%u04A8%u04D2%u04D9%u04D0%u04A2%B2%u04A6%u04A9%u04DD%B2%u04AD%u04D2%u04AC%u04D3%u04AE%u04AC%u04D0%u04D2%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B3%u04A8%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04AB%B2%u04AD%u04AC%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04D1%B2%u04D3%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04D1%u04A7%u04D0%B2%u04A2%u04A9%u04A1%u04AC%u04D2%u04AA%u04D0%u04AE%BE%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04DB%u04AA%u04AB%B2%u04AC%u04A6%u04AF%u04AC%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04A7%B2%u04A6%u04A9%u04DD%B2%u04A8%u04A2%u04A4%u04A6%u04AC%u04AB%B2%u04AA%u04A5%B2%u04D0%u04D2%u04A7%u04D7%B2%u04D3%u04D0%u04D2%u04AC%u04A8%B2%u04D0%u04A2%u04A3%u04A9%u04AA%u04D5%u04AF%u04AC%u04AB%B2%u04D5%u04A2%u04D3%u04D0%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04A6%u04AF%u04AC%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04A7%B0%BE%B0%u0486%u04A0%u04A2%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u04B5%u04A7%u04D0%u04D9%u04D2%u04A7%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u04B0%u04D2%u04AA%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u048D%u04AC%u04D5%u04A7%u04AE%u04D1%B2%u04D0%u04A2%u04A8%u04AC%u04AB%B2%u04A2%u04A9%u04A1%u04AC%u04D2%u04AA%u04D0%u04AE%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04D1%u04A7%u04D0%B2%u04AC%u04D0%u04A6%u04A7%u04A9%u04DE%u04AF%u04AC%u04A7%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04A7%B2%u04A6%u04A9%u04DD%B2%u04A8%u04A2%u04A4%u04A6%u04AC%u04AB%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04AA%B2%u04D0%u04A2%u04A3%u04A9%u04AA%u04D5%u04AF%u04AC%u04AB%B2%u04D5%u04A2%u04D3%u04D0%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0488%u04A2%u04A4%u04A6%u04A2%u04DD%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A2%B2%u04AC%u04AD%u04AA%u04D3%u04D9%u04A0%u04A2%u04A7%u04D0%B2%u04AC%u04D0%u04A6%u04A7%u04A9%u04DE%u04AF%u04D1%u04DC%B2%u04D1%u04D5%u04A7%u04D0%u04AF%u04D1%u04DC%B2%u04AD%u04AC%u04A5%u04AA%u04D4%u04AA%u04DC%B0%BE%B0%u0488%u04A2%u04A4%u04A6%u04A2%u04DD%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A2%B2%u04D3%u04AC%u04AC%u04D0%u04A0%u04A7%u04D0%u04D3%u04D0%u04A0%u04D1%u04A7%u04D0%B2%u04AC%u04D0%u04A6%u04A7%u04A9%u04DE%u04AF%u04AC%u04AB%B2%u04D6%u04AC%u04D2%u04AE%u04A7%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B0%BE%B0%u0488%u04A2%u04A4%u04A6%u04A2%u04DD%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A2%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04A7%u04D0%B2%u04AF%u04AC%u04A0%u04D9%u04AB%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B0%BE%B0%u0488%u04A2%u04A4%u04A6%u04A2%u04DD%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A2%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04DD%u04A7%u04D0%B2%u04A0%u04A7%u04D2%u04D3%u04AA%u04DC%B2%u04AD%u04A9%u04A2%u04D0%u04D6%u04AC%u04D2%u04AE%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u048D%u04AC%u04D5%u04A7%u04AE%u04D1%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04D1%u04A8%u04A2%u04A5%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04D0%u04AC%u04D2%u04AC%u04AE%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B2%u04AF%u04A2%u04A8%u04AC%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04A6%u04AC%u04A3%u04A2%u04A0%u04AA%u04D0%u04DE%B2%u04D6%u04AC%u04D2%u04AE%u04D1%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04A0%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04A8%u04A2%u04A8%B2%u04D5%u04AA%u04D3%u04A9%u04AC%u04A0%u04AC%u04AB%B2%u04D2%u04A7%u04D3%u04D1%u04D2%u04D3%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04D2%u04A2%u04A5%u04D2%u04A7%u04DA%u04AA%u04D0%u04DE%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04D1%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04DF%u04D0%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04A2%u04A0%u04D0%u04AC%u04AE%u04A2%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AA%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04D0%u04A2%u04A3%u04A9%u04AA%u04D5%u04AF%u04D1%u04DC%B2%u04D5%u04A2%u04D3%u04D0%u04DE%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%B2%u04D7%u04D2%u04A2%u04AF%u04AA%u04D0%B2%u04D2%u04A2%u04D3%u04D3%u04D5%u04AA%u04D0%u04A2%u04AF%u04AF%u04D9%u04A7%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04A8%u04AA%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B2%u04AD%u04AC%B2%u04A2%u04AF%u04A2%u04A9%u04AA%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AA%u04AE%B2%u04D2%u04A2%u04A5%u04D2%u04A7%u04A5%u04A2%u04AE%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%B2%u04AD%u04AC%u04D3%u04D0%u04D1%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%BE%B0%u04B2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%B2%u04AF%u04A2%u04A8%u04AC%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04A0%u04AA%u04A6%u04A2%B29%u048C%u04D3%u04D0%u04A2%u04D0%u04A8%u04AA%29%B0%BE%B0%u04B3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%BE%B0%u048D%u04AC%u04A6%u04D3%u04AA%u04D3%u04D0%u04A7%u04AE%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04D1%u04D5%u04A7%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04A2%u04DD%B2%u04D6%u04AC%u04D2%u04AE%u04D1%u04A9%u04A2%B2%u04A0%u04D9%u04D2%u04A2%u04A4%u04A2%u04A7%u04D0%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%u04AD%u04D2%u04AA%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04DD%u04D7%B2%u04AD%u04D2%u04AA%u04D7%u04AC%u04A6%u04A2%B2%u04AA%B2%u04D2%u04A2%u04D3%u04D7%u04AC%u04A6%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%AF%B2%u04AF%u04A2%u04D5%u04A2%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%B9%B2%u04AD%u04D2%u04AA%u04D7%u04AC%u04A6%B2%u2280%B2%u04D2%u04A2%u04D3%u04D7%u04AC%u04A6%B0%BE%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%AF%B2%u04AF%u04A2%u04D5%u04A2%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%B9%B2%u04AD%u04D2%u04AA%u04D7%u04AC%u04A6%B2%B9%B2%u04D2%u04A2%u04D3%u04D7%u04AC%u04A6%B0%BE%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%AF%B2%u04AF%u04A2%u04D5%u04A2%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%u2280%B2%u04AD%u04D2%u04AA%u04D7%u04AC%u04A6%B2%B9%B2%u04D2%u04A2%u04D3%u04D7%u04AC%u04A6%B0%BE%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%AF%B2%u04AD%u04D2%u04AA%u04D7%u04AC%u04A6%B2E%B2%u04D2%u04A2%u04D3%u04D7%u04AC%u04A6%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04AD%u04A7%u04D2%u04A7%u04A6%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AC%u04AB%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u04A2%B2%u04D2%u04A2%u04D3%u04D3%u04D5%u04AA%u04D0%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04AC%u04A4%u04AA%u04A6%u04A2%u04A7%u04AE%u04D9%u04A7%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04A8%u04AA%B2%u04A0%u04D2%u04D1%u04D5%u04AF%u04D1%u04DC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%B2%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04D1%u04D2%u04D1%B2%u04AF%u04AC%u04A0%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B2%u04AF%u04A2%u04A8%u04AC%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04A6%u04AC%u04A3%u04A2%u04A0%u04AA%u04D0%u04DE%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04A7%u04AB%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04D1%u04D5%u04A7%u04D0%u04A2%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04D3%u04AC%u04AD%u04AC%u04D3%u04D0%u04A2%u04A0%u04AA%u04D0%u04DE%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B2%u04D3%u04AA%u04D3%u04D0%u04A7%u04AE%u04D9%B2%u04D3%B2%u04AF%u04A7%u04A5%u04A2%u04A0%u04AA%u04D3%u04AA%u04AE%u04D9%u04AE%B2%u04A8%u04AC%u04AF%u04D0%u04D2%u04AC%u04A9%u04DE%u04AF%u04D9%u04AE%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%u04AE%B0%BE%B0%u04B5%u04D0%u04AC%u04A3%u04D9%B2%u04D3%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%C1%F3%E4%F7%B2%E1%F1%FD%E0%F7%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A0%F3%A3%A7%F0%A0%A4%A5%BF%A0%A1%F4%A0%BF%A6%A2%A5%F4%BF%F3%F1%A3%A7%BF%A3%A3%F4%A0%F4%F3%A4%A6%A2%A4%F0%A7%B0%BE%B0%F5%FE%FD%F0%F3%FE%C6%FB%FF%F7%B0%A8%A0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%AB%A2%A5%A3%A3%A6%A4%AA%A6%AA%AA%BF%F4%FF%F1%FD%A3%E7%E1%A6%A3%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%u048F%u04A2%u04D5%u04A2%u04D0%u04DE%B2%u04D0%u04A7%u04D3%u04D0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%u048C%u04D0%u04A0%u04A7%u04D0%u04AA%u04D0%u04DE%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%F1%FE%E7%F7%B2%FB%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%u048D%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04D0%u04A7%u04D3%u04D0%B2%u04A7%u04DB%u04C3%B2%u04D2%u04A2%u04A5%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D3%F1%F1%F7%E1%E1%B2%F1%FD%F6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%EB%FD%E7%B2%E5%F7%E0%F7%B2%FE%FD%FD%F9%FB%FC%F5%B2%F4%FD%E0%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%D1%FE%FB%F1%F9%B2%FA%F7%E0%F7%B2%E6%FD%B2%E2%FE%F3%EB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%u048C%u04DA%u04AA%u04A3%u04AC%u04A8%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04D7%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04AC%u04A0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%u0483%u04A2%u04A9%u04A9%u04D9%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C5%F7%FB%F5%FA%E6%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%u0480%u04D2%u04A7%u04AE%u04DD%B2%u04AF%u04A2%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%DE%FB%F4%F7%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u048F%u04A2%B2%u04A0%u04A7%u04D3%u04DE%B2%u04DF%u04A8%u04D2%u04A2%u04AF%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u0480%u04D9%u04AB%u04D0%u04AA%B2%u04AA%u04A5%B2%u04AD%u04AC%u04A9%u04AF%u04AC%u04DF%u04A8%u04D2%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A2%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%u04AC%u04A0%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%DC%FD%B2%E2%FB%F1%E6%E7%E0%F7%B2%E3%E7%F7%E1%E6%FB%FD%FC%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%B8%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%A1%A1%A2%B2%E2%FD%FB%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%FD%FC%F7%B2%FE%FB%F4%F7%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%F3%FE%FE%B2%EB%FD%E7%E0%B2%FE%FB%E4%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u04B0%u04A7%u04D3%u04D0%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04C3%u04AF%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%u0480%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D0%u04A9%u04AA%u04D5%u04AF%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D5%u04A7%u04AF%u04DE%B2%u04D7%u04AC%u04D2%u04AC%u04DA%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A7%u04A8%u04D2%u04A2%u04D3%u04AF%u04AC%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%u048F%u04A7%u04A0%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048F%u04A7%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D0%u04A0%u04A7%u04D0%B3%B2%EE%B2%u048C%u04D0%u04A0%u04A7%u04D0%B2%u04AF%u04A7%u04A0%u04A7%u04D2%u04AF%u04D9%u04AB%B3%B2%EE%B2%u048C%u04DA%u04AA%u04A3%u04A8%u04A2%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%C6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F1%F3%FC%B5%E6%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F0%F7%F1%F3%E7%E1%F7%B2%E6%FA%FB%E1%B2%E2%F3%F5%F7%B2%FB%E1%B2%FC%FD%E6%B2%E2%F3%E0%E6%B2%FD%F4%B2%F3%B2%C1%D1%DD%C0%DF%B2%E2%F3%F1%F9%F3%F5%F7%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%FD%FC%F1%F7%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%FD%FC%F1%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%u048A%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04DD%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FA%FD%E0%E1%FA%FB%E2%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B2%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E2%FE%F3%EB%B2%FD%FC%F1%F7%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%F3%E7%E6%FD%FF%F3%E6%FB%F1%F3%FE%FE%EB%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%u0480%u04A2%u04DA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F3%E1%B2%FF%F3%FC%EB%B2%E6%FB%FF%F7%E1%B2%F3%E1%B2%EB%FD%E7%B2%E5%F3%FC%E6%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%C6%FA%F7%B2%FE%F3%E1%E6%B2%E1%F1%FD%E0%F7%B2%E1%F3%E4%F7%F6%B2%FB%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%FD%E7%B2%FA%F3%E4%F7%B2%F3%FE%E0%F7%F3%F6%EB%B2%F6%FD%FC%F7%B2%E6%FA%FB%E1%B2%F3%F1%E6%FB%E4%FB%E6%EB%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%u0480%u04D9%B2%u04AE%u04AC%u04A4%u04A7%u04D0%u04A7%B2%u04AD%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04DF%u04D0%u04AC%u04D0%B2%u04D0%u04A7%u04D3%u04D0%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%FB%F6%F7%FD%B2%DB%FC%E6%E0%FD%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04D0%u04DE%B2%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04A2%B2%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F3%FC%F6%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%E6%FA%F3%E6%B2%E5%FB%FE%FE%B2%F0%F7%B2%E4%F7%E0%EB%B2%E7%E1%F7%F4%E7%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%u0485%u04A2%u04A1%u04D2%u04D1%u04A5%u04A8%u04A2%BC%B2%u048D%u04AC%u04A4%u04A2%u04A9%u04D1%u04AB%u04D3%u04D0%u04A2%BE%B2%u04AD%u04AC%u04A6%u04AC%u04A4%u04A6%u04AA%u04D0%u04A7%BC%BC%BC%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%u04A3%BC%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%C2%FE%F7%F3%E1%F7%B2%E1%E6%F3%E0%E6%B2%E2%FE%F3%EB%FB%FC%F5%B2%F4%FB%E0%E1%E6%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DB%FC%F1%FD%FF%E2%FE%F7%E6%F7%B2%F3%F1%E6%FB%E4%FB%E6%EB%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%C2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%DC%FD%E6%B2%E2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%u04D9%B2%u04A6%u04A9%u04DD%B2%u04D3%u04A2%u04AE%u04AC%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%EF%EF</div><div class="quext-bns js-hidden">Your browser is not compatible with this tool.</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/-6.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/-8.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Made with eXeLearning <span>(New window)</span></span></a></p>
+</body>
+</html>

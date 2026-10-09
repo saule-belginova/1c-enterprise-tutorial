@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="ru" id="exe-page-mue2lqli-orz4rtayj">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лабораторная работа № 8 | Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Электронное учебное пособие предназначено для формирования практических навыков разработки прикладных решений на платформе «1С:Предприятие 8.3». Электронное учебное пособие включает 15 лабораторных работ, объединенных сквозным учебным проектом «ТорговаяКомпания», и содержит методические указания, пошаговые задания, профессиональные ситуации, индивидуальные задания, контрольные вопросы и средства интерактивной самопроверки.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/quick-questions/quick-questions.js"></script><link rel="stylesheet" href="../idevices/quick-questions/quick-questions.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mue2lqli-orz4rtayj" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Об электронном учебном пособии</a>
+</li>
+<li> <a href="../html/-.html" class="no-ch">Как работать с электронным учебным пособием</a>
+</li>
+<li> <a href="../html/-1-.html" class="daddy">Раздел 1. Создание структуры прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-1.html" class="no-ch">Лабораторная работа № 1</a>
+</li>
+<li> <a href="../html/-2.html" class="no-ch">Лабораторная работа № 2</a>
+</li>
+<li> <a href="../html/-3.html" class="no-ch">Лабораторная работа № 3</a>
+</li>
+<li> <a href="../html/-4.html" class="no-ch">Лабораторная работа № 4</a>
+</li>
+<li> <a href="../html/-5.html" class="no-ch">Лабораторная работа № 5</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/-2-.html" class="daddy">Раздел 2. Организация учета, отчетности и интерфейса</a>
+<ul class="other-section">
+<li> <a href="../html/-6.html" class="no-ch">Лабораторная работа № 6</a>
+</li>
+<li> <a href="../html/-7.html" class="no-ch">Лабораторная работа № 7</a>
+</li>
+<li class="active"> <a href="../html/-8.html" class="active no-ch">Лабораторная работа № 8</a>
+</li>
+<li> <a href="../html/-9.html" class="no-ch">Лабораторная работа № 9</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-3-1.html" class="daddy">Раздел 3. Программирование в «1С:Предприятие»</a>
+<ul class="other-section">
+<li> <a href="../html/-10.html" class="no-ch">Лабораторная работа № 10</a>
+</li>
+<li> <a href="../html/-11.html" class="no-ch">Лабораторная работа № 11</a>
+</li>
+<li> <a href="../html/-12.html" class="no-ch">Лабораторная работа № 12</a>
+</li>
+<li> <a href="../html/-13.html" class="no-ch">Лабораторная работа № 13</a>
+</li>
+<li> <a href="../html/-14.html" class="no-ch">Лабораторная работа № 14</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-4-.html" class="daddy">Раздел 4. Завершение разработки прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-15.html" class="no-ch">Лабораторная работа № 15</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/--2.html" class="no-ch">Итоговая самопроверка</a>
+</li>
+<li> <a href="../html/page.html" class="no-ch">Глоссарий</a>
+</li>
+</ul>
+</nav><main id="page-mue2lqli-orz4rtayj" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</p></div>
+<div class="page-header"><h1 class="page-title">Лабораторная работа № 8</h1></div>
+</header><div id="page-content-page-mue2lqli-orz4rtayj" class="page-content">
+<article id="block-mun3o4o3-k5pnpe8cy" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711966881-2hp87hddu" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711966881-2hp87hddu&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Создание отчета «ОстаткиТоваров» с использованием системы компоновки данных</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Цель работы</h3>
+<p>освоить практические приемы создания отчета на платформе «1С:Предприятие», научиться использовать систему компоновки данных, выбирать источник данных, настраивать поля, группировки и отборы, а также формировать отчет об остатках товаров на складах.</p>
+<p><strong>После выполнения лабораторной работы студент должен уметь:</strong></p>
+<ul>
+<li>создавать объект конфигурации вида «Отчет»;</li>
+<li>создавать схему компоновки данных;</li>
+<li>выбирать регистр накопления в качестве источника данных;</li>
+<li>использовать виртуальную таблицу остатков;</li>
+<li>настраивать выбранные поля отчета;</li>
+<li>создавать группировки по товарам и складам;</li>
+<li>добавлять отборы;</li>
+<li>включать отчет в подсистему;</li>
+<li>обновлять конфигурацию базы данных;</li>
+<li>формировать и анализировать отчет в режиме «Предприятие»;</li>
+<li>сравнивать данные отчета с предполагаемыми остатками.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Краткие теоретические сведения</h3>
+<p>Отчет представляет собой объект конфигурации, предназначенный для получения, обработки и представления данных информационной базы в удобной для пользователя форме.</p>
+<p>Для создания отчетов в системе «1С:Предприятие» широко применяется система компоновки данных, сокращенно СКД. Она позволяет настроить источник данных, поля, группировки, отборы, сортировку и итоговые показатели без написания значительного объема программного кода.</p>
+<p>Для получения актуальных остатков товаров используется виртуальная таблица регистра накопления «РегистрНакопления.ОстаткиТоваров.Остатки».</p>
+<p>Она позволяет получить значения ресурсов регистра на определенный момент времени.</p>
+<p>Для отчета «Остатки товаров» необходимы следующие данные:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле отчета</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Назначение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Определяет товар</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Определяет место хранения</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">КоличествоОстаток</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Показывает фактический остаток товара</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Профессиональная ситуация</h3>
+<p>В конфигурации «ТорговаяКомпания» настроено проведение документов поступления и реализации товаров. Документы формируют движения по регистру накопления «ОстаткиТоваров».</p>
+<p>Однако пользователю пока недоступно удобное средство для просмотра фактических остатков. Руководитель проекта поручил создать отчет, который позволит определить:</p>
+<ul>
+<li>какие товары находятся на складах;</li>
+<li>какое количество каждого товара имеется в наличии;</li>
+<li>на каком складе хранится товар;</li>
+<li>соответствуют ли данные учета проведенным документам.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3ojn5-40xujd9si" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790711986286-kmx39tc1k" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790711986286-kmx39tc1k&quot;}">
+<div class="exe-text-template">
+    <h2><strong>Порядок выполнения работы</strong></h2>
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 1. Проверка исходных данных</div>
+<p>Запустите информационную базу «ТорговаяКомпания» в режиме «Предприятие».</p>
+<p>Убедитесь, что ранее созданы и проведены документы:</p>
+<ul>
+<li>Поступление товаров;</li>
+<li>Реализация товаров.</li>
+</ul>
+<p>По учебному примеру предполагаемые остатки должны составлять:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Товар</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поступило</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Реализовано</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Предполагаемый остаток</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Ноутбук Lenovo IdeaPad</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">10</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">2</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">8</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Принтер HP LaserJet</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">8</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">1</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">7</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютерная мышь</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">20</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">0</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">20</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Если документы не проведены, откройте их и нажмите кнопку «Провести».</p>
+<p>После проверки закройте режим «Предприятие» и откройте информационную базу в режиме «Конфигуратор».</p>
+</div>
+</div>
+</div>
+</article><article id="block-mun3owfc-5ncdwdpui" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712002855-l9z2g2x9z" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712002855-l9z2g2x9z&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 2. Создание отчета</div>
+<p>В дереве конфигурации найдите ветвь «Отчеты».</p>
+<p>Щелкните по ней правой кнопкой мыши и выберите команду «Добавить».</p>
+<p>В окне редактирования нового отчета задайте следующие свойства:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ОстаткиТоваров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Остатки товаров</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Комментарий</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Отчет предназначен для анализа остатков товаров на складах</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Имя объекта вводится без пробелов. Синоним будет отображаться в пользовательском интерфейсе (Рисунок 8.1).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid60.png" alt="Рисунок 8.1 - Созданный объект отчета «ОстаткиТоваров»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.1 - Созданный объект отчета «ОстаткиТоваров»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3pasy-xsrb7dppx" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712021489-mrnkcf16i" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712021489-mrnkcf16i&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 3. Включение отчета в подсистему</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1. </p>
+<p>Откройте раздел «Подсистемы» созданного отчета.</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>Установите флажок напротив подсистемы «Складской учет»</p>
+<p>При необходимости отчет можно дополнительно включить в подсистему «Продажи», однако для данной лабораторной работы основной является подсистема «Складской учет».</p>
+<p>После включения в подсистему отчет станет доступен пользователю в соответствующем разделе интерфейса.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid61.png" alt="Рисунок 8.2 - Включение отчета «Остатки товаров» в подсистему «СкладскойУчет»." style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.2 - Включение отчета «Остатки товаров» в подсистему «СкладскойУчет».</div>
+</div>
+<p><strong>Контрольный результат.</strong></p>
+<p>После выполнения задания:</p>
+<ul>
+<li>отчет включен в подсистему «СкладскойУчет»;</li>
+<li>после обновления конфигурации команда «Остатки товаров» будет доступна пользователю в разделе «Складской учет».</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3psb8-usnw0nlhg" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712044178-hixhv4xdv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712044178-hixhv4xdv&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 4. Создание схемы компоновки данных</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>Во вкладке «Оснвные» окна редактирования отчета найдите свойство «Основная схема компоновки данных». Нажмите кнопку открытия или команду «Создать» (Если нет данной кнопки, нажмите на кнопку «Открыть схему компоновки данных»).</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>В открывшемся окне выберите «Схема компоновки данных». Нажмите «Готово» (Рисунок 8.3).</p>
+<p>После этого автоматически откроется редактор схемы компоновки данных.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid62.png" alt="Рисунок 8.3 - Создание основной схемы компоновки данных" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.3 - Создание основной схемы компоновки данных</div>
+</div>
+<p>Схема компоновки данных определяет:</p>
+<ul>
+<li>источник информации;</li>
+<li>состав полей;</li>
+<li>параметры;</li>
+<li>группировки;</li>
+<li>отборы;</li>
+<li>порядок представления результата.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3qc4s-aa6n7kr5x" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712069866-5stkxtw42" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712069866-5stkxtw42&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 5. Создание набора данных</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>В редакторе схемы компоновки данных откройте вкладку «Наборы данных».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>Нажмите кнопку «Добавить набор данных» и выберите «Добавить набор данных – Запрос», так как дальше мы будем строить отчет на основе запроса к регистру накопления «ОстаткиТоваров.Остатки».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3.</p>
+<p>Поменяйте имя набора данных «ОстаткиТоваров» (двойным щелчком). Затем нажмите кнопку «Конструктор запроса» (Рисунок 8.4).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid63.png" alt="Рисунок 8.4 — Создание набора данных типа «Запрос»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.4 — Создание набора данных типа «Запрос»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3qu5h-c2kwicopa" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712093219-m1cx1pxpl" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712093219-m1cx1pxpl&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 6. Выбор источника данных в конструкторе запроса</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>В левой части конструктора запроса раскройте ветвь «Регистры накопления».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>В дереве объектов конструктора запроса найдите виртуальную таблицу «ОстаткиТоваров».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3.</p>
+<p>В появившемся списке выбираем «ОстаткиТоваров.Остатки» и перенесем в центральную часть, нажав на кнопку «&gt;» (Рисунок 8.5).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid64.png" alt="Рисунок 8.5 - Выбор виртуальной таблицы регистра накопления" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.5 - Выбор виртуальной таблицы регистра накопления</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3r96c-vkvk2uy31" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712112690-4k8pkhuaz" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712112690-4k8pkhuaz&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 7. Выбор полей запроса</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>Раскрыть таблицу «ОстаткиТоваров.Остатки» нажав на значок «+».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>В виртуальной таблице выберите поля:</p>
+<ul>
+<li>Товар;</li>
+<li>Склад;</li>
+<li>КоличествоОстаток.</li>
+</ul>
+<p>Перенесите их в область выбранных полей.</p>
+<p>Итоговый состав должен иметь вид:</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле источника</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Назначение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Измерение регистра</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Измерение регистра</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">КоличествоОстаток</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Остаток ресурса «Количество»</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Нажмите кнопку «ОК» для завершения работы конструктора запроса (Рисунок 8.6).</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid65.png" alt="Рисунок 8.6 - Выбор полей отчета в конструкторе запроса" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.6 - Выбор полей отчета в конструкторе запроса</div>
+</div>
+<p>После выполнения задания:</p>
+<ul>
+<li>создан набор данных типа «Запрос»;</li>
+<li>источником данных выбрана таблица «ОстаткиТоваров.Остатки»;</li>
+<li>в запрос включены поля: «Товар», «Склад», КоличествоОстаток».</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3roo3-ahv79jfiu" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712132769-dcha3e8r9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712132769-dcha3e8r9&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 8. Проверка текста запроса</div>
+<p>После закрытия конструктора запроса необходимо убедиться, что:</p>
+<ul>
+<li>набор данных называется «ОстаткиТоваров»;</li>
+<li>отображаются поля Склад, Товар и КоличествоОстаток;</li>
+<li>для полей Склад и Товар автоматически установлена роль «Измерение»;</li>
+<li>в нижней части окна отображается автоматически сформированный текст запроса (Рисунок 8.7).</li>
+</ul>
+<p>Наименования псевдонимов могут отличаться в зависимости от версии платформы. Самостоятельно редактировать сформированный текст запроса на данном этапе не требуется.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid66.png" alt="Рисунок 8.7 - Сформированный запрос набора данных схемы компоновки." style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.7 - Сформированный запрос набора данных схемы компоновки.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3s27n-izutexi53" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712150321-2kjgpbi7u" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712150321-2kjgpbi7u&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 9. Настройка ресурсов</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 1.</p>
+<p>Перейдите на вкладку «Ресурсы».</p>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 2.</p>
+<p>Выделите поле «КоличествоОстаток», нажмите &gt; (одинарная стрелка вправо между списками).</p>
+<p>Справа появится (Рисунок 8.8):</p>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Выражение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">КоличествоОстаток</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Сумма(КоличествоОстаток)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>В некоторых версиях платформа сама подставляет агрегатную функцию, в некоторых — нет.</p>
+<p>Ресурс необходим для вычисления итогового количества по группам товаров и складов.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid67.png" alt="Рисунок 8.8 - Настройка ресурса «КоличествоОстаток»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.8 - Настройка ресурса «КоличествоОстаток»</div>
+</div>
+<p style="color: #00796b; font-size: 18px; font-weight: bold; margin: 20px 0 8px;">Шаг 3.</p>
+<p>Переходите на вкладку «Параметры». Убедитесь, что автоматически создан параметр «Период» типа «Дата (Рисунок 8.9). Если параметр создан автоматически, никаких изменений выполнять не требуется.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid68.png" alt="Рисунок 8.9 - Параметр «Период» схемы компоновки данных." style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.9 - Параметр «Период» схемы компоновки данных.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3sick-7d88hntcj" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712171234-4ld3t5sve" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712171234-4ld3t5sve&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 10. Настройка структуры отчета и группировки данных</div>
+<ol>
+<li>Перейдите на вкладку «Настройки».</li>
+<li>В разделе структуры отчета (в правой части) выделите элемент «Отчет».</li>
+<li>Добавьте группировку используя кнопку «Добавить» и выбрав пункт «Новая группировка...».</li>
+<li>В открывшемся окне в качестве поля группировки выберите «Склад». Тип группировки оставьте «Без иерархии». Нажмите ОК (Рисунок 8.9).</li>
+</ol>
+<p>После создания группировки структура отчета должна иметь вид:</p>
+<p>Отчет<br />└─ Склад</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid69.png" alt="Рисунок 8.9 - Создание группировки «Склад» в структуре отчета" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.9 - Создание группировки «Склад» в структуре отчета</div>
+</div>
+<p>  5. Добавьте вложенную группировку «Товар»</p>
+<p>  6. После создания группировок, в нижней части окна откройте вкладку «Выбранные поля». Из списка доступных полей добавьте «КоличествоОстаток». (Рисунок 8.10).</p>
+<p>После настройки выбранных полей структура отчета должна обеспечивать вывод товаров и их остатков внутри каждой группы склада.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid70.png" alt="Рисунок 8.10 – Настройка группировкаи данных отчета по складам с выводом «КоличествоОстаток»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.10 – Настройка группировкаи данных отчета по складам с выводом «КоличествоОстаток»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3syal-j9f0tzf3u" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712191899-1d53466ta" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712191899-1d53466ta&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 11. Формирование отчета «Остатки товаров»</div>
+<ol>
+<li>Сохранить конфигурацию.</li>
+<li>Обновить конфигурацию базы данных (F7 или Конфигурация → Обновить конфигурацию базы данных).</li>
+<li>Запустить 1С:Предприятие.</li>
+<li>Открыть Складской учет → Отчеты → Остатки товаров. Нажать «Сформировать» (Рисунок 8.11).</li>
+</ol>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid71.png" alt="Рисунок 8.11 - Результат формирования отчета «Остатки товаров»." style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.11 - Результат формирования отчета «Остатки товаров».</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3tcgd-kow19f26h" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712210251-c62ad8u2y" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712210251-c62ad8u2y&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 12. Настройка отбора по складу</div>
+<ol>
+<li>Откройте отчет «Остатки товаров» в режиме Конфигуратор.</li>
+<li>Откройте «Основную схему компоновки данных».</li>
+<li>Перейдите на вкладку «Настройки». Выделив элемент «Отчет» в структуре настроек, в нижней части окна откройте вкладку «Отбор».</li>
+<li>Нажмите кнопку «Добавить» (зеленый плюс) и выберите команду «Новый элемент».</li>
+<li>Должно появиться окно выбора поля. Выберите «Склад», и нажмите ОК. Поле «Правое значение» остается пустым. Это позволит пользователю выбирать склад непосредственно при формировании отчета (Рисцнок 8.12).</li>
+</ol>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid72.png" alt="Рисунок 8.12 - Настройка отбора по складу" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.12 - Настройка отбора по складу</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3tq6d-2j2xabl3g" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712228035-x2uh478vv" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712228035-x2uh478vv&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 13. Настройка отбора по товару</div>
+<ol>
+<li>Оставьте открытой вкладку «Настройки» схемы компоновки данных. Выделенным должен быть элемент «Отчет»<br />Именно для отчета мы добавляем доступные пользователю отборы.</li>
+<li>Откройте вкладку «Отбор». В списке уже присутствует отбор «Склад»</li>
+<li>Нажмите кнопку «Добавить» (зеленый плюс справа). В появившемся меню выберите «Новый элемент».</li>
+<li>В открывшемся окне выберите поле «Товар». Нажмите ОК.</li>
+<li>Убедитесь, что новый отбор имеет параметры:</li>
+</ol>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Левое значение</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Вид сравнения</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Правое значение</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Режим отбора</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Равно</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">(не заполнено)</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Быстрый доступ</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Поле «Правое значение» оставьте пустым.</p>
+<p>Это позволит пользователю самостоятельно выбирать товар при формировании отчета.</p>
+<p>    6. После добавления элементов отбора снимите флажки слева от условий «Склад» и «Товар». Это позволит сделать отборы доступными пользователю, не применяя их автоматически при формировании отчета (Рисунок 8.13).</p>
+<p><strong>Контрольный результат.</strong></p>
+<p>После выполнения задания:</p>
+<ul>
+<li>в настройках отчета доступны два отбора:<br />○ Склад;<br />○ Товар;</li>
+<li>для обоих отборов не задано фиксированное значение;</li>
+<li>пользователь сможет формировать отчет:<br />○ по всем складам и товарам;<br />○ по выбранному складу;<br />○ по выбранному товару;<br />○ по выбранному товару на выбранном складе.</li>
+</ul>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid73.png" alt="Рисунок 8.13 - Настройка отбора по полю «Товар»" style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.13 - Настройка отбора по полю «Товар»</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3u29x-xz50owgl6" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712243715-tncg3qhjk" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712243715-tncg3qhjk&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 14. Сохранение изменений и обновление конфигурации базы данных</div>
+<ol>
+<li>Сохранение схемы компоновки данных.<br />Закройте редактор схемы компоновки данных.<br />Если система предложит сохранить изменения, нажмите «Да».</li>
+<li>Проверка отчета.<br />Откройте объект Отчет «Остатки товаров».<br />Убедитесь, что свойство «Основная схема компоновки данных» содержит созданную схему.<br />Например: «ОсновнаяСхемаКомпоновкиДанных».</li>
+<li>Сохранение конфигурации.<br />Выполните команду Конфигурация → Сохранить конфигурацию или нажмите Ctrl + S.</li>
+<li>Обновление конфигурации базы данных.<br />Выполните команду Конфигурация → Обновить конфигурацию базы данных или нажмите клавишу F7.</li>
+<li>Подтверждение обновления.<br />Если появится окно «Реорганизация информации», нажмите «Принять».<br />Дождитесь окончания обновления конфигурации.</li>
+</ol>
+<p><strong>Контрольный результат</strong></p>
+<p>После выполнения задания:</p>
+<ul>
+<li>схема компоновки данных сохранена;</li>
+<li>конфигурация успешно сохранена;</li>
+<li>база данных обновлена;</li>
+<li>ошибки обновления отсутствуют.</li>
+</ul>
+<div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 15. Проверка работы отчета в режиме «Предприятие»</div>
+<ol>
+<li>Запуск режима «Предприятие».<br />Выполните команду Отладка → Начать отладку или нажмите клавишу F5.</li>
+<li>Открытие отчета.<br />Перейдите в раздел «Складской учет».<br />Откройте команду «Отчеты → Остатки товаров».</li>
+<li>Формирование отчета (Рисунок 8.14).<br />Нажмите кнопку «Сформировать».<br />Если в отчете используется параметр «Период», при необходимости укажите дату, на которую требуется получить остатки.</li>
+</ol>
+<p><strong>Контрольный результат.</strong></p>
+<p>После формирования отчета должны отображаться:</p>
+<ul>
+<li>склады;</li>
+<li>товары, сгруппированные по складам;</li>
+<li>остатки каждого товара;</li>
+<li>итоговое количество по каждому складу и общий итог.</li>
+</ul>
+<p>Пример структуры отчета:</p>
+<p>ОсновнойСклад<br />  Компьютерная мышь<br />  Ноутбук Lenovo IdeaPad<br />  Принтер HP LaserJet<br />Итого</p>
+<p><em>Примечание.</em> Количественные значения могут отличаться от приведенных в примере, если при выполнении предыдущих лабораторных работ были созданы дополнительные документы поступления или реализации товаров.</p>
+<div style="text-align: center; margin: 20px 0 24px;"><img src="../content/resources/blobid74.png" alt="Рисунок 8.14 - Сформированный отчет «Остатки товаров»." style="max-width: 100%; height: auto;" />
+<div style="margin-top: 8px; font-size: 14px; color: #546e7a;">Рисунок 8.14 - Сформированный отчет «Остатки товаров».</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3ugf0-3piz4s1o3" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712262042-2d70kkm46" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790712262042-2d70kkm46&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Индивидуальные задания</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 1. Проверка отчета при добавлении нового документа</h3>
+<p><strong>Цель:</strong> убедиться, что отчет автоматически использует актуальные данные регистра накопления.</p>
+<p>Порядок выполнения:</p>
+<ol>
+<li>Создайте новый документ «Поступление товаров».</li>
+<li>Добавьте одну строку, например:</li>
+</ol>
+<div style="overflow-x: auto;">
+<table style="width: 100%; border-collapse: collapse; margin: 12px 0 20px;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Поле</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Склад</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">ОсновнойСклад</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Товар</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Компьютерная мышь</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px;">5</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol start="3">
+<li>Проведите документ.</li>
+<li>Сформируйте отчет «Остатки товаров».</li>
+</ol>
+<p><strong>Контрольный результат:</strong></p>
+<p>Количество компьютерных мышей должно увеличиться на 5 единиц.</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 2. Работа с несколькими складами</h3>
+<p><strong>Цель:</strong> проверить работу группировки отчета при наличии нескольких складов.</p>
+<p>Порядок выполнения:</p>
+<ol>
+<li>Создайте новый склад «РезервныйСклад».</li>
+<li>Создайте документ «Поступление товаров».</li>
+<li>Укажите новый склад и один из товаров.</li>
+<li>Проведите документ.</li>
+<li>Сформируйте отчет повторно.</li>
+</ol>
+<p><strong>Контрольный результат.</strong></p>
+<p>В отчете должны появиться группы:</p>
+<ul>
+<li>«ОсновнойСклад»,</li>
+<li>«РезервныйСклад».</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 3. Изменение структуры отчета</h3>
+<p><strong>Цель:</strong> изменить порядок группировки данных.</p>
+<p>Порядок выполнения:</p>
+<p>В конфигураторе измените структуру схемы компоновки данных так, чтобы сначала отображались товары, а внутри каждого товара — склады.</p>
+<p><strong>Контрольный результат.</strong></p>
+<p>Отчет должен иметь вид:</p>
+<p>Ноутбук Lenovo IdeaPad<br />  ОсновнойСклад<br />  РезервныйСклад<br />Компьютерная мышь<br />  ОсновнойСклад</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 4. Добавление нового ресурса</h3>
+<p><strong>Цель:</strong> познакомиться с настройкой ресурсов схемы компоновки данных.</p>
+<p>Порядок выполнения:</p>
+<p>Попробуйте самостоятельно добавить новый ресурс или изменить способ вычисления существующего ресурса.</p>
+<p><strong>Контрольный результат.</strong></p>
+<p>Изменения должны корректно отражаться при формировании отчета.</p>
+<p><em>Примечание.</em> Если структура регистра не содержит других числовых полей, выполнение задания ограничивается исследованием возможностей настройки ресурсов.</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Индивидуальное задание 5. Исследование пользовательских настроек отчета</h3>
+<p><strong>Цель:</strong> изучить возможности настройки варианта отчета в режиме «Предприятие».</p>
+<p>Порядок выполнения:</p>
+<p>Исследуйте команды:</p>
+<ul>
+<li>Еще → Изменить вариант;</li>
+<li>Еще → Выбрать настройки;</li>
+<li>Еще → Сохранить настройки.</li>
+</ul>
+<p>Определите, какие возможности доступны пользователю в учебной версии платформы.</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Контрольные вопросы</h3>
+<ol>
+<li>Для чего предназначена схема компоновки данных в системе «1С:Предприятие»?</li>
+<li>Как создать новый отчет в конфигураторе?</li>
+<li>Что представляет собой набор данных схемы компоновки данных?</li>
+<li>Чем отличается запрос к регистру накопления Остатки от запроса к регистру Обороты?</li>
+<li>Что такое ресурс схемы компоновки данных?</li>
+<li>Для чего используются параметры отчета?</li>
+<li>Чем отличается параметр отчета от отбора?</li>
+<li>Для чего применяется группировка данных в отчете?</li>
+<li>Как связаны регистр накопления и отчет «Остатки товаров»?</li>
+<li>Почему после проведения документа данные отчета изменяются автоматически?</li>
+<li>Какие действия необходимо выполнить после изменения конфигурации перед запуском режима «Предприятие»?</li>
+<li>Какие преимущества предоставляет использование схемы компоновки данных по сравнению с программным формированием отчета?</li>
+</ol>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Содержание отчета</h3>
+<p>В результате выполнения лабораторной работы должен быть сформирован отчет «Остатки товаров», содержащий сведения об остатках товаров на складах организации.</p>
+<p>Отчет должен включать:</p>
+<ul>
+<li>наименование склада;</li>
+<li>перечень товаров, сгруппированных по каждому складу;</li>
+<li>количество товара в остатке;</li>
+<li>итоговое количество товаров по каждому складу;</li>
+<li>общий итог по отчету.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun3w3k9-d9obuwi25" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790712338695-0z7tkuw3r" class="idevice_node quick-questions" data-idevice-path="../idevices/quick-questions/" data-idevice-type="quick-questions">
+<div class="quext-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790712338695-0z7tkuw3r" data-evaluationb="false" data-evaluationid="2a15b267-23f2-407f-ac15-11f2fa6406b5"></div><div class="quext-instructions QXTP-instructions"><p><strong>Проверьте себя</strong><br />Ответьте на вопросы по выполненной лабораторной работе. В каждом вопросе выберите один правильный вариант ответа.</p></div><div class="quext-version js-hidden">2</div><div class="quext-feedback-game"></div><div class="quext-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3%E7%D7%EA%E6%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%B7%A1%D1%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%E7%A2%A6%A3%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A6%D4%B7%A1%D1%BD%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%A1%D1%F0%E0%B7%A0%A2%BD%B7%A1%D7%B7%E7%A2%A6%A3%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A2%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A6%D0%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%BC%B7%A0%A2%B7%E7%A2%A6%A3%A0%B7%A0%A2%B7%E7%A2%A6%A1%D3%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A4%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D1%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D6%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%A0%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A2%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%D1%FA%FD%FD%E1%F7%B2%E6%FA%F7%B2%E0%FB%F5%FA%E6%B2%F3%FC%E1%E5%F7%E0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04A0%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04D3%u04D7%u04A7%u04AE%u04D1%B2%u04A8%u04AC%u04AE%u04AD%u04AC%u04AF%u04AC%u04A0%u04A8%u04AA%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04AA%u04D3%u04A2%u04AF%u04AA%u04DD%B2%u04D3%u04D0%u04D2%u04D1%u04A8%u04D0%u04D1%u04D2%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AC%u04A0%B2%u04AA%B2%u04AA%u04D7%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04AC%u04A0%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04AA%u04D3%u04A2%u04AF%u04AA%u04DD%B2%u04AA%u04D3%u04D0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04AA%B2%u04AF%u04A2%u04D3%u04D0%u04D2%u04AC%u04A7%u04A8%B2%u04AD%u04D2%u04A7%u04A6%u04D3%u04D0%u04A2%u04A0%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04AA%u04D3%u04A2%u04AF%u04AA%u04DD%B2%u04A6%u04A0%u04AA%u04A4%u04A7%u04AF%u04AA%u04AB%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04AC%u04A0%B2%u04AD%u04AC%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04AE%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04AA%u04D3%u04A2%u04AF%u04AA%u04DD%B2%u04D3%u04AC%u04D3%u04D0%u04A2%u04A0%u04A2%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04A0%B2%u04AF%u04A2%u04D3%u04D0%u04D2%u04AC%u04AB%u04A8%u04A2%u04D7%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B2%u04AD%u04D2%u04AA%u04AE%u04A7%u04AF%u04DD%u04DC%u04D0%B2%u04A1%u04D2%u04D1%u04AD%u04AD%u04AA%u04D2%u04AC%u04A0%u04A8%u04D1%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AC%u04A1%u04D2%u04A2%u04AF%u04AA%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04D3%u04AC%u04D3%u04D0%u04A2%u04A0%u04A2%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A7%u04AB%B2%u04AD%u04AC%B2%u04A5%u04A2%u04A6%u04A2%u04AF%u04AF%u04AC%u04AE%u04D1%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04DC%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04D2%u04A7%u04A6%u04A7%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04AC%u04D3%u04A9%u04A7%u04A6%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04AF%u04AC%u04D3%u04D0%u04AA%B2%u04A0%u04D9%u04A0%u04AC%u04A6%u04A2%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A7%u04AB%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04A3%u04D8%u04A7%u04A6%u04AA%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A7%u04AB%B2%u04AD%u04AC%B2%u04A0%u04D9%u04A3%u04D2%u04A2%u04AF%u04AF%u04AC%u04AE%u04D1%B2%u04A2%u04AF%u04A2%u04A9%u04AA%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AC%u04AE%u04D1%B2%u04AD%u04D2%u04AA%u04A5%u04AF%u04A2%u04A8%u04D1%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A0%u04D9%u04D5%u04AA%u04D3%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04A0%u04D9%u04D2%u04A2%u04A4%u04A7%u04AF%u04AA%u04DD%B2%u04A0%B2%u04A8%u04A2%u04A4%u04A6%u04AC%u04AB%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A7%B2%u04AF%u04A2%u04A3%u04AC%u04D2%u04A2%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AF%u04A7%u04AC%u04A3%u04D7%u04AC%u04A6%u04AA%u04AE%u04AC%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04A6%u04AC%u04A3%u04A2%u04A0%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AF%u04AC%u04A0%u04AC%u04A1%u04AC%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B2%u04A0%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04A3%u04AF%u04AC%u04A0%u04AA%u04D0%u04DE%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A3%u04A2%u04A5%u04D9%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%BE%B0%u048D%u04D2%u04AC%u04A0%u04A7%u04D2%u04AA%u04D0%u04DE%B2%u04D3%u04AA%u04AF%u04D0%u04A2%u04A8%u04D3%u04AA%u04D3%B2%u04A0%u04D3%u04A7%u04D7%B2%u04AD%u04D2%u04AC%u04A1%u04D2%u04A2%u04AE%u04AE%u04AF%u04D9%u04D7%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%u04AB%B0%BE%B0%u0480%u04D9%u04A1%u04D2%u04D1%u04A5%u04AA%u04D0%u04DE%B2%u04AA%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04AC%u04AF%u04AF%u04D1%u04DC%B2%u04A3%u04A2%u04A5%u04D1%B2%u04A0%B2%u04D2%u04A7%u04A5%u04A7%u04D2%u04A0%u04AF%u04D9%u04AB%B2%u04D6%u04A2%u04AB%u04A9%B0%BE%B0%u04B3%u04D2%u04A2%u04A0%u04AF%u04AA%u04D0%u04DE%B2%u04AC%u04D3%u04AF%u04AC%u04A0%u04AF%u04D1%u04DC%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04D3%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04A7%u04AB%B2%u04AD%u04AC%u04D3%u04D0%u04A2%u04A0%u04DB%u04AA%u04A8%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AA%u04A7%B2%u04AF%u04AC%u04A0%u04AC%u04A1%u04AC%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04A2%B2%u04AD%u04AC%u04D3%u04D0%u04D1%u04AD%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04AC%u04A9%u04A4%u04AF%u04AC%B2%u04AC%u04D0%u04D2%u04A2%u04A5%u04AA%u04D0%u04DE%u04D3%u04DD%B2%u04A0%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AC%u04A3%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04A8%u04A2%u04D7%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%u04A1%u04AC%B2%u04D6%u04AC%u04D2%u04AE%u04AA%u04D2%u04AC%u04A0%u04A2%u04AF%u04AA%u04DD%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%u04D3%u04AC%u04AC%u04D0%u04A0%u04A7%u04D0%u04D3%u04D0%u04A0%u04D1%u04DC%u04DB%u04A7%u04A1%u04AC%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04A2%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%B2%u04A6%u04AC%u04A9%u04A4%u04A7%u04AF%B2%u04D1%u04AE%u04A7%u04AF%u04DE%u04DA%u04AA%u04D0%u04DE%u04D3%u04DD%B0%BE%B0%u04B3%u04AC%u04D3%u04D0%u04A2%u04A0%B2%u04AA%u04A5%u04AE%u04A7%u04D2%u04A7%u04AF%u04AA%u04AB%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%B2%u04A6%u04AC%u04A9%u04A4%u04A7%u04AF%B2%u04A2%u04A0%u04D0%u04AC%u04AE%u04A2%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AA%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04AA%u04D0%u04DE%u04D3%u04DD%B0%BE%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B2%u04A6%u04AC%u04A9%u04A4%u04A7%u04AF%B2%u04A2%u04A0%u04D0%u04AC%u04AE%u04A2%u04D0%u04AA%u04D5%u04A7%u04D3%u04A8%u04AA%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04D0%u04DE%u04D3%u04DD%B2%u04A5%u04A2%u04AF%u04AC%u04A0%u04AC%B0%BE%B0%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%u04D3%u04AC%u04AC%u04D0%u04A0%u04A7%u04D0%u04D3%u04D0%u04A0%u04D1%u04DC%u04DB%u04A7%u04A1%u04AC%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04A2%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%B2%u04A6%u04AC%u04A9%u04A4%u04A7%u04AF%B2%u04D1%u04A0%u04A7%u04A9%u04AA%u04D5%u04AA%u04D0%u04DE%u04D3%u04DD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B2%u04AD%u04AC%u04A6%u04D0%u04A0%u04A7%u04D2%u04A4%u04A6%u04A2%u04A7%u04D0%B2%u04A8%u04AC%u04D2%u04D2%u04A7%u04A8%u04D0%u04AF%u04D1%u04DC%B2%u04AF%u04A2%u04D3%u04D0%u04D2%u04AC%u04AB%u04A8%u04D1%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A2%B29%u048C%u04D3%u04D0%u04A2%u04D0%u04A8%u04AA%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%29%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AD%u04AC%u04A8%u04A2%u04A5%u04A2%u04AF%u04D9%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04AF%u04AC%u04AE%u04A7%u04D2%u04A2%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04A6%u04A7%u04AF%u04AF%u04D9%u04D7%B2%u04A6%u04AC%u04A8%u04D1%u04AE%u04A7%u04AF%u04D0%u04AC%u04A0%B0%BE%B0%u0480%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AD%u04AC%u04A8%u04A2%u04A5%u04A2%u04AF%u04D9%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04D9%B2%u04AA%B2%u04AA%u04D7%B2%u04AC%u04D3%u04D0%u04A2%u04D0%u04A8%u04AA%B2%u04A0%B2%u04D2%u04A2%u04A5%u04D2%u04A7%u04A5%u04A7%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04AC%u04A0%B0%BE%B0%u0480%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AD%u04AC%u04A8%u04A2%u04A5%u04A2%u04AF%u04D9%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04D9%B2%u04D3%u04AD%u04D2%u04A2%u04A0%u04AC%u04D5%u04AF%u04AA%u04A8%u04A2%B2%u04D0%u04AC%u04A0%u04A2%u04D2%u04AC%u04A0%B0%BE%B0%u0480%B2%u04AC%u04D0%u04D5%u04A7%u04D0%u04A7%B2%u04AD%u04AC%u04A8%u04A2%u04A5%u04A2%u04AF%B2%u04D3%u04AD%u04AA%u04D3%u04AC%u04A8%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04AC%u04A0%B2%u04AE%u04A7%u04D0%u04A2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%C1%F3%E4%F7%B2%E1%F1%FD%E0%F7%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A0%F3%A3%A7%F0%A0%A4%A5%BF%A0%A1%F4%A0%BF%A6%A2%A5%F4%BF%F3%F1%A3%A7%BF%A3%A3%F4%A0%F4%F3%A4%A6%A2%A4%F0%A7%B0%BE%B0%F5%FE%FD%F0%F3%FE%C6%FB%FF%F7%B0%A8%A0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%AB%A2%A5%A3%A0%A1%A1%AA%A4%AB%A7%BF%A2%E8%A5%E6%F9%E7%E5%A1%E0%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%u048F%u04A2%u04D5%u04A2%u04D0%u04DE%B2%u04D0%u04A7%u04D3%u04D0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%u048C%u04D0%u04A0%u04A7%u04D0%u04AA%u04D0%u04DE%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%F1%FE%E7%F7%B2%FB%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%u048D%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04D0%u04A7%u04D3%u04D0%B2%u04A7%u04DB%u04C3%B2%u04D2%u04A2%u04A5%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D3%F1%F1%F7%E1%E1%B2%F1%FD%F6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%EB%FD%E7%B2%E5%F7%E0%F7%B2%FE%FD%FD%F9%FB%FC%F5%B2%F4%FD%E0%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%D1%FE%FB%F1%F9%B2%FA%F7%E0%F7%B2%E6%FD%B2%E2%FE%F3%EB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%u048C%u04DA%u04AA%u04A3%u04AC%u04A8%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04D7%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04AC%u04A0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%u0483%u04A2%u04A9%u04A9%u04D9%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C5%F7%FB%F5%FA%E6%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%u0480%u04D2%u04A7%u04AE%u04DD%B2%u04AF%u04A2%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%DE%FB%F4%F7%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u048F%u04A2%B2%u04A0%u04A7%u04D3%u04DE%B2%u04DF%u04A8%u04D2%u04A2%u04AF%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u0480%u04D9%u04AB%u04D0%u04AA%B2%u04AA%u04A5%B2%u04AD%u04AC%u04A9%u04AF%u04AC%u04DF%u04A8%u04D2%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A2%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%u04AC%u04A0%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%DC%FD%B2%E2%FB%F1%E6%E7%E0%F7%B2%E3%E7%F7%E1%E6%FB%FD%FC%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%B8%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%A1%A1%A2%B2%E2%FD%FB%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%FD%FC%F7%B2%FE%FB%F4%F7%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%F3%FE%FE%B2%EB%FD%E7%E0%B2%FE%FB%E4%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u04B0%u04A7%u04D3%u04D0%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04C3%u04AF%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%u0480%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D0%u04A9%u04AA%u04D5%u04AF%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D5%u04A7%u04AF%u04DE%B2%u04D7%u04AC%u04D2%u04AC%u04DA%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A7%u04A8%u04D2%u04A2%u04D3%u04AF%u04AC%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%u048F%u04A7%u04A0%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048F%u04A7%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D0%u04A0%u04A7%u04D0%B3%B2%EE%B2%u048C%u04D0%u04A0%u04A7%u04D0%B2%u04AF%u04A7%u04A0%u04A7%u04D2%u04AF%u04D9%u04AB%B3%B2%EE%B2%u048C%u04DA%u04AA%u04A3%u04A8%u04A2%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%C6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F1%F3%FC%B5%E6%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F0%F7%F1%F3%E7%E1%F7%B2%E6%FA%FB%E1%B2%E2%F3%F5%F7%B2%FB%E1%B2%FC%FD%E6%B2%E2%F3%E0%E6%B2%FD%F4%B2%F3%B2%C1%D1%DD%C0%DF%B2%E2%F3%F1%F9%F3%F5%F7%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%FD%FC%F1%F7%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%FD%FC%F1%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%u048A%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04DD%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FA%FD%E0%E1%FA%FB%E2%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B2%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E2%FE%F3%EB%B2%FD%FC%F1%F7%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%F3%E7%E6%FD%FF%F3%E6%FB%F1%F3%FE%FE%EB%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%u0480%u04A2%u04DA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F3%E1%B2%FF%F3%FC%EB%B2%E6%FB%FF%F7%E1%B2%F3%E1%B2%EB%FD%E7%B2%E5%F3%FC%E6%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%C6%FA%F7%B2%FE%F3%E1%E6%B2%E1%F1%FD%E0%F7%B2%E1%F3%E4%F7%F6%B2%FB%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%FD%E7%B2%FA%F3%E4%F7%B2%F3%FE%E0%F7%F3%F6%EB%B2%F6%FD%FC%F7%B2%E6%FA%FB%E1%B2%F3%F1%E6%FB%E4%FB%E6%EB%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%u0480%u04D9%B2%u04AE%u04AC%u04A4%u04A7%u04D0%u04A7%B2%u04AD%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04DF%u04D0%u04AC%u04D0%B2%u04D0%u04A7%u04D3%u04D0%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B2%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%FB%F6%F7%FD%B2%DB%FC%E6%E0%FD%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04D0%u04DE%B2%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04A2%B2%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F3%FC%F6%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%E6%FA%F3%E6%B2%E5%FB%FE%FE%B2%F0%F7%B2%E4%F7%E0%EB%B2%E7%E1%F7%F4%E7%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%u0485%u04A2%u04A1%u04D2%u04D1%u04A5%u04A8%u04A2%BC%B2%u048D%u04AC%u04A4%u04A2%u04A9%u04D1%u04AB%u04D3%u04D0%u04A2%BE%B2%u04AD%u04AC%u04A6%u04AC%u04A4%u04A6%u04AA%u04D0%u04A7%BC%BC%BC%B2%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%u04A3%BC%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%C2%FE%F7%F3%E1%F7%B2%E1%E6%F3%E0%E6%B2%E2%FE%F3%EB%FB%FC%F5%B2%F4%FB%E0%E1%E6%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DB%FC%F1%FD%FF%E2%FE%F7%E6%F7%B2%F3%F1%E6%FB%E4%FB%E6%EB%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%C2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%DC%FD%E6%B2%E2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%u04D9%B2%u04A6%u04A9%u04DD%B2%u04D3%u04A2%u04AE%u04AC%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%EF%EF</div><div class="quext-bns js-hidden">Your browser is not compatible with this tool.</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/-7.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/-9.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Made with eXeLearning <span>(New window)</span></span></a></p>
+</body>
+</html>

@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="ru" id="exe-page-mue2m8gd-452nefi9i">
+<head>
+<meta charset="utf-8">
+<meta name="generator" content="eXeLearning v4.0.5">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Лабораторная работа № 10 | Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</title>
+<link rel="icon" type="image/x-icon" href="../libs/favicon.ico">
+<meta name="description" content="Электронное учебное пособие предназначено для формирования практических навыков разработки прикладных решений на платформе «1С:Предприятие 8.3». Электронное учебное пособие включает 15 лабораторных работ, объединенных сквозным учебным проектом «ТорговаяКомпания», и содержит методические указания, пошаговые задания, профессиональные ситуации, индивидуальные задания, контрольные вопросы и средства интерактивной самопроверки.">
+<script>document.querySelector("html").classList.add("js");</script><script src="../libs/jquery/jquery.min.js"> </script><script src="../libs/common_i18n.js"> </script><script src="../libs/common.js"> </script><script src="../libs/exe_export.js"> </script><script src="../libs/bootstrap/bootstrap.bundle.min.js"> </script><link rel="stylesheet" href="../libs/bootstrap/bootstrap.min.css">
+<script src="../idevices/text/text.js"></script><link rel="stylesheet" href="../idevices/text/text.css">
+<script src="../idevices/quick-questions/quick-questions.js"></script><link rel="stylesheet" href="../idevices/quick-questions/quick-questions.css">
+<link rel="stylesheet" href="../content/css/base.css"><script src="../theme/style.js"> </script><link rel="stylesheet" href="../theme/style.css">
+</head>
+<body class="exe-export exe-web-site">
+<script>document.body.className+=" js"</script>
+<div class="exe-content exe-export pre-js siteNav-hidden"><a href="#page-mue2m8gd-452nefi9i" id="skipNav">Skip to content</a> <nav id="siteNav">
+<ul>
+<li> <a href="../index.html" class="main-node no-ch">Об электронном учебном пособии</a>
+</li>
+<li> <a href="../html/-.html" class="no-ch">Как работать с электронным учебным пособием</a>
+</li>
+<li> <a href="../html/-1-.html" class="daddy">Раздел 1. Создание структуры прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-1.html" class="no-ch">Лабораторная работа № 1</a>
+</li>
+<li> <a href="../html/-2.html" class="no-ch">Лабораторная работа № 2</a>
+</li>
+<li> <a href="../html/-3.html" class="no-ch">Лабораторная работа № 3</a>
+</li>
+<li> <a href="../html/-4.html" class="no-ch">Лабораторная работа № 4</a>
+</li>
+<li> <a href="../html/-5.html" class="no-ch">Лабораторная работа № 5</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-2-.html" class="daddy">Раздел 2. Организация учета, отчетности и интерфейса</a>
+<ul class="other-section">
+<li> <a href="../html/-6.html" class="no-ch">Лабораторная работа № 6</a>
+</li>
+<li> <a href="../html/-7.html" class="no-ch">Лабораторная работа № 7</a>
+</li>
+<li> <a href="../html/-8.html" class="no-ch">Лабораторная работа № 8</a>
+</li>
+<li> <a href="../html/-9.html" class="no-ch">Лабораторная работа № 9</a>
+</li>
+</ul>
+</li>
+<li class="current-page-parent"> <a href="../html/-3-1.html" class="daddy">Раздел 3. Программирование в «1С:Предприятие»</a>
+<ul class="other-section">
+<li class="active"> <a href="../html/-10.html" class="active no-ch">Лабораторная работа № 10</a>
+</li>
+<li> <a href="../html/-11.html" class="no-ch">Лабораторная работа № 11</a>
+</li>
+<li> <a href="../html/-12.html" class="no-ch">Лабораторная работа № 12</a>
+</li>
+<li> <a href="../html/-13.html" class="no-ch">Лабораторная работа № 13</a>
+</li>
+<li> <a href="../html/-14.html" class="no-ch">Лабораторная работа № 14</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/-4-.html" class="daddy">Раздел 4. Завершение разработки прикладного решения</a>
+<ul class="other-section">
+<li> <a href="../html/-15.html" class="no-ch">Лабораторная работа № 15</a>
+</li>
+</ul>
+</li>
+<li> <a href="../html/--2.html" class="no-ch">Итоговая самопроверка</a>
+</li>
+<li> <a href="../html/page.html" class="no-ch">Глоссарий</a>
+</li>
+</ul>
+</nav><main id="page-mue2m8gd-452nefi9i" class="page"> 
+<header class="main-header">
+<div class="package-header"><p class="package-title">Электронное учебное пособие «Основы конфигурирования 1С:Предприятие».</p></div>
+<div class="page-header"><h1 class="page-title">Лабораторная работа № 10</h1></div>
+</header><div id="page-content-page-mue2m8gd-452nefi9i" class="page-content">
+<article id="block-mun4m3y2-z1zut834s" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713552248-24jegf0m8" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713552248-24jegf0m8&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 12px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Основы программирования на встроенном языке системы «1С:Предприятие»</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 24px 0 12px;">Цель работы</h3>
+<p style="margin: 8px 0;">получить практические навыки использования основных конструкций встроенного языка системы «1С:Предприятие»: переменных, выражений, условных и циклических операторов, процедур и функций; научиться создавать, выполнять и анализировать простые программные алгоритмы.</p>
+<p style="margin: 8px 0;"><strong>В результате выполнения лабораторной работы студент должен уметь:</strong></p>
+<ul>
+<li>создавать простые фрагменты программного кода на встроенном языке;</li>
+<li>использовать переменные различных типов;</li>
+<li>выполнять арифметические вычисления;</li>
+<li>формировать логические выражения;</li>
+<li>использовать циклические конструкции;</li>
+<li>создавать и вызывать процедуры;</li>
+<li>создавать функции и использовать возвращаемые ими значения;</li>
+<li>применять параметры процедур и функций;</li>
+<li>выводить результаты выполнения программы;</li>
+<li>находить простейшие ошибки в программном коде.</li>
+</ul>
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;"><strong>Порядок выполнения работы</strong></h3>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4p0cx-rwd8jirpl" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713687568-qgpuvb5ue" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713687568-qgpuvb5ue&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 1. Подготовка учебной конфигурации</div>
+<p style="margin: 8px 0;">Запустите информационную базу в режиме «Конфигуратор».</p>
+<p style="margin: 8px 0;">Откройте учебную конфигурацию, которая использовалась при выполнении предыдущих лабораторных работ.</p>
+<p style="margin: 8px 0;">В данной лабораторной работе будет использоваться существующая учебная конфигурация складского учета. Создавать новую информационную базу не требуется.</p>
+<p><strong>Важно.</strong> Основная цель работы состоит не в создании новых объектов предметной области, а в изучении конструкций встроенного языка.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4pqvx-nmti1cnw4" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713721947-x66pp8fvk" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713721947-x66pp8fvk&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 2. Создание учебной обработки</div>
+<p><strong>Шаг 1.</strong> Чтобы эксперименты с программным кодом не влияли на уже созданные документы и механизмы проведения, создайте отдельную учебную обработку. В дереве конфигурации найдите ветвь «Обработки». Выполните команду «Добавить»</p>
+<p><strong>Шаг 2.</strong> Задайте свойства обработки:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ОсновыПрограммирования</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Синоним</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Основы программирования</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 8px 0;">Сохраните изменения.</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid87.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.2 — Создание обработки «Основы программирования».</div>
+<p><strong>Контрольный результат</strong></p>
+<p style="margin: 8px 0;">В дереве конфигурации должен появиться объект:</p>
+<p style="margin: 8px 0;">Обработки → ОсновыПрограммирования</p>
+<p><strong>Методическое замечание.</strong></p>
+<p style="margin: 8px 0;">Использование отдельной обработки позволяет выполнять учебные программные примеры независимо от документов складского учета. Это снижает вероятность случайного изменения алгоритмов, разработанных в предыдущих лабораторных работах.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4qfn1-vbgk51i2f" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713754027-bc9r4tn5c" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713754027-bc9r4tn5c&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 3. Создание формы обработки</div>
+<p style="margin: 8px 0;">Для взаимодействия пользователя с обработкой необходимо создать управляемую форму.</p>
+<p><strong>Шаг 1.</strong> Переход к формам обработки.</p>
+<p style="margin: 8px 0;">Откройте обработку «ОсновыПрограммирования». Перейдите к разделу «Формы».</p>
+<p><strong>Шаг 2.</strong> Создание формы.</p>
+<ul>
+<li>В разделе «Формы» выполните команду «Добавить».</li>
+<li>В открывшемся конструкторе выберите форму обработки. Если платформа автоматически предлагает подходящий тип формы и ее имя, оставьте предложенные значения.</li>
+<li>Назначьте создаваемую форму основной формой обработки, если соответствующая возможность предлагается конструктором.</li>
+<li>Завершите создание формы.</li>
+</ul>
+<p><strong>Шаг 3.</strong> Изучение редактора.</p>
+<p style="margin: 8px 0;">После создания откроется редактор управляемой формы.</p>
+<p style="margin: 8px 0;">Рассмотрите его основные области:</p>
+<ul>
+<li>Элементы;</li>
+<li>Реквизиты;</li>
+<li>Команды;</li>
+<li>Параметры;</li>
+<li>область визуального представления формы.</li>
+</ul>
+<p style="margin: 8px 0;">Поскольку обработка пока не содержит собственных данных и команд, форма может быть практически пустой.</p>
+<p style="margin: 8px 0;">Это является нормальным состоянием формы на данном этапе.</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid88.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.3 - Редактор управляемой формы обработки «Основы программирования».</div>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">В структуре обработки должна присутствовать созданная форма:</p>
+<p style="margin: 8px 0;">Обработки</p>
+<p style="margin: 8px 0;">└── ОсновыПрограммирования</p>
+<p style="margin: 8px 0;">└── Формы</p>
+<p style="margin: 8px 0;">└── Форма</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4qpot-ut09qh0fz" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713767051-7ryjzoqjd" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713767051-7ryjzoqjd&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 4. Создание команды «Выполнить пример»</div>
+<p style="margin: 8px 0;">Теперь создадим команду, с помощью которой пользователь будет запускать учебные программные алгоритмы.</p>
+<p><strong>Шаг 1.</strong> В редакторе формы перейдите на вкладку «Команды».</p>
+<p><strong>Шаг 2.</strong> Создайте новую команду.</p>
+<p style="margin: 8px 0;">Задайте ее свойства:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Свойство</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Значение</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Имя</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ВыполнитьПример</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Заголовок</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Выполнить пример</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Шаг 3.</strong> Разместите созданную команду на форме.</p>
+<p style="margin: 8px 0;">В визуальном представлении формы должна появиться кнопка «Выполнить пример». Сохраните форму.</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid89.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.4 — Создание команды «Выполнить пример» в форме обработки.</div>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">Форма обработки содержит кнопку «Выполнить пример», предназначенную для запуска учебного программного кода.</p>
+<p style="margin: 8px 0;">На данном этапе назначение команд рассматривается только с практической точки зрения. Подробно команды и обработчики событий управляемых форм будут изучены в последующих темах.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4r2pw-vr93kulxn" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713783937-l9iwyhpua" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713783937-l9iwyhpua&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 5. Создание обработчика команды</div>
+<p><strong>Шаг 1.</strong> Для выполнения команды необходимо связать ее с программным кодом.</p>
+<ul>
+<li>Выберите команду «ВыполнитьПример» и создайте для нее обработчик действия. Для этого:</li>
+<li>Дважды щелкнуть на «ВыполнитьПример».</li>
+<li>В появившемся окне «Свойства: Команда» переходите на вкладку «Действие».</li>
+<li>На этом поле выбрать команду «Создать на клиенте» (Рисунок 10.5). Ок.</li>
+</ul>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid90.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.5 - Выбор способа создания обработчика команды</div>
+<p><strong>Шаг 2.</strong> Рассмотрите полученную процедуру (Рисунок 10.6).</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid91.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.6 – Автоматически созданная процедура</div>
+<p style="margin: 8px 0;">Здесь важно обратить внимание на три элемента:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте - директива компиляции, указывающая, что процедура выполняется на стороне клиента;</p>
+<p style="margin: 8px 0;">ВыполнитьПример - имя созданной процедуры;</p>
+<p style="margin: 8px 0;">Команда - параметр процедуры, связанной с выполнением команды.</p>
+<p><strong>Шаг 3.</strong> В тело созданной платформой процедуры добавляем первый программный код. Удалять автоматически созданную процедуру не нужно. Нужно заменить только строку-комментарий:</p>
+<p style="margin: 8px 0;">// Вставить содержимое обработчика.</p>
+<p style="margin: 8px 0;">на:</p>
+<p style="margin: 8px 0;">Сообщить("Программа работает");</p>
+<p style="margin: 8px 0;">Измененная процедура будет иметь следующий вид (Рисунок 10.7):</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid92.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.6 - Процедура обработчика команды «Выполнить пример»</div>
+<p><strong>Шаг 4.</strong> Для обеспечения доступа к созданной обработке в пользовательском режиме включите обработку «Основы программирования» в состав подсистемы «Складской учет». Для этого откройте свойства обработки, перейдите в раздел «Подсистемы» и установите флажок напротив подсистемы «Складской учет».</p>
+<p><strong>Шаг 5.</strong> Сохраните изменения, обновите конфигурацию базы данных и запустите режим «1С:Предприятие».</p>
+<p><strong>Шаг 6.</strong> Запустите 1С:Предприятие, откройте обработку «Основы программирования» и нажмите «Выполнить пример».</p>
+<p style="margin: 8px 0;">Должно появиться сообщение «Программа работает».</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid93.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.5 — Первое выполнение программного кода.</div>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">Нажатие кнопки приводит к выполнению программного кода.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4rixq-5rkqeqmnk" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713804956-8qp4pq86r" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713804956-8qp4pq86r&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 6. Переменные и арифметические выражения</div>
+<p><strong>Шаг 1.</strong> Изменения программного кода обработчика команды. Для этого:</p>
+<ul>
+<li>Вернитесь в Конфигуратор.</li>
+<li>В дереве конфигурации откройте обработку «Основы программирования», перейдите к разделу «Формы» и двойным щелчком откройте созданную форму Форма1.</li>
+<li>В открывшемся редакторе формы перейдите на вкладку «Модуль». В модуле найдите процедуру ВыполнитьПример(Команда).</li>
+<li>Замените содержимое тела обработчика команды следующим кодом:</li>
+</ul>
+<p style="margin: 8px 0;">Количество = 5;</p>
+<p style="margin: 8px 0;">Цена = 2500;</p>
+<p style="margin: 8px 0;">Сумма = Количество * Цена;</p>
+<p style="margin: 8px 0;">Сообщить(Сумма);</p>
+<p><strong>Шаг 2.</strong> Выполните программу. Результат: 12500 (Рисунок 10.6).</p>
+<p><strong>Шаг 3.</strong> Проанализируйте последовательность вычислений:</p>
+<ol>
+<li>переменной Количество присваивается значение 5;</li>
+<li>переменной Цена — значение 2500;</li>
+<li>вычисляется произведение;</li>
+<li>результат записывается в переменную Сумма;</li>
+<li>значение выводится пользователю.</li>
+</ol>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid94.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.6 - Результат вычисления арифметического выражения.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4rvtg-pjncji7qo" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713821650-5styzmm5o" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713821650-5styzmm5o&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 7. Работа со значениями различных типов</div>
+<p><strong>Шаг 1.</strong> Аналогичными действиями замените программный код на (Рисунок 10.7):</p>
+<p style="margin: 8px 0;">НаименованиеТовара = "Ноутбук Lenovo IdeaPad";</p>
+<p style="margin: 8px 0;">Количество = 8;</p>
+<p style="margin: 8px 0;">ЕстьОстаток = Истина;</p>
+<p style="margin: 8px 0;">Сообщить(НаименованиеТовара);</p>
+<p style="margin: 8px 0;">Сообщить(Количество);</p>
+<p style="margin: 8px 0;">Сообщить(ЕстьОстаток);</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid95.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.7 – Пример программного кода работы со значениями различных типов</div>
+<p><strong>Шаг 2.</strong> Выполните программу (Рисунок 10.8) и проанализируйте результаты.</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Переменная</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Тип значения</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">НаименованиеТовара</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Строка</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Количество</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Число</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">ЕстьОстаток</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Булево</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid96.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.8 - Использование значений различных типов.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4s78f-orris83wf" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713836444-lk799j5qy" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713836444-lk799j5qy&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 8. Использование условного оператора</div>
+<p><strong>Шаг 1.</strong> Аналогичными действиями замените программный код на:</p>
+<p style="margin: 8px 0;">Количество = 8;</p>
+<p style="margin: 8px 0;">Если Количество &gt; 0 Тогда</p>
+<p style="margin: 8px 0;">Сообщить("Товар имеется на складе");</p>
+<p style="margin: 8px 0;">Иначе</p>
+<p style="margin: 8px 0;">Сообщить("Товар отсутствует на складе");</p>
+<p style="margin: 8px 0;">КонецЕсли;</p>
+<p><strong>Шаг 2.</strong> Выполните программу (Рисунок 10.9 (a)).</p>
+<p><strong>Шаг 3.</strong> В программном коде измените количество: Количество = 0;</p>
+<p><strong>Шаг 4.</strong> Повторите выполнение (Рисунок 10.9 (b)).</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid97.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid98.png" style="max-width: 100%; height: auto;" /></div>
+<p style="margin: 8px 0;">(a) (b)</p>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.9 - Результаты выполнения условного оператора.</div>
+<p style="margin: 8px 0;">Вывод. Оператор «Если» позволяет выбрать выполняемые действия в зависимости от результата проверки заданного условия.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4skfy-0u6grmzv2" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713853564-gcoe831uq" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713853564-gcoe831uq&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 9. Использование составного логического условия</div>
+<p><strong>Шаг 1.</strong> Аналогичными действиями замените программный код на:</p>
+<p style="margin: 8px 0;">Количество = 8;</p>
+<p style="margin: 8px 0;">Цена = 2500;</p>
+<p style="margin: 8px 0;">Если Количество &gt; 0 И Цена &gt; 0 Тогда</p>
+<p style="margin: 8px 0;">Сумма = Количество * Цена;</p>
+<p style="margin: 8px 0;">Сообщить(Сумма);</p>
+<p style="margin: 8px 0;">Иначе</p>
+<p style="margin: 8px 0;">Сообщить("Невозможно рассчитать сумму");</p>
+<p style="margin: 8px 0;">КонецЕсли;</p>
+<p><strong>Шаг 2.</strong> Выполните программу. Ожидаемый результат: 20000 (Рисунок 10.10).</p>
+<p><strong>Шаг 3.</strong> Измените значение «Количество» или «Цена» на 0 и повторите выполнение. Объясните, почему программа перешла к ветви «Иначе».</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid99.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.10 - Использование логической операции «И».</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4svp9-xnl28vjog" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713868155-u6p6slj9d" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713868155-u6p6slj9d&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 10. Использование цикла со счетчиком</div>
+<p><strong>Шаг 1.</strong> Аналогичными действиями замените программный код на:</p>
+<p style="margin: 8px 0;">Для Счетчик = 1 По 5 Цикл</p>
+<p style="margin: 8px 0;">Сообщить(Счетчик);</p>
+<p style="margin: 8px 0;">КонецЦикла;</p>
+<p><strong>Шаг 2.</strong> Выполните программу (Рисунок 10.11).</p>
+<p><strong>Шаг 3.</strong> Измените конечное значение счетчика и исследуйте изменение количества итераций.</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid100.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.11 - Выполнение цикла со счетчиком.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4t7oy-9yl11qson" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713883697-4v1b005e1" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713883697-4v1b005e1&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 11. Накопление значения в цикле</div>
+<p><strong>Шаг 1.</strong> Аналогичными действиями замените программный код на:</p>
+<p style="margin: 8px 0;">Сумма = 0;</p>
+<p style="margin: 8px 0;">Для Счетчик = 1 По 5 Цикл</p>
+<p style="margin: 8px 0;">Сумма = Сумма + Счетчик;</p>
+<p style="margin: 8px 0;">КонецЦикла;</p>
+<p style="margin: 8px 0;">Сообщить(Сумма);</p>
+<p><strong>Шаг 2.</strong> До запуска самостоятельно определите результат программы.</p>
+<p><strong>Шаг 3.</strong> После выполнения должно быть получено 15 (Рисунок 10.12).</p>
+<p><strong>Шаг 4.</strong> Проанализируйте изменение переменной:</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Итерация</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Счетчик</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Сумма</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">1</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">1</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">1</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">2</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">2</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">3</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">3</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">3</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">6</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">4</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">4</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">10</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">5</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">5</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">15</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid101.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.12 - Накопление значения в цикле.</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4tjjy-bfd7t9zm7" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713899068-01s3vuy7o" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713899068-01s3vuy7o&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 12. Создание собственной процедуры</div>
+<p style="margin: 8px 0;">До настоящего момента все программные примеры выполнялись непосредственно в обработчике команды ВыполнитьПример. Однако при разработке прикладных решений отдельные действия целесообразно оформлять в виде самостоятельных процедур.</p>
+<p style="margin: 8px 0;">В данном задании необходимо создать собственную процедуру, предназначенную для вывода наименования товара, а затем вызвать ее из существующего обработчика команды.</p>
+<p><strong>Шаг 1.</strong> Открытие модуля формы.</p>
+<ul>
+<li>В дереве конфигурации откройте Обработки → ОсновыПрограммирования → Формы → Форма1</li>
+<li>Дважды щелкните по форме «Форма1».</li>
+<li>В редакторе формы перейдите на вкладку «Модуль».</li>
+<li>В модуле уже должна находиться созданная ранее процедура:</li>
+</ul>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Процедура ВыполнитьПример(Команда)</p>
+<p style="margin: 8px 0;">// программный код предыдущего задания</p>
+<p style="margin: 8px 0;">КонецПроцедуры</p>
+<p><strong>Шаг 2.</strong> Очистка тела обработчика команды.</p>
+<p style="margin: 8px 0;">Удалите из процедуры ВыполнитьПример программный код предыдущего задания, сохранив:</p>
+<ul>
+<li>директиву &amp;НаКлиенте;</li>
+<li>заголовок процедуры;</li>
+<li>строку КонецПроцедуры.</li>
+</ul>
+<p><strong>Шаг 3.</strong> Создание собственной процедуры.</p>
+<p style="margin: 8px 0;">После «КонецПроцедуры» существующего обработчика добавьте новую процедуру. Введите:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Процедура ПоказатьТовар(Наименование)</p>
+<p style="margin: 8px 0;">Сообщить(Наименование);</p>
+<p style="margin: 8px 0;">КонецПроцедуры</p>
+<p style="margin: 8px 0;">Обратите внимание! Новую процедуру мы пишем не внутри «ВыполнитьПример», а после ее завершения. Т.е. одна процедура не должна объявляться внутри другой.</p>
+<p><strong>Шаг 4.</strong> Рассмотрите структуру созданной процедуры.</p>
+<p style="margin: 8px 0;">В строке:</p>
+<p style="margin: 8px 0;">Процедура ПоказатьТовар(Наименование)</p>
+<p style="margin: 8px 0;">Процедура — ключевое слово, обозначающее начало процедуры;</p>
+<p style="margin: 8px 0;">ПоказатьТовар — имя созданной процедуры;</p>
+<p style="margin: 8px 0;">Наименование — параметр, через который процедура получает значение;</p>
+<p style="margin: 8px 0;">КонецПроцедуры — завершение процедуры.</p>
+<p style="margin: 8px 0;">Таким образом, процедура «ПоказатьТовар» может получать различные наименования товаров и выполнять для них одно и то же действие.</p>
+<p><strong>Шаг 5.</strong> Вызов собственной процедуры.</p>
+<p style="margin: 8px 0;">Само создание процедуры еще не приводит к ее выполнению. Необходимо вызвать процедуру из обработчика команды «ВыполнитьПример».</p>
+<p style="margin: 8px 0;">В тело уже существующей процедуры добавьте:</p>
+<p style="margin: 8px 0;">ПоказатьТовар("Ноутбук Lenovo IdeaPad");</p>
+<p style="margin: 8px 0;">После этого весь программный код модуля должен выглядеть следующим образом (Рисунок 10.13):</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid102.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.13 – Добавление собственной процедуры</div>
+<p style="margin: 8px 0;">В результате, при нажатии пользователем кнопки «Выполнить пример» платформа начнет:</p>
+<ul>
+<li>Выполнять процедуру «ВыполнитьПример(Команда)».</li>
+<li>В ней находится вызов «ПоказатьТовар("Ноутбук Lenovo IdeaPad")»;</li>
+<li>Поэтому управление будет передано процедуре «ПоказатьТовар».</li>
+<li>Строка «Ноутбук Lenovo IdeaPad» будет передана параметру «Наименование».</li>
+<li>После этого команда «Сообщить(Наименование)» выведет полученное значение.</li>
+</ul>
+<p style="margin: 8px 0;">Иными словами, последовательность выполнения можно представить так:</p>
+<p style="margin: 8px 0;">Кнопка «Выполнить пример» → ВыполнитьПример() → ПоказатьТовар() → Сообщить() → вывод наименования товара.</p>
+<p><strong>Шаг 6.</strong> Проверка программного кода.</p>
+<ul>
+<li>Сохраните внесенные изменения. Поскольку обработка уже была включена нами в подсистему «Складской учет», повторно выполнять это действие не требуется.</li>
+<li>Обновите конфигурацию базы данных и запустите систему в режиме «1С:Предприятие».</li>
+<li>Откройте Складской учет → Основы программирования, нажмите кнопку «Выполнить пример». В области сообщений должно появиться «Ноутбук Lenovo IdeaPad» (Рисунок 10.14).</li>
+</ul>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid103.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.14 - Результат вызова собственной процедуры с параметром.</div>
+<p><strong>Шаг 7.</strong> Проверка процедуры с различными значениями.</p>
+<ul>
+<li>Вернитесь в модуль формы и замените один вызов процедуры несколькими (Рисунок 10.15). Саму процедуру «ПоказатьТовар» не изменяем.</li>
+</ul>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid104.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.15 – Процедура с различными значениями</div>
+<ul>
+<li>Сохраните изменения, обновите конфигурацию и повторите проверку. В результате должны последовательно выводиться все три наименования (Рисунок 10.15).</li>
+</ul>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid105.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.15 - Результат процедуры с различными значениями</div>
+<p style="margin: 8px 0;">Это показывает главное преимущество параметров: одна и та же процедура может выполнять одинаковый алгоритм для разных исходных данных.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4u2jj-q0o1407z8" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713923676-muspyye8o" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713923676-muspyye8o&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 13. Создание функции</div>
+<p style="margin: 8px 0;">В предыдущем задании была создана собственная процедура ПоказатьТовар, которая получает значение параметра и выполняет определенное действие — выводит наименование товара.</p>
+<p style="margin: 8px 0;">В данном задании необходимо создать функцию, которая будет получать количество товара и его цену, вычислять стоимость и возвращать полученный результат в вызывающий программный код.</p>
+<p><strong>Шаг 1.</strong> Откройте модуль формы:</p>
+<ul>
+<li>В дереве конфигурации откройте Обработки → ОсновыПрограммирования → Формы → Форма1.</li>
+<li>Дважды щелкните по форме «Форма1» и в редакторе формы перейдите на вкладку «Модуль».</li>
+<li>После выполнения предыдущего задания в модуле уже находятся процедура обработчика команды «ВыполнитьПример» и созданная нами процедура «ПоказатьТовар».</li>
+</ul>
+<p><strong>Шаг 2.</strong> Подготовьте обработчик команды.</p>
+<ul>
+<li>В этом задании новый обработчик команды создавать не требуется. Продолжаем использовать существующую процедуру «Процедура ВыполнитьПример(Команда)».</li>
+<li>Удалите из тела «ВыполнитьПример» вызовы процедуры «ПоказатьТовар», использовавшиеся в предыдущем задании. Саму процедуру «ПоказатьТовар» можно оставить в модуле. Она не помешает выполнению нового задания и наглядно позволит сравнить процедуру и функцию.</li>
+</ul>
+<p><strong>Шаг 3.</strong> Создайте функцию:</p>
+<p style="margin: 8px 0;">После окончания уже существующих процедур установите курсор на новой строке и введите:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Функция РассчитатьСумму(Количество, Цена)</p>
+<p style="margin: 8px 0;">Возврат Количество * Цена;</p>
+<p style="margin: 8px 0;">КонецФункции</p>
+<p style="margin: 8px 0;">Таким образом, в модуле появляется новый самостоятельный программный блок — функция «РассчитатьСумму».</p>
+<p><strong>Важно.</strong> Функцию необходимо создавать отдельно от процедуры «ВыполнитьПример». Нельзя помещать определение функции внутрь другой процедуры.</p>
+<p><strong>Шаг 4.</strong> Рассмотрите структуру функции.</p>
+<p style="margin: 8px 0;">Проанализируем первую строку «Функция РассчитатьСумму(Количество, Цена)». Здесь:</p>
+<ul>
+<li>Функция — ключевое слово, обозначающее начало функции;</li>
+<li>РассчитатьСумму — имя функции;</li>
+<li>Количество — первый параметр;</li>
+<li>Цена — второй параметр.</li>
+</ul>
+<p style="margin: 8px 0;">Параметры позволяют передавать функции исходные данные непосредственно при ее вызове.</p>
+<p style="margin: 8px 0;">Например, если функции будут переданы значения 5 и 2500, внутри неее, то количество получит значение 5, а Цена — значение 2500.</p>
+<p><strong>Шаг 5.</strong> Рассмотрите оператор Возврат.</p>
+<p style="margin: 8px 0;">Основная строка функции «Возврат Количество * Цена» содержит оператор Возврат. Сначала вычисляется выражение «Количество * Цена» для наших исходных данных 5 × 2500 = 12500.</p>
+<p style="margin: 8px 0;">После этого оператор Возврат передает полученное значение обратно в то место программы, откуда была вызвана функция.</p>
+<p style="margin: 8px 0;">Именно возможность возвращать значение является главным отличием функции от рассмотренной ранее процедуры.</p>
+<p><strong>Шаг 6.</strong> Завершение функции.</p>
+<p style="margin: 8px 0;">Функция заканчивается ключевым словом «КонецФункции».</p>
+<p style="margin: 8px 0;">Таким образом, вся функция имеет вид:</p>
+<p style="margin: 8px 0;">&amp;НаКлиенте</p>
+<p style="margin: 8px 0;">Функция РассчитатьСумму(Количество, Цена)</p>
+<p style="margin: 8px 0;">Возврат Количество * Цена;</p>
+<p style="margin: 8px 0;">КонецФункции</p>
+<p style="margin: 8px 0;">Обратите внимание на отличие завершающих конструкций:</p>
+<p style="margin: 8px 0;">Процедура → КонецПроцедуры</p>
+<p style="margin: 8px 0;">Функция → КонецФункции</p>
+<p><strong>Шаг 7.</strong> Вызов созданной функции.</p>
+<p style="margin: 8px 0;">Теперь необходимо вызвать функцию из уже существующего обработчика команды «ВыполнитьПример».</p>
+<p style="margin: 8px 0;">В тело процедуры введите:</p>
+<p style="margin: 8px 0;">Сумма = РассчитатьСумму(5, 2500);</p>
+<p style="margin: 8px 0;">Сообщить(Сумма);</p>
+<p style="margin: 8px 0;">В результате процедура обработчика команды должна выглядеть так Рисунок (10.16).</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid106.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.16 – Процедура обработчика с созданной функцией</div>
+<p><strong>Шаг 8.</strong> Проанализируйте выполнение программы.</p>
+<p style="margin: 8px 0;">При нажатии кнопки «Выполнить пример» программа выполняется в следующей последовательности:</p>
+<ul>
+<li>Запускается обработчик «ВыполнитьПример(Команда)».</li>
+<li>Программа встречает строку «Сумма = РассчитатьСумму(5, 2500)»;</li>
+<li>Вызывается функция «РассчитатьСумму».</li>
+<li>Ей передаются два значения: Количество = 5 и Цена = 2500</li>
+<li>Внутри функции выполняется вычисление 5 × 2500 = 12500</li>
+<li>Оператор «Возврат Количество * Цена» возвращает значение 12500.</li>
+<li>Возвращенное значение присваивается переменной «Сумма».</li>
+<li>Фактически после выполнения функции строку можно представить как: Сумма = 12500;</li>
+<li>Следующая команда «Сообщить(Сумма)» выводит пользователю значение: 12500</li>
+</ul>
+<p><strong>Шаг 9.</strong> Сохранение и проверка.</p>
+<p style="margin: 8px 0;">Сохраните внесенные изменения.</p>
+<p style="margin: 8px 0;">Поскольку обработка «Основы программирования» уже включена в подсистему «Складской учет», повторно включать ее в подсистему не требуется.</p>
+<p style="margin: 8px 0;">Обновите конфигурацию базы данных и запустите режим «1С:Предприятие».</p>
+<p style="margin: 8px 0;">Откройте Складской учет → Основы программирования.</p>
+<p style="margin: 8px 0;">Нажмите кнопку «Выполнить пример».</p>
+<p style="margin: 8px 0;">В области сообщений должно появиться 12500 (Рисунок 10.17).</p>
+<div style="text-align: center; margin: 18px 0 8px;"><img src="../content/resources/blobid107.png" style="max-width: 100%; height: auto;" /></div>
+<div style="text-align: center; margin: 7px 0 20px; font-size: 14px; color: #546e7a;">Рисунок 10.17 - Результат выполнения функции «РассчитатьСумму».</div>
+<p><strong>Шаг 10.</strong> Проверка функции с другими параметрами.</p>
+<p style="margin: 8px 0;">Чтобы убедиться, что функция не привязана к конкретным значениям, измените вызов:</p>
+<p style="margin: 8px 0;">Сумма = РассчитатьСумму(3, 4000);</p>
+<p style="margin: 8px 0;">Сообщить(Сумма);</p>
+<p style="margin: 8px 0;">Саму функцию при этом не изменяйте.</p>
+<p style="margin: 8px 0;">После запуска результат должен составить 12000.</p>
+<p style="margin: 8px 0;">Таким образом, одна функция может выполнять один и тот же алгоритм для различных исходных данных.</p>
+<p><strong>Шаг 11.</strong> Изучите таблицу сравнения процедуры и функции</p>
+<div style="overflow-x: auto; margin: 14px 0;">
+<table style="border-collapse: collapse; width: 100%;">
+<tbody>
+<tr>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Характеристика</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Процедура ПоказатьТовар</th>
+<th style="border: 1px solid #b0bec5; padding: 7px; background: #eaf6f6; text-align: left;">Функция РассчитатьСумму</th>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Начинается</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Процедура</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Функция</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Завершается</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">КонецПроцедуры</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">КонецФункции</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Принимает параметры</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Выполняет программные действия</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Возвращает вычисленное значение</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">В нашем примере — нет</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Используется справа от =</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Нет</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Да</td>
+</tr>
+<tr>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Основное назначение в примере</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Вывод сообщения</td>
+<td style="border: 1px solid #b0bec5; padding: 7px; text-align: left;">Расчет стоимости</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4ucn1-gm9dnn2vf" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713936764-dwv190dcb" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713936764-dwv190dcb&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 14. Самостоятельная разработка алгоритма</div>
+<p style="margin: 8px 0;">Разработайте программу для следующей ситуации. Исходные данные:</p>
+<p style="margin: 8px 0;">Товар: Компьютерная мышь</p>
+<p style="margin: 8px 0;">Количество: 20</p>
+<p style="margin: 8px 0;">Цена: 3500</p>
+<p style="margin: 8px 0;">Программа должна:</p>
+<ol>
+<li>записать исходные данные в переменные;</li>
+<li>проверить наличие товара;</li>
+<li>если количество больше нуля — вычислить общую стоимость;</li>
+<li>вывести наименование товара;</li>
+<li>вывести его количество;</li>
+<li>вывести рассчитанную стоимость;</li>
+<li>если количество равно нулю - вывести сообщение «Товар отсутствует на складе».</li>
+</ol>
+<p style="margin: 8px 0;">Ожидаемая стоимость: 70000.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4uueu-ndvup9p3n" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713959796-8i7jeancr" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713959796-8i7jeancr&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Задание 15. Обнаружение синтаксической ошибки</div>
+<p style="margin: 8px 0;">Для изучения реакции платформы на некорректный программный код намеренно создайте ошибку только в учебной обработке.</p>
+<p style="margin: 8px 0;">Например:</p>
+<p style="margin: 8px 0;">Если Количество &gt; 0</p>
+<p style="margin: 8px 0;">Сообщить("Товар имеется на складе");</p>
+<p style="margin: 8px 0;">КонецЕсли;</p>
+<p style="margin: 8px 0;">В конструкции отсутствует ключевое слово «Тогда».</p>
+<p style="margin: 8px 0;">Выполните проверку программного кода и рассмотрите сообщение платформы.</p>
+<p style="margin: 8px 0;">После этого исправьте конструкцию:</p>
+<p style="margin: 8px 0;">Если Количество &gt; 0 Тогда</p>
+<p style="margin: 8px 0;">Сообщить("Товар имеется на складе");</p>
+<p style="margin: 8px 0;">КонецЕсли;</p>
+<p style="margin: 8px 0;">Повторно выполните проверку.</p>
+<p><strong>Контрольный результат.</strong></p>
+<p style="margin: 8px 0;">После исправления синтаксической ошибки программный код должен успешно проходить проверку.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4v7bb-7vvw33isq" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713976517-ogpo0b8s9" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713976517-ogpo0b8s9&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<div style="background: #eaf6f6; border-left: 6px solid #26a69a; padding: 12px 18px; margin: 0 0 22px; border-radius: 4px; font-size: 22px; font-weight: bold; color: #00796b;">Дополнительные и индивидуальные задания</div>
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Задание 1. Расчет остатка товара.</h3>
+<p style="margin: 8px 0;">Создайте функцию «РассчитатьОстаток(Поступило, Реализовано)».</p>
+<p style="margin: 8px 0;">Функция должна возвращать разность между поступившим и реализованным количеством.</p>
+<p style="margin: 8px 0;">Проверьте функцию для:</p>
+<p style="margin: 8px 0;">Поступило = 10;</p>
+<p style="margin: 8px 0;">Реализовано = 2;</p>
+<p style="margin: 8px 0;">Ожидаемый результат: 8</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Задание 2. Анализ величины товарного запаса.</h3>
+<p style="margin: 8px 0;">Разработайте алгоритм:</p>
+<ul>
+<li>остаток больше 10 — «Достаточный запас»;</li>
+<li>остаток от 1 до 10 — «Небольшой запас»;</li>
+<li>остаток равен 0 — «Товар отсутствует».</li>
+</ul>
+<p style="margin: 8px 0;">Используйте конструкцию Если — ИначеЕсли — Иначе.</p>
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Задание 3. Вычисление суммы последовательности.</h3>
+<p style="margin: 8px 0;">Используя цикл, вычислите сумму целых чисел от 1 до 10.</p>
+<p style="margin: 8px 0;">До запуска программы самостоятельно рассчитайте ожидаемый результат.</p>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4vl07-s2rfd7js2" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790713994261-8eywb5cuc" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790713994261-8eywb5cuc&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Контрольные вопросы</h3>
+<ol>
+<li>Для чего в лабораторной работе была создана отдельная обработка?</li>
+<li>Что представляет собой управляемая форма обработки?</li>
+<li>Для чего была создана команда ВыполнитьПример?</li>
+<li>Где размещается программный код обработчика команды?</li>
+<li>Что представляет собой переменная?</li>
+<li>Как выполняется присваивание значения?</li>
+<li>Какие типы значений использовались в лабораторной работе?</li>
+<li>Для чего используется Сообщить()?</li>
+<li>Что представляет собой выражение?</li>
+<li>Каково назначение условного оператора Если?</li>
+<li>Для чего используется ветвь Иначе?</li>
+<li>Как работает логическая операция И?</li>
+<li>Для чего используются циклы?</li>
+<li>Что представляет собой счетчик цикла?</li>
+<li>Как выполняется накопление значения внутри цикла?</li>
+<li>Что представляет собой процедура?</li>
+<li>Для чего процедуре передаются параметры?</li>
+<li>Что представляет собой функция?</li>
+<li>В чем основное отличие функции от процедуры?</li>
+<li>Для чего используется оператор Возврат?</li>
+<li>Может ли результат функции использоваться в составе выражения?</li>
+<li>Что представляет собой синтаксическая ошибка?</li>
+<li>Каким образом можно обнаружить ошибку в программном коде?</li>
+<li>Почему после обнаружения ошибки необходимо выполнить повторную проверку?</li>
+<li>Какие конструкции встроенного языка были изучены в ходе лабораторной работы?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4w1dj-lwbhcfcsp" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790714015477-5rk3ki4kh" class="idevice_node text" data-idevice-path="../idevices/text/" data-idevice-type="text" data-idevice-component-type="json" data-idevice-json-data="{&quot;ideviceId&quot;:&quot;idevice-1790714015477-5rk3ki4kh&quot;}">
+<div class="exe-text-template">
+    <div style="font-family: Arial,Helvetica,sans-serif; line-height: 1.6; color: #263238;">
+<h3 style="color: #00796b; font-size: 20px; margin: 22px 0 12px;">Содержание отчета</h3>
+<p style="margin: 8px 0;">Отчет по лабораторной работе должен содержать:</p>
+<ol>
+<li>Тему и цель работы;</li>
+<li>Описание создания обработки «Основы программирования»;</li>
+<li>Описание создания управляемой формы обработки;</li>
+<li>Описание создания команды «Выполнить пример»;</li>
+<li>Пример первого программного обработчика;</li>
+<li>Результаты работы с переменными и выражениями;</li>
+<li>Пример использования условного оператора;</li>
+<li>Пример использования логического условия;</li>
+<li>Результаты выполнения циклического алгоритма;</li>
+<li>Пример собственной процедуры;</li>
+<li>Пример собственной функции;</li>
+<li>Результат самостоятельного задания;</li>
+<li>Пример обнаружения и исправления синтаксической ошибки;</li>
+<li>Ответы на контрольные вопросы;</li>
+<li>Вывод по результатам работы.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article><article id="block-mun4x6is-tegkkwxrm" class="box no-header">
+<header class="box-head no-icon">
+<button class="box-toggle box-toggle-on" title="Toggle content">
+<span>Toggle content</span>
+</button></header>
+<div class="box-content">
+<div id="idevice-1790714068802-ttaqp7bue" class="idevice_node quick-questions" data-idevice-path="../idevices/quick-questions/" data-idevice-type="quick-questions">
+<div class="quext-IDevice"><div class="game-evaluation-ids js-hidden" data-id="idevice-1790714068802-ttaqp7bue" data-evaluationb="false" data-evaluationid="2a15b267-23f2-407f-ac15-11f2fa6406b5"></div><div class="quext-instructions QXTP-instructions"><p><strong>Проверьте себя</strong><br />Ответьте на вопросы по выполненной лабораторной работе. В каждом вопросе выберите один правильный вариант ответа.</p></div><div class="quext-version js-hidden">2</div><div class="quext-feedback-game"></div><div class="quext-DataGame js-hidden">%E9%B0%F3%E1%FB%F5%FC%F3%E6%E7%E0%F3%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%E7%E6%FA%FD%E0%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%C3%E7%D7%EA%E6%B0%BE%B0%F7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%F6%C4%FB%F6%F7%FD%B0%A8%B0%B0%BE%B0%E1%E6%F3%E0%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%D7%EA%F7%B0%A8%B0%B7%A1%D1%E2%B7%A1%D7%B7%A1%D1%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%E7%A2%A6%A3%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A6%D4%B7%A1%D1%BD%E1%E6%E0%FD%FC%F5%B7%A1%D7%B7%A1%D1%F0%E0%B7%A0%A2%BD%B7%A1%D7%B7%E7%A2%A6%A3%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A2%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A6%D0%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%BC%B7%A0%A2%B7%E7%A2%A6%A3%A0%B7%A0%A2%B7%E7%A2%A6%A1%D3%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A4%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D1%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A3%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%A3%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A7%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A1%A6%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D6%B7%A0%A2%B7%E7%A2%A6%A1%D4%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%D0%B7%E7%A2%A6%A6%D1%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%D0%B7%E7%A2%A6%A1%AB%B7%A0%A2%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A6%A2%B7%E7%A2%A6%A1%AA%B7%E7%A2%A6%A1%A2%B7%E7%A2%A6%A1%D6%B7%E7%A2%A6%A6%A0%B7%A0%A2%B7%E7%A2%A6%A1%D7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A0%B7%E7%A2%A6%A1%A7%B7%E7%A2%A6%A6%A0%B7%E7%A2%A6%A1%A2%BC%B7%A1%D1%BD%E2%B7%A1%D7%B0%BE%B0%FB%FC%E1%E6%E0%E7%F1%E6%FB%FD%FC%E1%B0%A8%B0%D1%FA%FD%FD%E1%F7%B2%E6%FA%F7%B2%E0%FB%F5%FA%E6%B2%F3%FC%E1%E5%F7%E0%B2%B0%BE%B0%E1%FA%FD%E5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%FD%E2%E6%FB%FD%FC%E1%C0%F3%FF%F6%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F3%FC%E1%E5%F7%E0%E1%C0%F3%FF%F6%FD%FC%B0%A8%E6%E0%E7%F7%BE%B0%E1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%FB%FF%F7%C1%FA%FD%E5%C1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A7%BE%B0%E7%E1%F7%DE%FB%E4%F7%E1%B0%A8%E6%E0%E7%F7%BE%B0%FC%E7%FF%F0%F7%E0%DE%FB%E4%F7%E1%B0%A8%A1%BE%B0%FB%E6%FB%FC%F7%E0%F3%E0%EB%B0%A8%E9%B0%E1%FA%FD%E5%D1%FE%E7%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FE%E7%F7%D5%F3%FF%F7%B0%A8%B0%B0%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F5%F7%D1%FE%E7%F7%B0%A8%A6%A2%BE%B0%E1%FA%FD%E5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%F1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%BE%B0%FF%F7%E1%E1%F3%F5%F7%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%B0%EF%BE%B0%E3%E7%F7%E1%E6%FB%FD%FC%E1%D5%F3%FF%F7%B0%A8%C9%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0480%B2%u04A8%u04A2%u04A8%u04AC%u04AB%B2%u04A0%u04A7%u04D0%u04A0%u04AA%B2%u04A6%u04A7%u04D2%u04A7%u04A0%u04A2%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%B2%u04A6%u04A9%u04DD%B2%u04D1%u04D5%u04A7%u04A3%u04AF%u04AC%u04AB%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048C%u04D0%u04D5%u04A7%u04D0%u04D9%B0%BE%B0%u048C%u04A3%u04DB%u04AA%u04A7%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04AA%B0%BE%B0%u048C%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%B0%BE%B0%u0480%u04AF%u04A7%u04DA%u04AF%u04AA%u04A7%B2%u04AA%u04D3%u04D0%u04AC%u04D5%u04AF%u04AA%u04A8%u04AA%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%B2%u04D1%u04AD%u04D2%u04A2%u04A0%u04A9%u04DD%u04A7%u04AE%u04D1%u04DC%B2%u04D6%u04AC%u04D2%u04AE%u04D1%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AC%u04D2%u04A1%u04A2%u04AF%u04AA%u04A5%u04A2%u04D4%u04AA%u04AA%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04AA%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%u04A2%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%B0%BE%B0%u0486%u04A9%u04DD%B2%u04D7%u04D2%u04A2%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%B2%u04A0%B2%u04D0%u04A2%u04A3%u04A9%u04AA%u04D4%u04A2%u04D7%B2%u04A3%u04A2%u04A5%u04D9%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04D2%u04A7%u04A6%u04A7%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04D2%u04A2%u04A0%B2%u04A6%u04AC%u04D3%u04D0%u04D1%u04AD%u04A2%B2%u04A8%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04A7%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A0%u04A8%u04A9%u04DC%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04AA%B2%u04A0%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04AC%u04AF%u04A2%u04A9%u04DE%u04AF%u04D1%u04DC%B2%u04AD%u04AC%u04A6%u04D3%u04AA%u04D3%u04D0%u04A7%u04AE%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04A7%u04D2%u04A7%u04A5%B2%u04A8%u04A2%u04A8%u04AC%u04A7%B2%u04D3%u04A0%u04AC%u04AB%u04D3%u04D0%u04A0%u04AC%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04D9%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04DC%u04D0%B2%u04A7%u04A7%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04D5%u04AA%u04A8%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0485%u04A2%u04A1%u04AC%u04A9%u04AC%u04A0%u04AC%u04A8%B0%BE%B0%u0486%u04A7%u04AB%u04D3%u04D0%u04A0%u04AA%u04A7%B0%BE%B0%u048A%u04AE%u04DD%B0%BE%B0%u0480%u04AA%u04A6%u04AA%u04AE%u04AC%u04D3%u04D0%u04DE%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04AD%u04D2%u04AC%u04AA%u04A5%u04AC%u04AB%u04A6%u04A7%u04D0%B2%u04AD%u04D2%u04AA%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04AA%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D0%u04AC%u04D2%u04A2%AD%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%CE%B0%u048D%u04D2%u04AC%u04A1%u04D2%u04A2%u04AE%u04AE%u04A2%B2%u04D2%u04A2%u04A3%u04AC%u04D0%u04A2%u04A7%u04D0%CE%B0%BB%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%B2%u04A4%u04D1%u04D2%u04AF%u04A2%u04A9%B2%u04D2%u04A7%u04A1%u04AA%u04D3%u04D0%u04D2%u04A2%u04D4%u04AA%u04AA%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04A2%u04AF%u04A2%B2%u04AC%u04DA%u04AA%u04A3%u04A8%u04A2%B0%BE%B0%u04B0%u04A7%u04A8%u04D3%u04D0%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04D3%u04AC%u04D7%u04D2%u04A2%u04AF%u04A7%u04AF%B2%u04A0%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04A7%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u048D%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DC%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A0%u04D9%u04A0%u04A7%u04A6%u04A7%u04AF%u04AC%B2%u04A5%u04A2%u04A6%u04A2%u04AF%u04AF%u04AC%u04A7%B2%u04D3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04A7%B0%BE%B0%u0483%u04D1%u04A6%u04A7%u04D0%B2%u04D3%u04AC%u04A5%u04A6%u04A2%u04AF%u04A2%B2%u04AF%u04AC%u04A0%u04A2%u04DD%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04A2%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04DD%u04DC%u04D0%B2%u04AD%u04AC%u04D3%u04A9%u04A7%B2%u04AA%u04A5%u04AE%u04A7%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B2%u04AD%u04A7%u04D2%u04A7%u04A6%B2%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AC%u04AB%B2%u04A0%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A7%B29%A3%u04B3%A8%u048D%u04D2%u04A7%u04A6%u04AD%u04D2%u04AA%u04DD%u04D0%u04AA%u04A7%29%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B3%u04AC%u04D7%u04D2%u04A2%u04AF%u04DD%u04DC%u04D0%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04AA%B2%u04AC%u04A3%u04AF%u04AC%u04A0%u04A9%u04DD%u04DC%u04D0%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04DC%B2%u04A3%u04A2%u04A5%u04D9%B2%u04A6%u04A2%u04AF%u04AF%u04D9%u04D7%B0%BE%B0%u04B3%u04AC%u04D7%u04D2%u04A2%u04AF%u04DD%u04DC%u04D0%B2%u04D6%u04AC%u04D2%u04AE%u04D1%B2%u04AA%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B2%u04AC%u04D0%u04A8%u04D2%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04A7%u04A7%B2%u04A0%B2%u0488%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D0%u04AC%u04D2%u04A7%B0%BE%B0%u0485%u04A2%u04AD%u04AA%u04D3%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04AC%u04A3%u04D2%u04A2%u04A3%u04AC%u04D0%u04A8%u04D1%B2%u04A0%u04AC%B2%u04A0%u04AF%u04A7%u04DA%u04AF%u04AA%u04AB%B2%u04D6%u04A2%u04AB%u04A9%B2%u04AA%B2%u04AD%u04A7%u04D2%u04A7%u04A5%u04A2%u04AD%u04D1%u04D3%u04A8%u04A2%u04DC%u04D0%B2%u04A8%u04A9%u04AA%u04A7%u04AF%u04D0%B0%BE%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04A0%u04A2%u04DC%u04D0%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04DE%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B2%u04AA%B2%u04AC%u04A3%u04AF%u04AC%u04A0%u04A9%u04DD%u04DC%u04D0%B2%u04A6%u04A7%u04D2%u04A7%u04A0%u04AC%B2%u04A8%u04AC%u04AF%u04D6%u04AA%u04A1%u04D1%u04D2%u04A2%u04D4%u04AA%u04AA%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D0%u04AA%u04AD%B2%u04AA%u04AE%u04A7%u04A7%u04D0%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04AD%u04A7%u04D2%u04A7%u04AE%u04A7%u04AF%u04AF%u04AC%u04AB%AD%B2%u0487%u04D3%u04D0%u04DE%u048C%u04D3%u04D0%u04A2%u04D0%u04AC%u04A8%B2%AF%B2%u048A%u04D3%u04D0%u04AA%u04AF%u04A2%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B5%u04AA%u04D3%u04A9%u04AC%B0%BE%B0%u0483%u04D1%u04A9%u04A7%u04A0%u04AC%B0%BE%B0%u04B3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%BE%B0%u0486%u04A2%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04AB%B2%u04D0%u04AA%u04AD%B2%u04AA%u04AE%u04A7%u04A7%u04D0%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04AD%u04A7%u04D2%u04A7%u04AE%u04A7%u04AF%u04AF%u04AC%u04AB%AD%B2%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%u04B0%u04AC%u04A0%u04A2%u04D2%u04A2%B2%AF%B2%CE%B0%u048F%u04AC%u04D1%u04D0%u04A3%u04D1%u04A8%B2%DE%F7%FC%FD%E4%FD%B2%DB%F6%F7%F3%C2%F3%F6%CE%B0%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%BE%B0%u04B5%u04AA%u04D3%u04A9%u04AC%B0%BE%B0%u0483%u04D1%u04A9%u04A7%u04A0%u04AC%B0%BE%B0%u0486%u04A2%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04A8%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D4%u04AA%u04DC%B2%u0487%u04D3%u04A9%u04AA%B2%BC%BC%BC%B2%u04B0%u04AC%u04A1%u04A6%u04A2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04A7%u04AB%u04D3%u04D0%u04A0%u04AA%u04AB%B2%u04AD%u04AC%B2%u04DF%u04A9%u04A7%u04AE%u04A7%u04AF%u04D0%u04A2%u04AE%B2%u04A8%u04AC%u04A9%u04A9%u04A7%u04A8%u04D4%u04AA%u04AA%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04A6%u04A7%u04AB%u04D3%u04D0%u04A0%u04AA%u04AB%B2%u04A0%B2%u04A5%u04A2%u04A0%u04AA%u04D3%u04AA%u04AE%u04AC%u04D3%u04D0%u04AA%B2%u04AC%u04D0%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04DD%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AD%u04A7%u04D2%u04A7%u04A6%u04A2%u04D5%u04AA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u04A2%B2%u04AA%u04A5%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04AA%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04A3%u04D8%u04DD%u04A0%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%u04AC%u04A0%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04A7%B2%u04D3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04A7%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A0%u04D9%u04A0%u04A7%u04A6%u04A7%u04AF%u04AC%BE%B2%u04A7%u04D3%u04A9%u04AA%B2%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%AF%B2%A2%AD%B2%u0487%u04D3%u04A9%u04AA%B2%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%AC%B2%A2%B2%u04B0%u04AC%u04A1%u04A6%u04A2%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%CE%B0%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AA%u04AE%u04A7%u04A7%u04D0%u04D3%u04DD%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%CE%B0%BB%A9%B2%u048A%u04AF%u04A2%u04D5%u04A7%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%CE%B0%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AC%u04D0%u04D3%u04D1%u04D0%u04D3%u04D0%u04A0%u04D1%u04A7%u04D0%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%CE%B0%BB%A9%B2%u0488%u04AC%u04AF%u04A7%u04D4%u0487%u04D3%u04A9%u04AA%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B09%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AA%u04AE%u04A7%u04A7%u04D0%u04D3%u04DD%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%29%B0%BE%B0%u048C%u04A3%u04A2%B2%u04D3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04AC%B2%u04AC%u04D5%u04A7%u04D2%u04A7%u04A6%u04AA%B0%BE%B09%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AC%u04D0%u04D3%u04D1%u04D0%u04D3%u04D0%u04A0%u04D1%u04A7%u04D0%B2%u04AF%u04A2%B2%u04D3%u04A8%u04A9%u04A2%u04A6%u04A7%29%B0%BE%B0%u04B3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04A7%B2%u04AF%u04A7%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A0%u04D9%u04A0%u04A7%u04A6%u04A7%u04AF%u04AC%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04AC%u04A1%u04A6%u04A2%B2%u04A0%u04D9%u04D2%u04A2%u04A4%u04A7%u04AF%u04AA%u04A7%BE%B2%u04AC%u04A3%u04D8%u04A7%u04A6%u04AA%u04AF%u04A7%u04AF%u04AF%u04AC%u04A7%B2%u04A9%u04AC%u04A1%u04AA%u04D5%u04A7%u04D3%u04A8%u04AC%u04AB%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D4%u04AA%u04A7%u04AB%B2%u048A%BE%B2%u04AA%u04D3%u04D0%u04AA%u04AF%u04AF%u04AC%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0488%u04AC%u04A1%u04A6%u04A2%B2%u04AA%u04D3%u04D0%u04AA%u04AF%u04AF%u04AC%B2%u04D7%u04AC%u04D0%u04DD%B2%u04A3%u04D9%B2%u04AC%u04A6%u04AF%u04AC%B2%u04AA%u04A5%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04AB%B0%BE%B0%u0488%u04AC%u04A1%u04A6%u04A2%B2%u04AA%u04D3%u04D0%u04AA%u04AF%u04AF%u04D9%B2%u04A0%u04D3%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A6%u04AA%u04AF%u04A7%u04AF%u04AF%u04D9%u04A7%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04DD%B0%BE%B0%u0488%u04AC%u04A1%u04A6%u04A2%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04DD%B2%u04AA%u04AE%u04A7%u04DC%u04D0%B2%u04D2%u04A2%u04A5%u04AF%u04D9%u04A7%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u0488%u04AC%u04A1%u04A6%u04A2%B2%u04AD%u04A7%u04D2%u04A0%u04AC%u04A7%B2%u04D1%u04D3%u04A9%u04AC%u04A0%u04AA%u04A7%B2%u04A9%u04AC%u04A4%u04AF%u04AC%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B3%u04A8%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04D2%u04A2%u04A5%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04D3%u04DD%B2%u04D0%u04A7%u04A9%u04AC%B2%u04D4%u04AA%u04A8%u04A9%u04A2%AD%B2%u0486%u04A9%u04DD%B2%u04B3%u04D5%u04A7%u04D0%u04D5%u04AA%u04A8%B2%AF%B2%A3%B2%u048D%u04AC%B2%A7%B2%u04B4%u04AA%u04A8%u04A9%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%u04B3%u04D5%u04A7%u04D0%u04D5%u04AA%u04A8%BB%A9%B2%u0488%u04AC%u04AF%u04A7%u04D4%u04B4%u04AA%u04A8%u04A9%u04A2%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%A6%B2%u04D2%u04A2%u04A5%u04A2%B0%BE%B0%A7%B2%u04D2%u04A2%u04A5%B0%BE%B0%A4%B2%u04D2%u04A2%u04A5%B0%BE%B0%A3%B2%u04D2%u04A2%u04A5%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AC%u04A7%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04AD%u04AC%u04A9%u04D1%u04D5%u04AA%u04D0%B2%u04AD%u04A7%u04D2%u04A7%u04AE%u04A7%u04AF%u04AF%u04A2%u04DD%B2%u04B3%u04D1%u04AE%u04AE%u04A2%AD%B2%u04B3%u04D1%u04AE%u04AE%u04A2%B2%AF%B2%A2%A9%B2%u0486%u04A9%u04DD%B2%u04B3%u04D5%u04A7%u04D0%u04D5%u04AA%u04A8%B2%AF%B2%A3%B2%u048D%u04AC%B2%A7%B2%u04B4%u04AA%u04A8%u04A9%B2%u04B3%u04D1%u04AE%u04AE%u04A2%B2%AF%B2%u04B3%u04D1%u04AE%u04AE%u04A2%B2%B9%B2%u04B3%u04D5%u04A7%u04D0%u04D5%u04AA%u04A8%A9%B2%u0488%u04AC%u04AF%u04A7%u04D4%u04B4%u04AA%u04A8%u04A9%u04A2%A9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%A7%B0%BE%B0%A3%A2%B0%BE%B0%A3%A7%B0%BE%B0%A0%A7%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04AD%u04D2%u04A7%u04A6%u04AF%u04A2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%B2%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%AD%B2%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u048D%u04AC%u04A8%u04A2%u04A5%u04A2%u04D0%u04DE%u04B0%u04AC%u04A0%u04A2%u04D2%BA%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%BB%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%BB%A9%B2%u0488%u04AC%u04AF%u04A7%u04D4%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04D7%u04D2%u04A2%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%u04A2%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AC%u04AD%u04D2%u04A7%u04A6%u04A7%u04A9%u04A7%u04AF%u04AA%u04DD%B2%u04D3%u04AC%u04A3%u04D9%u04D0%u04AA%u04DD%B2%u04A0%u04D9%u04A5%u04AC%u04A0%u04A2%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AD%u04A7%u04D2%u04A7%u04A6%u04A2%u04D5%u04AA%B2%u04AA%u04D3%u04D7%u04AC%u04A6%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A7%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04A7%u04AF%u04AA%u04DD%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04A7%u04AF%u04AA%u04DD%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0481%u04A6%u04A7%B2%u04D3%u04A9%u04A7%u04A6%u04D1%u04A7%u04D0%B2%u04AC%u04A3%u04D8%u04DD%u04A0%u04AA%u04D0%u04DE%B2%u04D3%u04A2%u04AE%u04AC%u04D3%u04D0%u04AC%u04DD%u04D0%u04A7%u04A9%u04DE%u04AF%u04D1%u04DC%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D1%B2%u048D%u04AC%u04A8%u04A2%u04A5%u04A2%u04D0%u04DE%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AC%u04D0%u04AF%u04AC%u04D3%u04AA%u04D0%u04A7%u04A9%u04DE%u04AF%u04AC%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%u048D%u04D2%u04AA%u04AE%u04A7%u04D2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0480%B2%u04AF%u04A2%u04D5%u04A2%u04A9%u04A7%B2%u04D0%u04A7%u04A9%u04A2%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%u048D%u04D2%u04AA%u04AE%u04A7%u04D2%B0%BE%B0%u048D%u04AC%u04D3%u04A9%u04A7%B2%u04AD%u04A7%u04D2%u04A0%u04AC%u04A1%u04AC%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D0%u04AC%u04D2%u04A2%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%u048D%u04D2%u04AA%u04AE%u04A7%u04D2%B0%BE%B0%u048D%u04A7%u04D2%u04A7%u04A6%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04A7%u04AF%u04AA%u04A7%u04AE%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%u048D%u04D2%u04AA%u04AE%u04A7%u04D2%B0%BE%B0%u0480%u04AF%u04A7%B2%u04D0%u04A7%u04A9%u04A2%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u0480%u04D9%u04AD%u04AC%u04A9%u04AF%u04AA%u04D0%u04DE%u048D%u04D2%u04AA%u04AE%u04A7%u04D2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04D0%u04AC%B2%u04A3%u04D1%u04A6%u04A7%u04D0%B2%u04A0%u04D9%u04A0%u04A7%u04A6%u04A7%u04AF%u04AC%B2%u04AD%u04D2%u04AA%B2%u04A0%u04D9%u04A5%u04AC%u04A0%u04A7%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%AD%B2%u048D%u04AC%u04A8%u04A2%u04A5%u04A2%u04D0%u04DE%u04B0%u04AC%u04A0%u04A2%u04D2%BA%CE%B0%u048D%u04D2%u04AA%u04AF%u04D0%u04A7%u04D2%B2%DA%C2%B2%DE%F3%E1%F7%E0%D8%F7%E6%CE%B0%BB%A9%B2%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04A2%B2%u048D%u04AC%u04A8%u04A2%u04A5%u04A2%u04D0%u04DE%u04B0%u04AC%u04A0%u04A2%u04D2%BA%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%BB%B2%u04B3%u04AC%u04AC%u04A3%u04DB%u04AA%u04D0%u04DE%BA%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%BB%A9%B2%u0488%u04AC%u04AF%u04A7%u04D4%u048D%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B09%u048F%u04A2%u04AA%u04AE%u04A7%u04AF%u04AC%u04A0%u04A2%u04AF%u04AA%u04A7%29%B0%BE%B09%u048D%u04D2%u04AA%u04AF%u04D0%u04A7%u04D2%B2%DA%C2%B2%DE%F3%E1%F7%E0%D8%F7%E6%29%B0%BE%B0%u048D%u04D1%u04D3%u04D0%u04A2%u04DD%B2%u04D3%u04D0%u04D2%u04AC%u04A8%u04A2%B0%BE%B0%u04B3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04A7%B2%u04AC%u04A3%B2%u04AC%u04DA%u04AA%u04A3%u04A8%u04A7%B2%u04D0%u04AA%u04AD%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%u04AA%u04A7%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%u04D9%B2%u04AD%u04D2%u04AA%u04AF%u04AA%u04AE%u04A2%u04A7%u04D0%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04B2%u04A2%u04D3%u04D3%u04D5%u04AA%u04D0%u04A2%u04D0%u04DE%u04B3%u04D1%u04AE%u04AE%u04D1%BA%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%BE%B2%u04B4%u04A7%u04AF%u04A2%BB%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B0%u04AC%u04A0%u04A2%u04D2%B2%u04AA%B2%u04D3%u04A8%u04A9%u04A2%u04A6%B0%BE%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04AA%B2%u04D4%u04A7%u04AF%u04D1%B0%BE%B0%u048D%u04AC%u04D3%u04D0%u04A2%u04A0%u04DB%u04AA%u04A8%u04A2%B2%u04AA%B2%u04A6%u04AC%u04A1%u04AC%u04A0%u04AC%u04D2%B0%BE%B0%u048F%u04AC%u04AE%u04A7%u04D2%B2%u04AA%B2%u04A6%u04A2%u04D0%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0486%u04A9%u04DD%B2%u04D5%u04A7%u04A1%u04AC%B2%u04A0%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04AA%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04D1%u04DC%u04D0%B2%u04AC%u04AD%u04A7%u04D2%u04A2%u04D0%u04AC%u04D2%B2%u0480%u04AC%u04A5%u04A0%u04D2%u04A2%u04D0%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0486%u04A9%u04DD%B2%u04AD%u04A7%u04D2%u04A7%u04A6%u04A2%u04D5%u04AA%B2%u04A0%u04D9%u04D5%u04AA%u04D3%u04A9%u04A7%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04A0%u04D9%u04A5%u04D9%u04A0%u04A2%u04DC%u04DB%u04A7%u04AE%u04D1%B2%u04A8%u04AC%u04A6%u04D1%B0%BE%B0%u0486%u04A9%u04DD%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04A2%u04AD%u04D1%u04D3%u04A8%u04A2%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04AA%B2%u04D3%B2%u04D0%u04A7%u04AE%u04AA%B2%u04A4%u04A7%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%u04A2%u04AE%u04AA%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04A7%u04AF%u04AA%u04DD%B2%u04D2%u04A2%u04A3%u04AC%u04D0%u04D9%B2%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04D3%u04A8%u04AC%u04A1%u04AC%B2%u04AD%u04D2%u04AA%u04A9%u04AC%u04A4%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u0486%u04A9%u04DD%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04AA%B2%u04A0%u04D9%u04D5%u04AA%u04D3%u04A9%u04A7%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04DD%B2%u04A0%B2%u04AA%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04AC%u04AF%u04AF%u04D1%u04DC%B2%u04A3%u04A2%u04A5%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A2%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u04B5%u04A7%u04AE%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04B2%u04A2%u04D3%u04D3%u04D5%u04AA%u04D0%u04A2%u04D0%u04DE%u04B3%u04D1%u04AE%u04AE%u04D1%B2%u04AC%u04D0%u04A9%u04AA%u04D5%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04AC%u04D0%B2%u04AD%u04D2%u04AC%u04D4%u04A7%u04A6%u04D1%u04D2%u04D9%B2%u048D%u04AC%u04A8%u04A2%u04A5%u04A2%u04D0%u04DE%u04B0%u04AC%u04A0%u04A2%u04D2%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u04B6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04AF%u04A7%B2%u04AE%u04AC%u04A4%u04A7%u04D0%B2%u04AD%u04D2%u04AA%u04AF%u04AA%u04AE%u04A2%u04D0%u04DE%B2%u04A0%u04D7%u04AC%u04A6%u04AF%u04D9%u04A7%B2%u04AD%u04A2%u04D2%u04A2%u04AE%u04A7%u04D0%u04D2%u04D9%B0%BE%B0%u04B6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04A0%u04D9%u04AD%u04AC%u04A9%u04AF%u04DD%u04A7%u04D0%u04D3%u04DD%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04A0%B2%u04AE%u04AC%u04A6%u04D1%u04A9%u04A7%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u04B6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04AF%u04A7%B2%u04AE%u04AC%u04A4%u04A7%u04D0%B2%u04D3%u04AC%u04A6%u04A7%u04D2%u04A4%u04A2%u04D0%u04DE%B2%u04A9%u04AC%u04A8%u04A2%u04A9%u04DE%u04AF%u04D9%u04A7%B2%u04AD%u04A7%u04D2%u04A7%u04AE%u04A7%u04AF%u04AF%u04D9%u04A7%B0%BE%B0%u04B6%u04D1%u04AF%u04A8%u04D4%u04AA%u04DD%B2%u04A0%u04AC%u04A5%u04A0%u04D2%u04A2%u04DB%u04A2%u04A7%u04D0%B2%u04A5%u04AF%u04A2%u04D5%u04A7%u04AF%u04AA%u04A7%B2%u04A0%u04D9%u04A5%u04D9%u04A0%u04A2%u04DC%u04DB%u04A7%u04AE%u04D1%B2%u04A8%u04AC%u04A6%u04D1%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A1%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%B2%u04AE%u04AC%u04A4%u04AF%u04AC%B2%u04AA%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B2%u04A0%u04D9%u04A5%u04AC%u04A0%u04A2%B2%u04D6%u04D1%u04AF%u04A8%u04D4%u04AA%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u048A%u04D3%u04AD%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04DE%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04A8%u04A2%u04A8%B2%u04D0%u04A7%u04A8%u04D3%u04D0%B2%u04D3%u04AC%u04AC%u04A3%u04DB%u04A7%u04AF%u04AA%u04DD%B0%BE%B0%u048D%u04D2%u04AA%u04D3%u04A0%u04AC%u04AA%u04D0%u04DE%B2%u04AD%u04A7%u04D2%u04A7%u04AE%u04A7%u04AF%u04AF%u04AC%u04AB%B2%u04AA%u04A9%u04AA%B2%u04A0%u04A8%u04A9%u04DC%u04D5%u04AA%u04D0%u04DE%B2%u04A0%B2%u04A0%u04D9%u04D2%u04A2%u04A4%u04A7%u04AF%u04AA%u04A7%B0%BE%B0%u048D%u04A7%u04D2%u04A7%u04A6%u04A2%u04D0%u04DE%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04D3%u04D0%u04A2%u04AF%u04A6%u04A2%u04D2%u04D0%u04AF%u04AC%u04AB%B2%u04A8%u04AC%u04AE%u04A2%u04AF%u04A6%u04A7%B2%u04D6%u04AC%u04D2%u04AE%u04D9%B0%BE%B0%u04B3%u04AC%u04D7%u04D2%u04A2%u04AF%u04AA%u04D0%u04DE%B2%u04D0%u04AC%u04A9%u04DE%u04A8%u04AC%B2%u04A0%B2%u04D2%u04A7%u04A8%u04A0%u04AA%u04A5%u04AA%u04D0%u04A7%B2%u04AC%u04A3%u04D8%u04A7%u04A8%u04D0%u04A2%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A3%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%BE%E9%B0%E6%EB%E2%F7%B0%A8%A2%BE%B0%E6%FB%FF%F7%B0%A8%A2%BE%B0%FC%E7%FF%F0%F7%E0%DD%E2%E6%FB%FD%FC%E1%B0%A8%A6%BE%B0%E7%E0%FE%B0%A8%B0%B0%BE%B0%EA%B0%A8%A2%BE%B0%EB%B0%A8%A2%BE%B0%F3%E7%E6%FA%FD%E0%B0%A8%B0%B0%BE%B0%F3%FE%E6%B0%A8%B0%B0%BE%B0%E1%FD%E7%FC%F6%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%FF%F3%F5%F7%C4%FB%F6%F7%FD%B0%A8%A3%BE%B0%FB%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F4%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F7%C6%F7%EA%E6%B0%A8%B0%B0%BE%B0%E3%E7%F7%EA%E6%FB%FD%FC%B0%A8%B0%u0488%u04A2%u04A8%B2%u04AF%u04A2%u04A5%u04D9%u04A0%u04A2%u04A7%u04D0%u04D3%u04DD%B2%u04AC%u04DA%u04AA%u04A3%u04A8%u04A2%BE%B2%u04A0%u04D9%u04A5%u04A0%u04A2%u04AF%u04AF%u04A2%u04DD%B2%u04AF%u04A2%u04D2%u04D1%u04DA%u04A7%u04AF%u04AA%u04A7%u04AE%B2%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%B2%u04A5%u04A2%u04AD%u04AA%u04D3%u04AA%B2%u04AD%u04D2%u04AC%u04A1%u04D2%u04A2%u04AE%u04AE%u04AF%u04AC%u04AB%B2%u04A8%u04AC%u04AF%u04D3%u04D0%u04D2%u04D1%u04A8%u04D4%u04AA%u04AA%AD%B0%BE%B0%FD%E2%E6%FB%FD%FC%E1%B0%A8%C9%B0%u0489%u04AC%u04A1%u04AA%u04D5%u04A7%u04D3%u04A8%u04A2%u04DD%B0%BE%B0%u048A%u04AF%u04D0%u04A7%u04D2%u04D6%u04A7%u04AB%u04D3%u04AF%u04A2%u04DD%B0%BE%B0%u04B3%u04AA%u04AF%u04D0%u04A2%u04A8%u04D3%u04AA%u04D5%u04A7%u04D3%u04A8%u04A2%u04DD%B0%BE%B0%u048D%u04AC%u04A9%u04DE%u04A5%u04AC%u04A0%u04A2%u04D0%u04A7%u04A9%u04DE%u04D3%u04A8%u04A2%u04DD%B0%CF%BE%B0%E1%FD%FE%E7%E6%FB%FD%FC%B0%A8%A0%BE%B0%E1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%E6%C1%FB%FE%F7%FC%E6%C4%FB%F6%F7%FD%B0%A8%A2%BE%B0%F3%E7%F6%FB%FD%B0%A8%B0%B0%BE%B0%FF%E1%F5%DA%FB%E6%B0%A8%B0%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%A3%EF%CF%BE%B0%FB%E1%C1%F1%FD%E0%FF%B0%A8%A2%BE%B0%E6%F7%EA%E6%D0%E7%E6%E6%FD%FC%C1%F1%FD%E0%FF%B0%A8%B0%C1%F3%E4%F7%B2%E1%F1%FD%E0%F7%B0%BE%B0%E0%F7%E2%F7%F3%E6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%E6%E0%E7%F7%BE%B0%E5%F7%FB%F5%FA%E6%F7%F6%B0%A8%A3%A2%A2%BE%B0%E6%FB%E6%FE%F7%B0%A8%B0%B0%BE%B0%F1%E7%E1%E6%FD%FF%C1%F1%FD%E0%F7%B0%A8%F4%F3%FE%E1%F7%BE%B0%E6%F7%EA%E6%D3%F4%E6%F7%E0%B0%A8%B0%B0%BE%B0%E6%F7%EA%E6%D4%F7%F7%F6%D0%F3%F1%F9%B0%A8%B0%B0%BE%B0%F5%F3%FF%F7%DF%FD%F6%F7%B0%A8%A3%BE%B0%F4%F7%F7%F6%D0%F3%F1%F9%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%D4%D0%B0%A8%A3%A2%A2%BE%B0%E4%F7%E0%E1%FB%FD%FC%B0%A8%A0%BE%B0%F1%E7%E1%E6%FD%FF%DF%F7%E1%E1%F3%F5%F7%E1%B0%A8%F4%F3%FE%E1%F7%BE%B0%E2%F7%E0%F1%F7%FC%E6%F3%F8%F7%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%A3%A2%A2%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%B0%A8%F4%F3%FE%E1%F7%BE%B0%F7%E4%F3%FE%E7%F3%E6%FB%FD%FC%DB%D6%B0%A8%B0%A0%F3%A3%A7%F0%A0%A4%A5%BF%A0%A1%F4%A0%BF%A6%A2%A5%F4%BF%F3%F1%A3%A7%BF%A3%A3%F4%A0%F4%F3%A4%A6%A2%A4%F0%A7%B0%BE%B0%F5%FE%FD%F0%F3%FE%C6%FB%FF%F7%B0%A8%A0%BE%B0%FB%F6%B0%A8%B0%FB%F6%F7%E4%FB%F1%F7%BF%A3%A5%AB%A2%A5%A3%A6%A2%A4%AA%AA%A2%A0%BF%E6%E6%F3%E3%E2%A5%F0%E7%F7%B0%BE%B0%FF%E1%F5%E1%B0%A8%E9%B0%FF%E1%F5%C1%E6%F3%E0%E6%D5%F3%FF%F7%B0%A8%B0%u048F%u04A2%u04D5%u04A2%u04D0%u04DE%B2%u04D0%u04A7%u04D3%u04D0%B0%BE%B0%FF%E1%F5%C1%E7%F0%FF%FB%E6%B0%A8%B0%u048C%u04D0%u04A0%u04A7%u04D0%u04AA%u04D0%u04DE%B0%BE%B0%FF%E1%F5%D1%FE%E7%F7%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%F1%FE%E7%F7%B2%FB%E1%A8%B0%BE%B0%FF%E1%F5%DC%F7%E5%D5%F3%FF%F7%B0%A8%B0%u048D%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04D0%u04A7%u04D3%u04D0%B2%u04A7%u04DB%u04C3%B2%u04D2%u04A2%u04A5%B0%BE%B0%FF%E1%F5%D1%FD%F6%F7%D3%F1%F1%F7%E1%E1%B0%A8%B0%D3%F1%F1%F7%E1%E1%B2%F1%FD%F6%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%DE%FD%FD%F9%FB%FC%F5%B0%A8%B0%D1%FD%FD%FE%B3%B2%C6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%EB%FD%E7%B2%E5%F7%E0%F7%B2%FE%FD%FD%F9%FB%FC%F5%B2%F4%FD%E0%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%E6%F3%E0%E6%B0%A8%B0%D1%FE%FB%F1%F9%B2%FA%F7%E0%F7%B2%E6%FD%B2%E2%FE%F3%EB%B0%BE%B0%FF%E1%F5%D7%E0%E0%FD%E0%E1%B0%A8%B0%u048C%u04DA%u04AA%u04A3%u04AC%u04A8%B0%BE%B0%FF%E1%F5%DA%FB%E6%E1%B0%A8%B0%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04D7%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04AC%u04A0%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%B0%A8%B0%u0483%u04A2%u04A9%u04A9%u04D9%B0%BE%B0%FF%E1%F5%C5%F7%FB%F5%FA%E6%B0%A8%B0%C5%F7%FB%F5%FA%E6%B0%BE%B0%FF%E1%F5%DF%FB%FC%FB%FF%FB%E8%F7%B0%A8%B0%DF%FB%FC%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%DF%F3%EA%FB%FF%FB%E8%F7%B0%A8%B0%DF%F3%EA%FB%FF%FB%E8%F7%B0%BE%B0%FF%E1%F5%C6%FB%FF%F7%B0%A8%B0%u0480%u04D2%u04A7%u04AE%u04DD%B2%u04AF%u04A2%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DE%FB%E4%F7%B0%A8%B0%DE%FB%F4%F7%B0%BE%B0%FF%E1%F5%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u048F%u04A2%B2%u04A0%u04A7%u04D3%u04DE%B2%u04DF%u04A8%u04D2%u04A2%u04AF%B0%BE%B0%FF%E1%F5%D7%EA%FB%E6%D4%E7%FE%FE%C1%F1%E0%F7%F7%FC%B0%A8%B0%u0480%u04D9%u04AB%u04D0%u04AA%B2%u04AA%u04A5%B2%u04AD%u04AC%u04A9%u04AF%u04AC%u04DF%u04A8%u04D2%u04A2%u04AF%u04AF%u04AC%u04A1%u04AC%B2%u04D2%u04A7%u04A4%u04AA%u04AE%u04A2%B0%BE%B0%FF%E1%F5%DC%E7%FF%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u0488%u04AC%u04A9%u04AA%u04D5%u04A7%u04D3%u04D0%u04A0%u04AC%B2%u04A0%u04AC%u04AD%u04D2%u04AC%u04D3%u04AC%u04A0%B0%BE%B0%FF%E1%F5%DC%FD%DB%FF%F3%F5%F7%B0%A8%B0%DC%FD%B2%E2%FB%F1%E6%E7%E0%F7%B2%E3%E7%F7%E1%E6%FB%FD%FC%B0%BE%B0%FF%E1%F5%D1%FD%FD%FE%B0%A8%B0%B8%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%C6%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%A1%A1%A2%B2%E2%FD%FB%FC%E6%E1%B0%BE%B0%FF%E1%F5%DE%FD%E1%F7%DE%FB%E4%F7%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%FD%FC%F7%B2%FE%FB%F4%F7%B0%BE%B0%FF%E1%F5%DE%FD%E1%E6%DE%FB%E4%F7%E1%B0%A8%B0%CB%FD%E7%B2%FE%FD%E1%E6%B2%F3%FE%FE%B2%EB%FD%E7%E0%B2%FE%FB%E4%F7%E1%B3%B0%BE%B0%FF%E1%F5%D3%FE%FE%C3%E7%F7%E1%E6%FB%FD%FC%E1%B0%A8%B0%u04B0%u04A7%u04D3%u04D0%B2%u04A5%u04A2%u04A0%u04A7%u04D2%u04DA%u04C3%u04AF%B3%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F7%E1%B0%A8%B0%u0480%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D0%u04A9%u04AA%u04D5%u04AF%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04AC%B3%B2%EE%B2%u048C%u04D5%u04A7%u04AF%u04DE%B2%u04D7%u04AC%u04D2%u04AC%u04DA%u04AC%B3%B2%EE%B2%u048D%u04D2%u04A7%u04A8%u04D2%u04A2%u04D3%u04AF%u04AC%B3%B0%BE%B0%FF%E1%F5%D4%F3%FB%FE%E7%E0%F7%E1%B0%A8%B0%u048F%u04A7%u04A0%u04A7%u04D2%u04AF%u04AC%B3%B2%EE%B2%u048F%u04A7%u04AD%u04D2%u04A2%u04A0%u04AA%u04A9%u04DE%u04AF%u04D9%u04AB%B2%u04AC%u04D0%u04A0%u04A7%u04D0%B3%B2%EE%B2%u048C%u04D0%u04A0%u04A7%u04D0%B2%u04AF%u04A7%u04A0%u04A7%u04D2%u04AF%u04D9%u04AB%B3%B2%EE%B2%u048C%u04DA%u04AA%u04A3%u04A8%u04A2%B3%B0%BE%B0%FF%E1%F5%C1%F1%FD%E0%F7%C1%F1%FD%E0%FF%B0%A8%B0%C6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F1%F3%FC%B5%E6%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F0%F7%F1%F3%E7%E1%F7%B2%E6%FA%FB%E1%B2%E2%F3%F5%F7%B2%FB%E1%B2%FC%FD%E6%B2%E2%F3%E0%E6%B2%FD%F4%B2%F3%B2%C1%D1%DD%C0%DF%B2%E2%F3%F1%F9%F3%F5%F7%BC%B0%BE%B0%FF%E1%F5%C3%E7%F7%E1%E6%FB%FD%FC%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%FD%FC%F1%F7%B3%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E1%F3%E4%F7%B2%FD%FC%F1%F7%B0%BE%B0%FF%E1%F5%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%u048A%u04AF%u04D6%u04AC%u04D2%u04AE%u04A2%u04D4%u04AA%u04DD%B0%BE%B0%FF%E1%F5%D3%E7%E6%FA%FD%E0%B0%A8%B0%D3%E7%E6%FA%FD%E0%E1%FA%FB%E2%B0%BE%B0%FF%E1%F5%DD%FC%FE%EB%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B2%CB%FD%E7%B2%F1%F3%FC%B2%FD%FC%FE%EB%B2%E2%FE%F3%EB%B2%FD%FC%F1%F7%BC%B0%BE%B0%FF%E1%F5%C1%F3%E4%F7%D3%E7%E6%FD%B0%A8%B0%CB%FD%E7%E0%B2%E1%F1%FD%E0%F7%B2%E5%FB%FE%FE%B2%F0%F7%B2%F3%E7%E6%FD%FF%F3%E6%FB%F1%F3%FE%FE%EB%B2%E1%F3%E4%F7%F6%B2%F3%F4%E6%F7%E0%B2%F7%F3%F1%FA%B2%E3%E7%F7%E1%E6%FB%FD%FC%BC%B0%BE%B0%FF%E1%F5%CB%FD%E7%C1%F1%FD%E0%F7%B0%A8%B0%u0480%u04A2%u04DA%B2%u04D2%u04A7%u04A5%u04D1%u04A9%u04DE%u04D0%u04A2%u04D0%B0%BE%B0%FF%E1%F5%C1%F7%E4%F7%E0%F3%FE%C1%F1%FD%E0%F7%B0%A8%B0%CB%FD%E7%B2%F1%F3%FC%B2%E1%F3%E4%F7%B2%E6%FA%F7%B2%E1%F1%FD%E0%F7%B2%F3%E1%B2%FF%F3%FC%EB%B2%E6%FB%FF%F7%E1%B2%F3%E1%B2%EB%FD%E7%B2%E5%F3%FC%E6%B0%BE%B0%FF%E1%F5%CB%FD%E7%DE%F3%E1%E6%C1%F1%FD%E0%F7%B0%A8%B0%C6%FA%F7%B2%FE%F3%E1%E6%B2%E1%F1%FD%E0%F7%B2%E1%F3%E4%F7%F6%B2%FB%E1%B0%BE%B0%FF%E1%F5%D3%F1%E6%FB%E6%EB%D1%FD%FF%E2%FE%EB%B0%A8%B0%CB%FD%E7%B2%FA%F3%E4%F7%B2%F3%FE%E0%F7%F3%F6%EB%B2%F6%FD%FC%F7%B2%E6%FA%FB%E1%B2%F3%F1%E6%FB%E4%FB%E6%EB%BC%B0%BE%B0%FF%E1%F5%C2%FE%F3%EB%C1%F7%E4%F7%E0%F3%FE%C6%FB%FF%F7%E1%B0%A8%B0%u0480%u04D9%B2%u04AE%u04AC%u04A4%u04A7%u04D0%u04A7%B2%u04AD%u04D2%u04AC%u04AB%u04D0%u04AA%B2%u04DF%u04D0%u04AC%u04D0%B2%u04D0%u04A7%u04D3%u04D0%B2%u04AD%u04AC%u04A0%u04D0%u04AC%u04D2%u04AF%u04AC%B2%B0%BE%B0%FF%E1%F5%C6%E0%EB%D3%F5%F3%FB%FC%B0%A8%B0%CB%FD%E7%B2%FC%F7%F7%F6%B2%F3%E6%B2%FE%F7%F3%E1%E6%B2%B7%E1%B7%B2%FD%F4%B2%F1%FD%E0%E0%F7%F1%E6%B2%F3%FC%E1%E5%F7%E0%E1%B2%E6%FD%B2%F5%F7%E6%B2%E6%FA%F7%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%BC%B2%C2%FE%F7%F3%E1%F7%B2%E6%E0%EB%B2%F3%F5%F3%FB%FC%BC%B0%BE%B0%FF%E1%F5%C4%FB%F6%F7%FD%DB%FC%E6%E0%FD%B0%A8%B0%C4%FB%F6%F7%FD%B2%DB%FC%E6%E0%FD%B0%BE%B0%FF%E1%F5%D1%FE%FD%E1%F7%B0%A8%B0%u0485%u04A2%u04A8%u04D2%u04D9%u04D0%u04DE%B2%B0%BE%B0%FF%E1%F5%DD%E2%E6%FB%FD%FC%B0%A8%B0%u0480%u04A2%u04D2%u04AA%u04A2%u04AF%u04D0%B2%u04AC%u04D0%u04A0%u04A7%u04D0%u04A2%B2%B0%BE%B0%FF%E1%F5%C7%E1%F7%D4%E7%FE%DB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B0%A8%B0%F3%FC%F6%B2%FB%FC%F4%FD%E0%FF%F3%E6%FB%FD%FC%B2%E6%FA%F3%E6%B2%E5%FB%FE%FE%B2%F0%F7%B2%E4%F7%E0%EB%B2%E7%E1%F7%F4%E7%FE%B0%BE%B0%FF%E1%F5%DE%FD%F3%F6%FB%FC%F5%B0%A8%B0%u0485%u04A2%u04A1%u04D2%u04D1%u04A5%u04A8%u04A2%BC%B2%u048D%u04AC%u04A4%u04A2%u04A9%u04D1%u04AB%u04D3%u04D0%u04A2%BE%B2%u04AD%u04AC%u04A6%u04AC%u04A4%u04A6%u04AA%u04D0%u04A7%BC%BC%BC%B2%B0%BE%B0%FF%E1%F5%C2%FD%FB%FC%E6%E1%B0%A8%B0%u04A3%BC%B2%B0%BE%B0%FF%E1%F5%D3%E7%F6%FB%FD%B0%A8%B0%D3%E7%F6%FB%FD%B0%BE%B0%FF%E1%F5%D7%FC%F6%D5%F3%FF%F7%C1%F1%FD%E0%F7%B0%A8%B0%C2%FE%F7%F3%E1%F7%B2%E1%E6%F3%E0%E6%B2%E2%FE%F3%EB%FB%FC%F5%B2%F4%FB%E0%E1%E6%BC%BC%BC%B0%BE%B0%FF%E1%F5%C7%FC%F1%FD%FF%E2%FE%F7%E6%F7%F6%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%DB%FC%F1%FD%FF%E2%FE%F7%E6%F7%B2%F3%F1%E6%FB%E4%FB%E6%EB%B0%BE%B0%FF%E1%F5%C1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%C2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C7%FC%E1%E7%F1%F1%F7%E1%E1%F4%E7%FE%D3%F1%E6%FB%E4%FB%E6%EB%B0%A8%B0%D3%F1%E6%FB%E4%FB%E6%EB%A8%B2%DC%FD%E6%B2%E2%F3%E1%E1%F7%F6%BC%B2%C1%F1%FD%E0%F7%A8%B2%B7%E1%B0%BE%B0%FF%E1%F5%C6%EB%E2%F7%D5%F3%FF%F7%B0%A8%B0%u0480%u04AC%u04AD%u04D2%u04AC%u04D3%u04D9%B2%u04A6%u04A9%u04DD%B2%u04D3%u04A2%u04AE%u04AC%u04AD%u04D2%u04AC%u04A0%u04A7%u04D2%u04A8%u04AA%B0%EF%EF</div><div class="quext-bns js-hidden">Your browser is not compatible with this tool.</div></div>
+</div>
+</div>
+</article>
+</div></main><div class="nav-buttons">
+<a href="../html/-3-1.html" title="Previous" class="nav-button nav-button-left"><span>Previous</span></a>
+<a href="../html/-11.html" title="Next" class="nav-button nav-button-right"><span>Next</span></a>
+</div>
+<footer id="siteFooter" class="siteFooter-empty"><div id="siteFooterContent"></div></footer>
+</div>
+<p id="made-with-eXe"> <a href="https://exelearning.net/" target="_blank" rel="noopener"> <span>Made with eXeLearning <span>(New window)</span></span></a></p>
+</body>
+</html>
